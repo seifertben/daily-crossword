@@ -1,0 +1,17 @@
+# Dockerfile.gen — the daily generation job (calls Gemini, writes puzzle JSON to GCS)
+# Build: docker build -t daily-crossword-gen -f Dockerfile.gen .
+# Run (local): docker run --rm -e GEMINI_API_KEY=… -e PUZZLE_BUCKET=… daily-crossword-gen 2026-08-28
+# In production this image is deployed as a Cloud Run Job triggered daily by Cloud Scheduler.
+
+FROM python:3.12-slim
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
+WORKDIR /app
+ENV PYTHONUNBUFFERED=1 \
+    GEMINI_MODE=live \
+    PUZZLE_STORE=gcs
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev --extra gcs
+COPY generator/ data/ ./
+
+# The job passes the target date (YYYY-MM-DD) as the first argument.
+ENTRYPOINT ["uv", "run", "python", "-m", "generator"]

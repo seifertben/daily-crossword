@@ -1,0 +1,57 @@
+name: Generate Daily Puzzle
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gen-daily
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Install Python dependencies
+        run: uv sync
+
+      - name: Determine puzzle date
+        id: date
+        run: echo "date=$(date -u -d 'tomorrow' +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate puzzle
+        id: gen
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -n "$GEMINI_API_KEY" ]; then
+            GEMINI_MODE=live PUZZLE_STORE=static uv run python -m generator "${{ steps.date.outputs.date }}"
+          else
+            echo "GEMINI_API_KEY not set — generating stub puzzle"
+            GEMINI_MODE=stub PUZZLE_STORE=static uv run python -m generator "${{ steps.date.outputs.date }}"
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/public/puzzles
+          if git diff --cached --quiet; then
+            echo "No new puzzle to commit"
+          else
+            git commit -m "Generate puzzle for ${{ steps.date.outputs.date }}"
+            git push
+          fi

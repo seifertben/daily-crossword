@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+
+# Node / web build
+web/node_modules/
+web/dist/
+web/.vite/
+web/*.tsbuildinfo
+web/vite.config.d.ts
+
+# Local data (generated puzzles, never commit)
+local-data/puzzles/*.json
+!local-data/fixtures/
+
+# Static-build puzzles (committed so a static host can ship them)
+!web/public/
+web/public/*
+!web/public/puzzles/
+!web/public/puzzles/*.json
+!web/public/.nojekyll
+
+# Secrets
+.env
+*.pem
+*.json
+!web/public/puzzles/*.json
+
+# OS
+.DS_Store
