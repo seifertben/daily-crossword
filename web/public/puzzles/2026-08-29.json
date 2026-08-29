@@ -328,7 +328,7 @@
   "across": [
     {
       "number": 1,
-      "clue": "Stub clue for KAABA",
+      "clue": "Sacred cube-shaped shrine in Mecca",
       "answer": "KAABA",
       "direction": "across",
       "row": 0,
@@ -338,7 +338,7 @@
     },
     {
       "number": 6,
-      "clue": "Stub clue for DUO",
+      "clue": "Batman and Robin, for example",
       "answer": "DUO",
       "direction": "across",
       "row": 0,
@@ -348,7 +348,7 @@
     },
     {
       "number": 9,
-      "clue": "Stub clue for ORHAN",
+      "clue": "Pamuk who won the 2006 Nobel Prize in Literature",
       "answer": "ORHAN",
       "direction": "across",
       "row": 1,
@@ -358,7 +358,7 @@
     },
     {
       "number": 10,
-      "clue": "Stub clue for ELBA",
+      "clue": "Tuscan island famous for a 19th-century exile",
       "answer": "ELBA",
       "direction": "across",
       "row": 1,
@@ -368,7 +368,7 @@
     },
     {
       "number": 12,
-      "clue": "Stub clue for IMHIT",
+      "clue": "\"They got me!\" in an action movie",
       "answer": "IMHIT",
       "direction": "across",
       "row": 2,
@@ -378,7 +378,7 @@
     },
     {
       "number": 13,
-      "clue": "Stub clue for ELON",
+      "clue": "First name in commercial spaceflight",
       "answer": "ELON",
       "direction": "across",
       "row": 2,
@@ -388,7 +388,7 @@
     },
     {
       "number": 14,
-      "clue": "Stub clue for DHARMIC",
+      "clue": "Pertaining to traditions like Hinduism and Buddhism",
       "answer": "DHARMIC",
       "direction": "across",
       "row": 3,
@@ -398,7 +398,7 @@
     },
     {
       "number": 16,
-      "clue": "Stub clue for ENNUIS",
+      "clue": "Deep feelings of listless boredom",
       "answer": "ENNUIS",
       "direction": "across",
       "row": 4,
@@ -408,7 +408,7 @@
     },
     {
       "number": 19,
-      "clue": "Stub clue for ASH",
+      "clue": "What remains after a campfire dies down",
       "answer": "ASH",
       "direction": "across",
       "row": 4,
@@ -418,7 +418,7 @@
     },
     {
       "number": 20,
-      "clue": "Stub clue for REO",
+      "clue": "Classic auto brand commemorated by Speedwagon",
       "answer": "REO",
       "direction": "across",
       "row": 5,
@@ -428,7 +428,7 @@
     },
     {
       "number": 21,
-      "clue": "Stub clue for LEANTO",
+      "clue": "Rough-and-ready wilderness shelter",
       "answer": "LEANTO",
       "direction": "across",
       "row": 5,
@@ -438,7 +438,7 @@
     },
     {
       "number": 23,
-      "clue": "Stub clue for DEVILLE",
+      "clue": "Classic Cadillac model Coupe ___",
       "answer": "DEVILLE",
       "direction": "across",
       "row": 6,
@@ -448,7 +448,7 @@
     },
     {
       "number": 25,
-      "clue": "Stub clue for ONEL",
+      "clue": "First-year law student, in campus slang",
       "answer": "ONEL",
       "direction": "across",
       "row": 7,
@@ -458,7 +458,7 @@
     },
     {
       "number": 26,
-      "clue": "Stub clue for TITUS",
+      "clue": "Shakespeare's tragic Andronicus",
       "answer": "TITUS",
       "direction": "across",
       "row": 7,
@@ -468,7 +468,7 @@
     },
     {
       "number": 30,
-      "clue": "Stub clue for CELL",
+      "clue": "Basic building block of biology",
       "answer": "CELL",
       "direction": "across",
       "row": 8,
@@ -478,7 +478,7 @@
     },
     {
       "number": 31,
-      "clue": "Stub clue for OOPSY",
+      "clue": "Toddler's exclamation after a minor spill",
       "answer": "OOPSY",
       "direction": "across",
       "row": 8,
@@ -488,7 +488,7 @@
     },
     {
       "number": 32,
-      "clue": "Stub clue for RSS",
+      "clue": "Format for website updates and podcast feeds, for short",
       "answer": "RSS",
       "direction": "across",
       "row": 9,
@@ -498,7 +498,7 @@
     },
     {
       "number": 33,
-      "clue": "Stub clue for NUKEM",
+      "clue": "Duke of classic 1990s video games",
       "answer": "NUKEM",
       "direction": "across",
       "row": 9,
@@ -510,7 +510,7 @@
   "down": [
     {
       "number": 1,
-      "clue": "Stub clue for KOI",
+      "clue": "Colorful swimmer in a backyard pond",
       "answer": "KOI",
       "direction": "down",
       "row": 0,
@@ -520,7 +520,7 @@
     },
     {
       "number": 2,
-      "clue": "Stub clue for ARM",
+      "clue": "Pitcher's asset",
       "answer": "ARM",
       "direction": "down",
       "row": 0,
@@ -530,7 +530,7 @@
     },
     {
       "number": 3,
-      "clue": "Stub clue for AHH",
+      "clue": "Exhalation of pure relief",
       "answer": "AHH",
       "direction": "down",
       "row": 0,
@@ -540,7 +540,7 @@
     },
     {
       "number": 4,
-      "clue": "Stub clue for BAIDU",
+      "clue": "Major web search engine based in China",
       "answer": "BAIDU",
       "direction": "down",
       "row": 0,
@@ -550,7 +550,7 @@
     },
     {
       "number": 5,
-      "clue": "Stub clue for ANTHILL",
+      "clue": "Bustling home for thousands of tiny workers",
       "answer": "ANTHILL",
       "direction": "down",
       "row": 0,
@@ -560,7 +560,7 @@
     },
     {
       "number": 6,
-      "clue": "Stub clue for DEER",
+      "clue": "Forest creature seen on warning signs",
       "answer": "DEER",
       "direction": "down",
       "row": 0,
@@ -570,7 +570,7 @@
     },
     {
       "number": 7,
-      "clue": "Stub clue for ULLMAN",
+      "clue": "Tracey who gave \"The Simpsons\" their TV debut",
       "answer": "ULLMAN",
       "direction": "down",
       "row": 0,
@@ -580,7 +580,7 @@
     },
     {
       "number": 8,
-      "clue": "Stub clue for OBOIST",
+      "clue": "Musician who plays the tuning note for the orchestra",
       "answer": "OBOIST",
       "direction": "down",
       "row": 0,
@@ -590,7 +590,7 @@
     },
     {
       "number": 11,
-      "clue": "Stub clue for ANCHO",
+      "clue": "Dried poblano pepper used in mole",
       "answer": "ANCHO",
       "direction": "down",
       "row": 1,
@@ -600,7 +600,7 @@
     },
     {
       "number": 15,
-      "clue": "Stub clue for ASELTON",
+      "clue": "Katie who played Jenny on \"The League\"",
       "answer": "ASELTON",
       "direction": "down",
       "row": 3,
@@ -610,7 +610,7 @@
     },
     {
       "number": 16,
-      "clue": "Stub clue for ERDOC",
+      "clue": "Physician working in trauma care, informally",
       "answer": "ERDOC",
       "direction": "down",
       "row": 4,
@@ -620,7 +620,7 @@
     },
     {
       "number": 17,
-      "clue": "Stub clue for NEENER",
+      "clue": "Playground taunt word repeated before \"neener\"",
       "answer": "NEENER",
       "direction": "down",
       "row": 4,
@@ -630,7 +630,7 @@
     },
     {
       "number": 18,
-      "clue": "Stub clue for NOVELS",
+      "clue": "Thick reads on a bestseller list",
       "answer": "NOVELS",
       "direction": "down",
       "row": 4,
@@ -640,7 +640,7 @@
     },
     {
       "number": 22,
-      "clue": "Stub clue for AEIOU",
+      "clue": "Vowel sequence found in order within the word abstemious",
       "answer": "AEIOU",
       "direction": "down",
       "row": 5,
@@ -650,7 +650,7 @@
     },
     {
       "number": 24,
-      "clue": "Stub clue for ILLS",
+      "clue": "Societal woes or physical ailments",
       "answer": "ILLS",
       "direction": "down",
       "row": 6,
@@ -660,7 +660,7 @@
     },
     {
       "number": 27,
-      "clue": "Stub clue for TPK",
+      "clue": "Disastrous outcome for a D&D party, for short",
       "answer": "TPK",
       "direction": "down",
       "row": 7,
@@ -670,7 +670,7 @@
     },
     {
       "number": 28,
-      "clue": "Stub clue for USE",
+      "clue": "Put to good purpose",
       "answer": "USE",
       "direction": "down",
       "row": 7,
@@ -680,7 +680,7 @@
     },
     {
       "number": 29,
-      "clue": "Stub clue for SYM",
+      "clue": "Orchestral work, briefly",
       "answer": "SYM",
       "direction": "down",
       "row": 7,
