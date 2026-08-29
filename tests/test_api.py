@@ -111,11 +111,11 @@ def test_dev_generate_disabled_in_prod(client, monkeypatch):
 def test_dev_generate_stub(client):
     r = client.post(
         "/api/dev/generate",
-        json={"date": "2026-01-02", "size": 11, "total_seconds": 8.0},
+        json={"date": "2026-01-02", "size": 10, "total_seconds": 8.0},
     )
     assert r.status_code == 200, r.text
     body = r.json()
-    assert body["width"] == 11 and body["height"] == 11
+    assert body["width"] == 10 and body["height"] == 10
     assert body["wordCount"] >= 10
     # persisted too
     r2 = client.get("/api/puzzle/2026-01-02")

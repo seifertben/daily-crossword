@@ -28,8 +28,6 @@ web/public/*
 # Secrets
 .env
 *.pem
-*.json
-!web/public/puzzles/*.json
 
 # OS
 .DS_Store
