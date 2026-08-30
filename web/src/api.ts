@@ -6,8 +6,17 @@ import type { Puzzle } from "./types";
 const STATIC = import.meta.env.VITE_PUZZLE_MODE === "static";
 const PUZZLE_DIR = `${import.meta.env.BASE_URL}puzzles`;
 
-function todayUtc(): string {
-  return new Date().toISOString().slice(0, 10);
+// A new puzzle is published each Eastern Time day, so "today" is computed in
+// America/New_York regardless of the viewer's own timezone.
+function todayEastern(): string {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+  const byType = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
+  return `${byType("year")}-${byType("month")}-${byType("day")}`;
 }
 
 async function fetchJson(url: string): Promise<Puzzle> {
@@ -25,6 +34,6 @@ export async function fetchPuzzle(date: string): Promise<Puzzle> {
 }
 
 export async function fetchToday(): Promise<Puzzle> {
-  if (STATIC) return fetchPuzzle(todayUtc());
+  if (STATIC) return fetchPuzzle(todayEastern());
   return fetchJson("/api/puzzle");
 }

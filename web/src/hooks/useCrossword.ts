@@ -13,6 +13,7 @@ import {
   nextInWord,
   supportsBothDirections,
   wordAt,
+  wordCells,
   type Grid,
 } from "../crossword";
 import type { Direction, Pos, Puzzle, WordDTO } from "../types";
@@ -58,8 +59,10 @@ function makeReducer(puzzle: Puzzle) {
         let cursor = state.cursor;
         if (w) {
           const idx = indexInWord(w, state.cursor.row, state.cursor.col);
-          const nxt = nextInWord(w, idx, 1);
-          if (nxt) cursor = nxt;
+          const cells = wordCells(w);
+          let next = idx + 1;
+          while (next < w.length && grid[cells[next].row][cells[next].col]) next++;
+          if (next < w.length) cursor = cells[next];
         }
         let wrongSet = wrong;
         if (state.autocheck) {

@@ -187,9 +187,9 @@ def solve_fill(
     fixed: dict[tuple[int, int, str], str] | None = None,
     ban: set[str] | None = None,
     seed: int = 0,
-    node_budget: int = 60_000,
-    deadline_seconds: float = 8.0,
-    restarts: int = 6,
+    node_budget: int = 1_000_000,
+    deadline_seconds: float = 30.0,
+    restarts: int = 12,
 ) -> FillResult:
     """Fill all slots. Returns a FillResult (complete or best partial).
 

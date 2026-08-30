@@ -4,11 +4,16 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+from zoneinfo import ZoneInfo
 
 import pytest
 from fastapi.testclient import TestClient
 
 import api.main as main
+
+
+def _et_today() -> str:
+    return dt.datetime.now(ZoneInfo("America/New_York")).date().strftime("%Y-%m-%d")
 
 
 @pytest.fixture()
@@ -73,7 +78,7 @@ def test_health(client):
     body = r.json()
     assert body["status"] == "ok"
     assert body["store"] == "local"
-    assert body["date"] == dt.datetime.now(dt.UTC).date().strftime("%Y-%m-%d")
+    assert body["date"] == _et_today()
 
 
 def test_get_puzzle_dated(client, tmp_path):
@@ -95,7 +100,7 @@ def test_get_puzzle_bad_date(client):
 
 
 def test_get_puzzle_today(client, tmp_path):
-    today = dt.datetime.now(dt.UTC).date().strftime("%Y-%m-%d")
+    today = _et_today()
     _write_fixture(tmp_path, today)
     r = client.get("/api/puzzle")
     assert r.status_code == 200
@@ -111,12 +116,12 @@ def test_dev_generate_disabled_in_prod(client, monkeypatch):
 def test_dev_generate_stub(client):
     r = client.post(
         "/api/dev/generate",
-        json={"date": "2026-01-02", "size": 10, "total_seconds": 8.0},
+        json={"date": "2026-01-05", "size": 10, "total_seconds": 30.0},
     )
     assert r.status_code == 200, r.text
     body = r.json()
     assert body["width"] == 10 and body["height"] == 10
     assert body["wordCount"] >= 10
     # persisted too
-    r2 = client.get("/api/puzzle/2026-01-02")
+    r2 = client.get("/api/puzzle/2026-01-05")
     assert r2.status_code == 200

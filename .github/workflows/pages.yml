@@ -46,7 +46,7 @@ jobs:
 
       - name: Ensure today's puzzle exists (stub fallback)
         run: |
-          date=$(date -u +%Y-%m-%d)
+          date=$(TZ=America/New_York date +%Y-%m-%d)
           if [ ! -f "web/public/puzzles/$date.json" ]; then
             GEMINI_MODE=stub PUZZLE_STORE=static uv run python -m generator "$date"
             cd web && VITE_PUZZLE_MODE=static npm run build

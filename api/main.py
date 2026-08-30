@@ -12,6 +12,7 @@ import datetime as dt
 import json
 import os
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
@@ -30,10 +31,11 @@ _STATIC_DIR = Path(__file__).resolve().parents[1] / "web" / "dist"
 _STATIC_DIR.mkdir(parents=True, exist_ok=True)
 
 _DATE_FMT = "%Y-%m-%d"
+_ET = ZoneInfo("America/New_York")
 
 
 def _today() -> str:
-    return dt.datetime.now(dt.UTC).date().strftime(_DATE_FMT)
+    return dt.datetime.now(_ET).date().strftime(_DATE_FMT)
 
 
 def _valid_date(s: str) -> str:
@@ -59,7 +61,7 @@ class DevGenerateRequest(BaseModel):
     date: str | None = None
     difficulty: int = 3
     size: int = 10
-    total_seconds: float = 25.0
+    total_seconds: float = 300.0
 
     @field_validator("difficulty")
     @classmethod

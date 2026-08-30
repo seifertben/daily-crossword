@@ -80,7 +80,7 @@ make gen DATE=2026-08-28
 | `GEMINI_API_KEY`   | live only| —                   | Google Gemini key; omit for stub mode  |
 | `GEMINI_MODEL`     | no       | `gemini-3.7-flash`  | Any Gemini model id                    |
 | `GEMINI_MODE`      | no       | stub (no key)       | `live` \| `stub` \| `replay`           |
-| `GEMINI_MIN_SCORE` | no       | `51`                | Word-bank quality floor; junk fill below this score is dropped before it reaches the clue provider |
+| `GEMINI_MIN_SCORE` | no       | `75`                | Word-bank quality floor; junk fill below this score is dropped before it reaches the clue provider |
 | `PUZZLE_STORE`     | no       | `local`             | `local` (scratch disk) \| `static` (Vite public dir) \| `gcs` |
 | `STATIC_PUZZLE_DIR`| static only | `./web/public`   | Root dir for the static store; puzzles land in its `puzzles/` subdir |
 | `PUZZLE_BUCKET`    | gcs only | —                   | Cloud Storage bucket name              |
@@ -210,10 +210,14 @@ The Vite build uses a relative `base`, so it works under any Pages subpath
      completes is clued and shipped. A partial fill is never accepted — the
      pipeline simply tries the next skeleton.
 3. **Clues** — all fill words batched to Gemini at Standard difficulty
-   (~10-minute solve); any word the provider fails to clue is blacklisted and
-   the grid is re-filled (bounded retries). Only a fully-clued, complete grid
-   is saved. The `--difficulty 1-5` flag (and `difficulty` dev-generate field)
+   (~10-minute solve); any word the first pass skips is bumped alone a second
+   time, so only words unclueable in both passes are blacklisted and the grid
+   is re-filled (bounded retries). Only a fully-clued, complete grid is saved.
+   The `--difficulty 1-5` flag (and `difficulty` dev-generate field)
    shifts the clue brief from Beginner (~5 min) up to Expert (~25 min).
 4. **Number & store** — standard crossword numbering → immutable JSON to storage.
+   If generation exhausts its time/skeleton budget and cannot produce a fresh
+   puzzle, the day recycles a random existing puzzle from another date
+   (restamped to today's date) so the site never serves an empty day.
 
 Wordlist: Peter Broda's scored list (free for any use incl. commercial).

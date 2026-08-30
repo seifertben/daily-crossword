@@ -21,7 +21,7 @@ from generator.models import Slot
 _WILDCARD = "?"
 _DEFAULT_PATH = Path(__file__).resolve().parents[1] / "data" / "broda_scored.txt"
 DEFAULT_MAX_LEN = 15
-DEFAULT_MIN_SCORE = 51
+DEFAULT_MIN_SCORE = 75
 
 
 class WordBank:

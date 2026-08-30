@@ -39,12 +39,13 @@ gcloud run jobs create "${GEN_JOB}" \
   --set-env-vars "PUZZLE_STORE=gcs,PUZZLE_BUCKET=${BUCKET}" \
   --set-secrets "GEMINI_API_KEY=gemini-api-key:latest" \
   --service-account "${SA}" \
-  --task-timeout 10m || \
+  --task-timeout 20m || \
 gcloud run jobs update "${GEN_JOB}" \
   --image "${AR}/${GEN_JOB}:${TAG}" --region "${REGION}" \
   --set-env-vars "PUZZLE_STORE=gcs,PUZZLE_BUCKET=${BUCKET}" \
   --set-secrets "GEMINI_API_KEY=gemini-api-key:latest" \
-  --service-account "${SA}"
+  --service-account "${SA}" \
+  --task-timeout 20m
 
 echo "==> Scheduling daily generation (02:00 UTC) via Cloud Scheduler"
 SCHED_URL="https://run.googleapis.com/v2/projects/${PROJECT_ID}/locations/${REGION}/jobs/${GEN_JOB}:run"
@@ -52,7 +53,7 @@ gcloud scheduler jobs create http "${SCHEDULER_JOB}" \
   --schedule "0 2 * * *" --time-zone UTC \
   --uri "${SCHED_URL}" --http-method POST \
   --oauth-service-account-email "${SA}" \
-  --attempt-deadline 600s \
+  --attempt-deadline 1200s \
   --location "${REGION}" \
   --description "Trigger daily crossword generation" || \
 gcloud scheduler jobs update http "${SCHEDULER_JOB}" \

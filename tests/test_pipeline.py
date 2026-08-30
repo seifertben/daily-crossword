@@ -3,7 +3,10 @@
 from __future__ import annotations
 
 import asyncio
+import json
 import re
+
+import pytest
 
 from generator.gemini import GeminiError, StubProvider
 from generator.pipeline import generate_puzzle
@@ -97,6 +100,83 @@ def test_pipeline_never_ships_incomplete_or_unclued(tmp_path):
     assert white >= 60, f"grid too sparse: {white}/100 white cells"
 
 
+def test_pipeline_fallback_recycles_existing_puzzle(tmp_path):
+    """A day that can't generate recycles a random existing puzzle.
+
+    When generation gives up (zero time budget) but the store already holds a
+    puzzle for another date, the pipeline copies that puzzle, restamps its date,
+    persists it, and reports it as a fallback rather than raising.
+    """
+    store = LocalStore(tmp_path)
+    old = {
+        "date": "2025-12-31",
+        "width": 3,
+        "height": 3,
+        "grid": [
+            [None, {"solution": "A", "number": 1}, None],
+            [{"solution": "D", "number": 2}, {"solution": "E"}, {"solution": "F"}],
+            [None, {"solution": "G"}, None],
+        ],
+        "across": [
+            {
+                "number": 2,
+                "clue": "DEF clue",
+                "answer": "DEF",
+                "direction": "across",
+                "row": 1,
+                "col": 0,
+                "length": 3,
+                "themed": False,
+            }
+        ],
+        "down": [
+            {
+                "number": 1,
+                "clue": "AEG clue",
+                "answer": "AEG",
+                "direction": "down",
+                "row": 0,
+                "col": 1,
+                "length": 3,
+                "themed": False,
+            }
+        ],
+        "wordCount": 2,
+    }
+    store.put("2025-12-31", json.dumps(old, ensure_ascii=False))
+
+    result = asyncio.run(
+        generate_puzzle(
+            "2026-02-02",
+            size=10,
+            provider=StubProvider(seed=1),
+            store=store,
+            total_seconds=0.0,
+        )
+    )
+    assert result.fallback
+    assert result.complete
+    assert result.payload["date"] == "2026-02-02"
+    assert result.payload["width"] == 3
+    assert store.exists("2026-02-02")
+    assert store.get("2026-02-02") is not None
+
+
+def test_pipeline_no_fallback_raises_on_empty_store(tmp_path):
+    """With nothing to recycle, a failed day still raises."""
+    store = LocalStore(tmp_path)
+    with pytest.raises(RuntimeError):
+        asyncio.run(
+            generate_puzzle(
+                "2026-02-03",
+                size=10,
+                provider=StubProvider(seed=1),
+                store=store,
+                total_seconds=0.0,
+            )
+        )
+
+
 def test_pipeline_retries_transient_clue_error(tmp_path):
     """A transient clue-provider error must not blacklist the whole fill.
 
@@ -122,6 +202,40 @@ def test_pipeline_retries_transient_clue_error(tmp_path):
             size=10,
             provider=FlakyProvider(),
             store=store,
+        )
+    )
+    assert result.complete
+    _assert_valid_payload(result.payload)
+
+
+def test_pipeline_second_pass_clues_missing_words(tmp_path):
+    """Words skipped on the first clue pass get one more shot, alone.
+
+    A provider that returns nothing on its first call (but clues everything it
+    is asked on the second) must not blacklist any word: the second pass bumps
+    the stragglers, their clues are used, and the original fill still ships.
+    Without the second pass, every word would be blacklisted and the pipeline
+    would fail after exhausting its re-fill rounds.
+    """
+
+    class ColdStartProvider(StubProvider):
+        def __init__(self) -> None:
+            self._calls = 0
+
+        async def generate_clues(self, words, *, voice, difficulty):
+            self._calls += 1
+            if self._calls == 1:
+                return {}
+            return {w.upper(): f"clue {w.upper()}" for w in words}
+
+    store = LocalStore(tmp_path)
+    result = asyncio.run(
+        generate_puzzle(
+            "2026-01-05",
+            size=10,
+            provider=ColdStartProvider(),
+            store=store,
+            total_seconds=30.0,
         )
     )
     assert result.complete

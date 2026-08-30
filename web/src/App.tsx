@@ -12,7 +12,12 @@ import { fetchPuzzle, fetchToday } from "./api";
 import type { Direction, Puzzle } from "./types";
 
 function todayStr(): string {
-  return new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+  return new Date().toLocaleDateString("en-US", {
+    timeZone: "America/New_York",
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  });
 }
 
 export default function App() {
@@ -70,12 +75,7 @@ export default function App() {
   }, [puzzle]);
   const timer = useTimer(initialElapsed);
 
-  const hasInput = useMemo(
-    () => cw.state.grid.some((row) => row.some((c) => c !== null)),
-    [cw.state.grid],
-  );
-
-  // start the timer on first input; stop when solved; never while paused
+  // run the timer while the puzzle is on screen; pause when paused; stop when solved
   useEffect(() => {
     if (!puzzle || paused) return;
     if (cw.state.solved) {
@@ -83,8 +83,8 @@ export default function App() {
       if (!wonDismissed) setWon(true);
       return;
     }
-    if (hasInput && !timer.running) timer.start();
-  }, [puzzle, paused, cw.state.solved, hasInput, timer, wonDismissed]);
+    if (!timer.running) timer.start();
+  }, [puzzle, paused, cw.state.solved, timer, wonDismissed]);
 
   const wasSolvedRef = useRef(false);
   useEffect(() => {
@@ -139,7 +139,7 @@ export default function App() {
 
   const resume = () => {
     setPaused(false);
-    if (hasInput && !cw.state.solved) timer.start();
+    if (!cw.state.solved) timer.start();
   };
 
   return (
@@ -189,6 +189,7 @@ export default function App() {
           timer.reset();
           setWon(false);
           setWonDismissed(false);
+          if (!paused) timer.start();
         }}
         onToggleAutocheck={cw.toggleAutocheck}
       />
