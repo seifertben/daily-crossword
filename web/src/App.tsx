@@ -20,6 +20,8 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [paused, setPaused] = useState(false);
+  const pausedRef = useRef(false);
+  pausedRef.current = paused;
   const [won, setWon] = useState(false);
   const [wonDismissed, setWonDismissed] = useState(false);
   const [celebrate, setCelebrate] = useState(false);
@@ -73,7 +75,7 @@ export default function App() {
     [cw.state.grid],
   );
 
-  // start the timer on first input; stop when solved
+  // start the timer on first input; stop when solved; never while paused
   useEffect(() => {
     if (!puzzle || paused) return;
     if (cw.state.solved) {
@@ -160,9 +162,12 @@ export default function App() {
         onKeyDown={cw.handleKey}
         onInput={onInput}
         onBlur={(e) => {
-          if (!paused && !coarse) {
+          if (!pausedRef.current && !coarse) {
             const t = e.relatedTarget as HTMLElement | null;
-            if (!t || !t.closest(".app")) window.setTimeout(() => inputRef.current?.focus(), 0);
+            if (!t || !t.closest(".app"))
+              window.setTimeout(() => {
+                if (!pausedRef.current) inputRef.current?.focus();
+              }, 0);
           }
         }}
       />
