@@ -5,96 +5,153 @@
   "grid": [
     [
       {
-        "solution": "H",
+        "solution": "O",
         "number": 1
       },
       {
-        "solution": "I",
+        "solution": "M",
         "number": 2
       },
       {
-        "solution": "T",
+        "solution": "G",
         "number": 3
       },
       null,
       {
-        "solution": "A",
+        "solution": "R",
         "number": 4
       },
       {
-        "solution": "R",
+        "solution": "O",
         "number": 5
       },
       {
-        "solution": "M",
+        "solution": "Y",
         "number": 6
       },
       {
-        "solution": "B",
+        "solution": "A",
         "number": 7
       },
       {
-        "solution": "A",
+        "solution": "L",
         "number": 8
       },
-      {
-        "solution": "R",
-        "number": 9
-      }
+      null
     ],
     [
       {
-        "solution": "A",
+        "solution": "P",
+        "number": 9
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I",
         "number": 10
-      },
-      {
-        "solution": "A"
-      },
-      {
-        "solution": "A"
-      },
-      null,
-      {
-        "solution": "T",
-        "number": 11
       },
       {
         "solution": "E"
       },
       {
-        "solution": "A"
+        "solution": "N"
       },
       {
-        "solution": "R"
-      },
-      {
-        "solution": "U"
-      },
-      {
-        "solution": "P"
-      }
-    ],
-    [
-      {
-        "solution": "S",
-        "number": 12
-      },
-      {
-        "solution": "M"
+        "solution": "T"
       },
       {
         "solution": "L"
       },
-      null,
       {
-        "solution": "H",
-        "number": 13
+        "solution": "Y"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 11
       },
       {
         "solution": "O"
       },
       {
-        "solution": "K"
+        "solution": "A"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "R",
+        "number": 12
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A",
+        "number": 14
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 15
+      },
+      {
+        "solution": "G",
+        "number": 16
+      },
+      {
+        "solution": "A",
+        "number": 17
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 18
       },
       {
         "solution": "I"
@@ -108,227 +165,164 @@
     ],
     [
       {
-        "solution": "A",
-        "number": 14
-      },
-      {
-        "solution": "S"
-      },
-      {
-        "solution": "I"
-      },
-      {
-        "solution": "D",
-        "number": 15
-      },
-      {
-        "solution": "E"
-      },
-      null,
-      {
-        "solution": "E",
-        "number": 16
-      },
-      {
-        "solution": "C"
-      },
-      {
-        "solution": "T"
-      },
-      null
-    ],
-    [
-      {
-        "solution": "C",
-        "number": 17
-      },
-      {
-        "solution": "U"
-      },
-      {
-        "solution": "B"
-      },
-      {
-        "solution": "A"
-      },
-      {
-        "solution": "N"
-      },
-      {
-        "solution": "O",
-        "number": 18
-      },
-      {
-        "solution": "S"
-      },
-      null,
-      null,
-      null
-    ],
-    [
-      null,
-      null,
-      null,
-      {
-        "solution": "Y",
+        "solution": "P",
         "number": 19
       },
       {
         "solution": "A"
       },
       {
-        "solution": "R"
-      },
-      {
-        "solution": "D"
-      },
-      {
-        "solution": "I",
-        "number": 20
-      },
-      {
-        "solution": "N",
-        "number": 21
-      },
-      {
-        "solution": "G",
-        "number": 22
-      }
-    ],
-    [
-      null,
-      {
-        "solution": "M",
-        "number": 23
-      },
-      {
-        "solution": "I",
-        "number": 24
-      },
-      {
-        "solution": "T"
-      },
-      null,
-      {
-        "solution": "B",
-        "number": 25
-      },
-      {
-        "solution": "O"
+        "solution": "W"
       },
       {
         "solution": "S"
       },
+      null,
       {
-        "solution": "O"
-      },
-      {
-        "solution": "M"
-      }
-    ],
-    [
-      {
-        "solution": "K",
-        "number": 26
+        "solution": "A",
+        "number": 20
       },
       {
         "solution": "E"
       },
       {
-        "solution": "N"
+        "solution": "R"
+      },
+      {
+        "solution": "E"
       },
       {
         "solution": "O"
-      },
-      {
-        "solution": "B",
-        "number": 27
-      },
-      {
-        "solution": "I"
-      },
-      null,
+      }
+    ],
+    [
       {
         "solution": "T",
-        "number": 28
+        "number": 21
       },
       {
-        "solution": "O"
+        "solution": "B"
       },
       {
-        "solution": "A"
-      }
-    ],
-    [
-      {
-        "solution": "I",
-        "number": 29
-      },
-      {
-        "solution": "N"
-      },
-      {
-        "solution": "O"
-      },
-      {
-        "solution": "N"
-      },
-      {
-        "solution": "I"
-      },
-      {
-        "solution": "T"
+        "solution": "H"
       },
       null,
       {
-        "solution": "A",
-        "number": 30
+        "solution": "F",
+        "number": 22
       },
       {
-        "solution": "M"
+        "solution": "B"
       },
       {
         "solution": "I"
-      }
-    ],
-    [
-      {
-        "solution": "N",
-        "number": 31
-      },
-      {
-        "solution": "U"
-      },
-      {
-        "solution": "J"
-      },
-      {
-        "solution": "A"
-      },
-      {
-        "solution": "Z"
-      },
-      {
-        "solution": "Z"
       },
       null,
+      null,
+      null
+    ],
+    [
+      null,
       {
-        "solution": "N",
-        "number": 32
+        "solution": "B",
+        "number": 23
       },
       {
         "solution": "I"
+      },
+      {
+        "solution": "L",
+        "number": 24
       },
       {
         "solution": "L"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "O",
+        "number": 25
+      },
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "T",
+        "number": 27
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "E",
+        "number": 28
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "H",
+        "number": 29
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 30
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "D"
       }
     ]
   ],
   "across": [
     {
       "number": 1,
-      "clue": "Stub clue for HIT",
-      "answer": "HIT",
+      "clue": "Texter's gasp",
+      "answer": "OMG",
       "direction": "across",
       "row": 0,
       "col": 0,
@@ -337,168 +331,148 @@
     },
     {
       "number": 4,
-      "clue": "Stub clue for ARMBAR",
-      "answer": "ARMBAR",
+      "clue": "Kind of flush or rumble",
+      "answer": "ROYAL",
       "direction": "across",
       "row": 0,
       "col": 4,
-      "length": 6,
+      "length": 5,
       "themed": false
     },
     {
-      "number": 10,
-      "clue": "Stub clue for AAA",
-      "answer": "AAA",
+      "number": 9,
+      "clue": "With saintlike serenity",
+      "answer": "PATIENTLY",
       "direction": "across",
       "row": 1,
       "col": 0,
-      "length": 3,
+      "length": 9,
       "themed": false
     },
     {
       "number": 11,
-      "clue": "Stub clue for TEARUP",
-      "answer": "TEARUP",
+      "clue": "Flattered incessantly by sycophants",
+      "answer": "TOADIEDTO",
       "direction": "across",
-      "row": 1,
-      "col": 4,
-      "length": 6,
+      "row": 2,
+      "col": 0,
+      "length": 9,
       "themed": false
     },
     {
       "number": 12,
-      "clue": "Stub clue for SML",
-      "answer": "SML",
+      "clue": "NFL linemen flanking the center, for short",
+      "answer": "RGS",
       "direction": "across",
-      "row": 2,
-      "col": 0,
+      "row": 3,
+      "col": 3,
       "length": 3,
       "themed": false
     },
     {
       "number": 13,
-      "clue": "Stub clue for HOKING",
-      "answer": "HOKING",
+      "clue": "Actress de Armas of 'Knives Out'",
+      "answer": "ANA",
       "direction": "across",
-      "row": 2,
-      "col": 4,
-      "length": 6,
+      "row": 3,
+      "col": 7,
+      "length": 3,
       "themed": false
     },
     {
-      "number": 14,
-      "clue": "Stub clue for ASIDE",
-      "answer": "ASIDE",
+      "number": 15,
+      "clue": "Cry after a great concert performance",
+      "answer": "AGAIN",
       "direction": "across",
-      "row": 3,
+      "row": 4,
       "col": 0,
       "length": 5,
       "themed": false
     },
     {
-      "number": 16,
-      "clue": "Stub clue for ECT",
-      "answer": "ECT",
-      "direction": "across",
-      "row": 3,
-      "col": 6,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 17,
-      "clue": "Stub clue for CUBANOS",
-      "answer": "CUBANOS",
+      "number": 18,
+      "clue": "Flier's limb, or to improvise",
+      "answer": "WING",
       "direction": "across",
       "row": 4,
-      "col": 0,
-      "length": 7,
+      "col": 6,
+      "length": 4,
       "themed": false
     },
     {
       "number": 19,
-      "clue": "Stub clue for YARDING",
-      "answer": "YARDING",
+      "clue": "Bear feet",
+      "answer": "PAWS",
       "direction": "across",
       "row": 5,
-      "col": 3,
-      "length": 7,
+      "col": 0,
+      "length": 4,
       "themed": false
     },
     {
-      "number": 23,
-      "clue": "Stub clue for MIT",
-      "answer": "MIT",
+      "number": 20,
+      "clue": "Correo ___ (Spanish airmail)",
+      "answer": "AEREO",
       "direction": "across",
-      "row": 6,
-      "col": 1,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 25,
-      "clue": "Stub clue for BOSOM",
-      "answer": "BOSOM",
-      "direction": "across",
-      "row": 6,
+      "row": 5,
       "col": 5,
       "length": 5,
       "themed": false
     },
     {
-      "number": 26,
-      "clue": "Stub clue for KENOBI",
-      "answer": "KENOBI",
+      "number": 21,
+      "clue": "Text abbreviation meaning 'If I'm being completely real...'",
+      "answer": "TBH",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Bureau that maintains the Ten Most Wanted list",
+      "answer": "FBI",
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Gruff bridge-crosser of fairy tales",
+      "answer": "BILLYGOAT",
       "direction": "across",
       "row": 7,
-      "col": 0,
-      "length": 6,
+      "col": 1,
+      "length": 9,
       "themed": false
     },
     {
       "number": 28,
-      "clue": "Stub clue for TOA",
-      "answer": "TOA",
+      "clue": "Lockstitch sewing machine pioneer",
+      "answer": "ELIASHOWE",
       "direction": "across",
-      "row": 7,
-      "col": 7,
-      "length": 3,
+      "row": 8,
+      "col": 1,
+      "length": 9,
       "themed": false
     },
     {
       "number": 29,
-      "clue": "Stub clue for INONIT",
-      "answer": "INONIT",
+      "clue": "Lends a hand to",
+      "answer": "HELPS",
       "direction": "across",
-      "row": 8,
-      "col": 0,
-      "length": 6,
+      "row": 9,
+      "col": 1,
+      "length": 5,
       "themed": false
     },
     {
       "number": 30,
-      "clue": "Stub clue for AMI",
-      "answer": "AMI",
-      "direction": "across",
-      "row": 8,
-      "col": 7,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 31,
-      "clue": "Stub clue for NUJAZZ",
-      "answer": "NUJAZZ",
-      "direction": "across",
-      "row": 9,
-      "col": 0,
-      "length": 6,
-      "themed": false
-    },
-    {
-      "number": 32,
-      "clue": "Stub clue for NIL",
-      "answer": "NIL",
+      "clue": "Button pressed to pass an email along",
+      "answer": "FWD",
       "direction": "across",
       "row": 9,
       "col": 7,
@@ -509,181 +483,201 @@
   "down": [
     {
       "number": 1,
-      "clue": "Stub clue for HASAC",
-      "answer": "HASAC",
+      "clue": "Select door number one, say",
+      "answer": "OPT",
       "direction": "down",
       "row": 0,
       "col": 0,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 2,
-      "clue": "Stub clue for IAMSU",
-      "answer": "IAMSU",
-      "direction": "down",
-      "row": 0,
-      "col": 1,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 3,
-      "clue": "Stub clue for TALIB",
-      "answer": "TALIB",
-      "direction": "down",
-      "row": 0,
-      "col": 2,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 4,
-      "clue": "Stub clue for ATHENA",
-      "answer": "ATHENA",
-      "direction": "down",
-      "row": 0,
-      "col": 4,
-      "length": 6,
-      "themed": false
-    },
-    {
-      "number": 5,
-      "clue": "Stub clue for REO",
-      "answer": "REO",
-      "direction": "down",
-      "row": 0,
-      "col": 5,
       "length": 3,
       "themed": false
     },
     {
+      "number": 2,
+      "clue": "Chairman with a \"Little Red Book\"",
+      "answer": "MAO",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "High-octane Rockstar Games franchise, for short",
+      "answer": "GTA",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Era of holding the crown",
+      "answer": "REIGN",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Tip jar filler, often",
+      "answer": "ONES",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
       "number": 6,
-      "clue": "Stub clue for MAKESDO",
-      "answer": "MAKESDO",
+      "clue": "From Jan. 1 to now, on a pay stub",
+      "answer": "YTD",
       "direction": "down",
       "row": 0,
       "col": 6,
-      "length": 7,
+      "length": 3,
       "themed": false
     },
     {
       "number": 7,
-      "clue": "Stub clue for BRIC",
-      "answer": "BRIC",
+      "clue": "Bright star in the constellation Aquila",
+      "answer": "ALTAIR",
       "direction": "down",
       "row": 0,
       "col": 7,
-      "length": 4,
+      "length": 6,
       "themed": false
     },
     {
       "number": 8,
-      "clue": "Stub clue for AUNT",
-      "answer": "AUNT",
+      "clue": "Natasha who solves mysteries in 'Poker Face'",
+      "answer": "LYONNE",
       "direction": "down",
       "row": 0,
       "col": 8,
-      "length": 4,
+      "length": 6,
       "themed": false
     },
     {
-      "number": 9,
-      "clue": "Stub clue for RPG",
-      "answer": "RPG",
+      "number": 10,
+      "clue": "Actor Elba who played Stringer Bell",
+      "answer": "IDRIS",
       "direction": "down",
-      "row": 0,
+      "row": 1,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Way back when",
+      "answer": "AGO",
+      "direction": "down",
+      "row": 3,
       "col": 9,
       "length": 3,
       "themed": false
     },
     {
       "number": 15,
-      "clue": "Stub clue for DAYTONA",
-      "answer": "DAYTONA",
-      "direction": "down",
-      "row": 3,
-      "col": 3,
-      "length": 7,
-      "themed": false
-    },
-    {
-      "number": 18,
-      "clue": "Stub clue for ORBITZ",
-      "answer": "ORBITZ",
+      "clue": "Fittingly chosen, like a clever nickname",
+      "answer": "APT",
       "direction": "down",
       "row": 4,
-      "col": 5,
-      "length": 6,
-      "themed": false
-    },
-    {
-      "number": 20,
-      "clue": "Stub clue for ISTAN",
-      "answer": "ISTAN",
-      "direction": "down",
-      "row": 5,
-      "col": 7,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 21,
-      "clue": "Stub clue for NOOMI",
-      "answer": "NOOMI",
-      "direction": "down",
-      "row": 5,
-      "col": 8,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 22,
-      "clue": "Stub clue for GMAIL",
-      "answer": "GMAIL",
-      "direction": "down",
-      "row": 5,
-      "col": 9,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 23,
-      "clue": "Stub clue for MENU",
-      "answer": "MENU",
-      "direction": "down",
-      "row": 6,
-      "col": 1,
-      "length": 4,
-      "themed": false
-    },
-    {
-      "number": 24,
-      "clue": "Stub clue for INOJ",
-      "answer": "INOJ",
-      "direction": "down",
-      "row": 6,
-      "col": 2,
-      "length": 4,
-      "themed": false
-    },
-    {
-      "number": 26,
-      "clue": "Stub clue for KIN",
-      "answer": "KIN",
-      "direction": "down",
-      "row": 7,
       "col": 0,
       "length": 3,
       "themed": false
     },
     {
-      "number": 27,
-      "clue": "Stub clue for BIZ",
-      "answer": "BIZ",
+      "number": 16,
+      "clue": "Coarsely woven traditional Persian rug",
+      "answer": "GABBEH",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "For a bit of time",
+      "answer": "AWHILE",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Ponder carefully, as pros and cons",
+      "answer": "WEIGH",
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "What stares back when you stare into it, per Nietzsche",
+      "answer": "ABYSS",
+      "direction": "down",
+      "row": 5,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Part of an envelope, or a minor uproar",
+      "answer": "FLAP",
+      "direction": "down",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Moniker starting point for Wayne, Nas X, or Kim",
+      "answer": "LIL",
       "direction": "down",
       "row": 7,
-      "col": 4,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Sound made when getting the wind knocked out of you",
+      "answer": "OOF",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Reaction to a sleepy puppy's big yawn",
+      "answer": "AWW",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Lasso with a heart of gold on TV",
+      "answer": "TED",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
       "length": 3,
       "themed": false
     }
