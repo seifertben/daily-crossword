@@ -130,6 +130,7 @@ async def _fill_one(
 async def generate_puzzle(
     date: str | None = None,
     *,
+    seed: int | None = None,
     difficulty: int = _DIFFICULTY,
     size: int = _SIZE,
     skeleton_attempts: int = _SKELETON_ATTEMPTS,
@@ -141,9 +142,13 @@ async def generate_puzzle(
     bank: WordBank | None = None,
     store: PuzzleStore | None = None,
 ) -> GenResult:
-    """Generate and persist one day's puzzle. Returns the GenResult."""
+    """Generate and persist one day's puzzle. Returns the GenResult.
+
+    ``seed`` overrides the deterministic date-derived seed, so a caller can
+    request a completely original puzzle for a given (or any) date.
+    """
     date = date or dt.datetime.now(dt.UTC).date().strftime("%Y-%m-%d")
-    seed = _date_seed(date)
+    seed = seed if seed is not None else _date_seed(date)
     start = time.monotonic()
 
     provider = provider or gemini.get_provider()
@@ -230,12 +235,18 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate one daily crossword.")
     parser.add_argument("date", nargs="?", help="YYYY-MM-DD (default: today UTC)")
     parser.add_argument("--difficulty", type=int, default=_DIFFICULTY, choices=range(1, 6))
+    parser.add_argument(
+        "--seed",
+        type=int,
+        help="override the date-derived seed for a completely fresh puzzle",
+    )
     args = parser.parse_args()
 
     result = asyncio.run(
         generate_puzzle(
             args.date,
             difficulty=args.difficulty,
+            seed=args.seed,
         )
     )
     p = result.puzzle
