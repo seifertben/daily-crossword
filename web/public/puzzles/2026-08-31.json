@@ -1,0 +1,697 @@
+{
+  "date": "2026-08-31",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "A",
+        "number": 1
+      },
+      {
+        "solution": "G",
+        "number": 2
+      },
+      {
+        "solution": "T",
+        "number": 3
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 4
+      },
+      {
+        "solution": "B",
+        "number": 5
+      },
+      {
+        "solution": "O",
+        "number": 6
+      },
+      {
+        "solution": "M",
+        "number": 7
+      },
+      {
+        "solution": "B",
+        "number": 8
+      },
+      {
+        "solution": "S",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 10
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "V"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 11
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 12
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 13
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 14
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "S",
+        "number": 15
+      },
+      {
+        "solution": "V"
+      },
+      null,
+      {
+        "solution": "G",
+        "number": 16
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 17
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "G",
+        "number": 18
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "A",
+        "number": 19
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "S",
+        "number": 20
+      },
+      {
+        "solution": "A",
+        "number": 21
+      },
+      {
+        "solution": "D",
+        "number": 22
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 23
+      },
+      {
+        "solution": "B",
+        "number": 24
+      },
+      {
+        "solution": "S",
+        "number": 25
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "Y",
+        "number": 26
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 27
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 29
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 30
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 31
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 32
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 33
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Simon Cowell's NBC competition show, briefly",
+      "answer": "AGT",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Explosive words dropped in R-rated movies",
+      "answer": "FBOMBS",
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Deep-sea explorer, briefly",
+      "answer": "ROV",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "'___?' (sarcastic response to 'You are!')",
+      "answer": "IAMAMI",
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Airport monitor placeholder, briefly",
+      "answer": "ETD",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Add to a movie during post-production",
+      "answer": "EDITIN",
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Sixteenth-century pope who excommunicated Elizabeth I",
+      "answer": "PIUSV",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Loo door designation, often",
+      "answer": "GENT",
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "In a single attempt, to a Brit",
+      "answer": "ATONEGO",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Syrian president Bashar ___",
+      "answer": "ALASSAD",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Recipe unit equal to three tsps.",
+      "answer": "TBSP",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Listen up, d'___?",
+      "answer": "YHEAR",
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Advertisement plastered all over a city bus, say",
+      "answer": "WRAPAD",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Look back on with regret",
+      "answer": "RUE",
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Still being tested by select users, as software",
+      "answer": "ONBETA",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Linemen to the right of centers in the NFL",
+      "answer": "RGS",
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "How to speak when someone says \"Eh?\"",
+      "answer": "LOUDER",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Sounds of satisfaction at a spa",
+      "answer": "AHS",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Cornmeal cake popular in Venezuela",
+      "answer": "AREPA",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "'Understood, thanks!'",
+      "answer": "GOTIT",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Mulder and Scully, e.g.",
+      "answer": "TVDUO",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Mouse who traveled 'West' in a 1991 animated film",
+      "answer": "FIEVEL",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Like behavior that gets you on the naughty list",
+      "answer": "BAD",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Squeal of pure excitement",
+      "answer": "OMIGOSH",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "End-of-game shout in chess",
+      "answer": "MATE",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Key of Schubert's 'Unfinished' Symphony, briefly",
+      "answer": "BMIN",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "___ Maarten (Caribbean island destination)",
+      "answer": "SINT",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Lost one's cool entirely",
+      "answer": "SNAPPED",
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Intuitive social radar",
+      "answer": "GAYDAR",
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Richard who sculpted monumental sheets of steel",
+      "answer": "SERRA",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Scream of frustration from Charlie Brown",
+      "answer": "AAUGH",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Garment that is infinitely better when it has pockets",
+      "answer": "DRESS",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "What Ogden Nash's beastly llama has",
+      "answer": "TWOL",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "The Czech Republic's second-largest city",
+      "answer": "BRNO",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "One-named actor of 1937's \"Elephant Boy\"",
+      "answer": "SABU",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Left no crumbs, whether at a buffet or on a stage",
+      "answer": "ATE",
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
