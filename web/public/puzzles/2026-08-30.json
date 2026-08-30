@@ -4,183 +4,148 @@
   "height": 10,
   "grid": [
     [
+      null,
       {
-        "solution": "O",
+        "solution": "H",
         "number": 1
       },
       {
-        "solution": "M",
+        "solution": "I",
         "number": 2
       },
       {
-        "solution": "G",
+        "solution": "C",
         "number": 3
       },
       null,
+      null,
       {
-        "solution": "R",
+        "solution": "P",
         "number": 4
       },
       {
-        "solution": "O",
+        "solution": "A",
         "number": 5
       },
       {
-        "solution": "Y",
+        "solution": "D",
         "number": 6
-      },
-      {
-        "solution": "A",
-        "number": 7
-      },
-      {
-        "solution": "L",
-        "number": 8
       },
       null
     ],
     [
       {
-        "solution": "P",
+        "solution": "N",
+        "number": 7
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "N",
+        "number": 8
+      },
+      null,
+      {
+        "solution": "A",
         "number": 9
       },
       {
-        "solution": "A"
-      },
-      {
-        "solution": "T"
-      },
-      {
-        "solution": "I",
-        "number": 10
+        "solution": "G"
       },
       {
         "solution": "E"
       },
       {
-        "solution": "N"
-      },
-      {
-        "solution": "T"
-      },
-      {
-        "solution": "L"
-      },
-      {
-        "solution": "Y"
-      },
-      null
+        "solution": "S",
+        "number": 10
+      }
     ],
     [
       {
-        "solution": "T",
+        "solution": "L",
         "number": 11
       },
       {
         "solution": "O"
       },
       {
-        "solution": "A"
-      },
-      {
-        "solution": "D"
+        "solution": "E"
       },
       {
         "solution": "I"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 12
       },
       {
         "solution": "E"
       },
       {
+        "solution": "E"
+      },
+      {
+        "solution": "K"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 13
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 14
+      },
+      {
+        "solution": "U",
+        "number": 15
+      },
+      {
+        "solution": "N"
+      },
+      {
         "solution": "D"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "O"
       },
       {
         "solution": "T"
       },
       {
-        "solution": "O"
-      },
-      null
-    ],
-    [
-      null,
-      null,
-      null,
-      {
-        "solution": "R",
-        "number": 12
-      },
-      {
-        "solution": "G"
-      },
-      {
-        "solution": "S"
-      },
-      null,
-      {
-        "solution": "A",
-        "number": 13
-      },
-      {
-        "solution": "N"
-      },
-      {
-        "solution": "A",
-        "number": 14
-      }
-    ],
-    [
-      {
-        "solution": "A",
-        "number": 15
-      },
-      {
-        "solution": "G",
-        "number": 16
-      },
-      {
-        "solution": "A",
+        "solution": "H",
         "number": 17
-      },
-      {
-        "solution": "I"
-      },
-      {
-        "solution": "N"
-      },
-      null,
-      {
-        "solution": "W",
-        "number": 18
-      },
-      {
-        "solution": "I"
-      },
-      {
-        "solution": "N"
-      },
-      {
-        "solution": "G"
-      }
-    ],
-    [
-      {
-        "solution": "P",
-        "number": 19
-      },
-      {
-        "solution": "A"
-      },
-      {
-        "solution": "W"
-      },
-      {
-        "solution": "S"
-      },
-      null,
-      {
-        "solution": "A",
-        "number": 20
       },
       {
         "solution": "E"
@@ -191,351 +156,182 @@
       {
         "solution": "E"
       },
-      {
-        "solution": "O"
-      }
-    ],
-    [
-      {
-        "solution": "T",
-        "number": 21
-      },
-      {
-        "solution": "B"
-      },
-      {
-        "solution": "H"
-      },
-      null,
-      {
-        "solution": "F",
-        "number": 22
-      },
-      {
-        "solution": "B"
-      },
-      {
-        "solution": "I"
-      },
       null,
       null,
       null
     ],
     [
       null,
-      {
-        "solution": "B",
-        "number": 23
-      },
-      {
-        "solution": "I"
-      },
-      {
-        "solution": "L",
-        "number": 24
-      },
-      {
-        "solution": "L"
-      },
-      {
-        "solution": "Y"
-      },
-      {
-        "solution": "G"
-      },
-      {
-        "solution": "O",
-        "number": 25
-      },
-      {
-        "solution": "A",
-        "number": 26
-      },
-      {
-        "solution": "T",
-        "number": 27
-      }
-    ],
-    [
+      null,
       null,
       {
         "solution": "E",
-        "number": 28
-      },
-      {
-        "solution": "L"
-      },
-      {
-        "solution": "I"
+        "number": 18
       },
       {
         "solution": "A"
       },
       {
-        "solution": "S"
+        "solution": "G"
       },
       {
-        "solution": "H"
+        "solution": "E"
       },
       {
-        "solution": "O"
+        "solution": "R",
+        "number": 19
       },
       {
-        "solution": "W"
+        "solution": "L",
+        "number": 20
+      },
+      {
+        "solution": "Y",
+        "number": 21
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 22
+      },
+      {
+        "solution": "E",
+        "number": 23
+      },
+      {
+        "solution": "X",
+        "number": 24
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 25
+      },
+      {
+        "solution": "B"
       },
       {
         "solution": "E"
       }
     ],
     [
+      {
+        "solution": "S",
+        "number": 26
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "H"
+      },
       null,
       {
-        "solution": "H",
+        "solution": "O",
+        "number": 27
+      },
+      {
+        "solution": "W",
+        "number": 28
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "T",
         "number": 29
+      },
+      {
+        "solution": "R"
       },
       {
         "solution": "E"
       },
       {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 30
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "O",
+        "number": 31
+      },
+      {
         "solution": "L"
       },
       {
-        "solution": "P"
+        "solution": "E"
+      },
+      null,
+      null,
+      {
+        "solution": "R",
+        "number": 32
+      },
+      {
+        "solution": "E"
       },
       {
         "solution": "S"
       },
-      null,
-      {
-        "solution": "F",
-        "number": 30
-      },
-      {
-        "solution": "W"
-      },
-      {
-        "solution": "D"
-      }
+      null
     ]
   ],
   "across": [
     {
       "number": 1,
-      "clue": "Texter's gasp",
-      "answer": "OMG",
+      "clue": "Sound from someone holding their breath and drinking water upside down",
+      "answer": "HIC",
       "direction": "across",
       "row": 0,
-      "col": 0,
+      "col": 1,
       "length": 3,
       "themed": false
     },
     {
       "number": 4,
-      "clue": "Kind of flush or rumble",
-      "answer": "ROYAL",
+      "clue": "Lily-top resting spot for a frog",
+      "answer": "PAD",
       "direction": "across",
-      "row": 0,
-      "col": 4,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 9,
-      "clue": "With saintlike serenity",
-      "answer": "PATIENTLY",
-      "direction": "across",
-      "row": 1,
-      "col": 0,
-      "length": 9,
-      "themed": false
-    },
-    {
-      "number": 11,
-      "clue": "Flattered incessantly by sycophants",
-      "answer": "TOADIEDTO",
-      "direction": "across",
-      "row": 2,
-      "col": 0,
-      "length": 9,
-      "themed": false
-    },
-    {
-      "number": 12,
-      "clue": "NFL linemen flanking the center, for short",
-      "answer": "RGS",
-      "direction": "across",
-      "row": 3,
-      "col": 3,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 13,
-      "clue": "Actress de Armas of 'Knives Out'",
-      "answer": "ANA",
-      "direction": "across",
-      "row": 3,
-      "col": 7,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 15,
-      "clue": "Cry after a great concert performance",
-      "answer": "AGAIN",
-      "direction": "across",
-      "row": 4,
-      "col": 0,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 18,
-      "clue": "Flier's limb, or to improvise",
-      "answer": "WING",
-      "direction": "across",
-      "row": 4,
-      "col": 6,
-      "length": 4,
-      "themed": false
-    },
-    {
-      "number": 19,
-      "clue": "Bear feet",
-      "answer": "PAWS",
-      "direction": "across",
-      "row": 5,
-      "col": 0,
-      "length": 4,
-      "themed": false
-    },
-    {
-      "number": 20,
-      "clue": "Correo ___ (Spanish airmail)",
-      "answer": "AEREO",
-      "direction": "across",
-      "row": 5,
-      "col": 5,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 21,
-      "clue": "Text abbreviation meaning 'If I'm being completely real...'",
-      "answer": "TBH",
-      "direction": "across",
-      "row": 6,
-      "col": 0,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 22,
-      "clue": "Bureau that maintains the Ten Most Wanted list",
-      "answer": "FBI",
-      "direction": "across",
-      "row": 6,
-      "col": 4,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 23,
-      "clue": "Gruff bridge-crosser of fairy tales",
-      "answer": "BILLYGOAT",
-      "direction": "across",
-      "row": 7,
-      "col": 1,
-      "length": 9,
-      "themed": false
-    },
-    {
-      "number": 28,
-      "clue": "Lockstitch sewing machine pioneer",
-      "answer": "ELIASHOWE",
-      "direction": "across",
-      "row": 8,
-      "col": 1,
-      "length": 9,
-      "themed": false
-    },
-    {
-      "number": 29,
-      "clue": "Lends a hand to",
-      "answer": "HELPS",
-      "direction": "across",
-      "row": 9,
-      "col": 1,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 30,
-      "clue": "Button pressed to pass an email along",
-      "answer": "FWD",
-      "direction": "across",
-      "row": 9,
-      "col": 7,
-      "length": 3,
-      "themed": false
-    }
-  ],
-  "down": [
-    {
-      "number": 1,
-      "clue": "Select door number one, say",
-      "answer": "OPT",
-      "direction": "down",
-      "row": 0,
-      "col": 0,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 2,
-      "clue": "Chairman with a \"Little Red Book\"",
-      "answer": "MAO",
-      "direction": "down",
-      "row": 0,
-      "col": 1,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 3,
-      "clue": "High-octane Rockstar Games franchise, for short",
-      "answer": "GTA",
-      "direction": "down",
-      "row": 0,
-      "col": 2,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 4,
-      "clue": "Era of holding the crown",
-      "answer": "REIGN",
-      "direction": "down",
-      "row": 0,
-      "col": 4,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 5,
-      "clue": "Tip jar filler, often",
-      "answer": "ONES",
-      "direction": "down",
-      "row": 0,
-      "col": 5,
-      "length": 4,
-      "themed": false
-    },
-    {
-      "number": 6,
-      "clue": "From Jan. 1 to now, on a pay stub",
-      "answer": "YTD",
-      "direction": "down",
       "row": 0,
       "col": 6,
       "length": 3,
@@ -543,141 +339,343 @@
     },
     {
       "number": 7,
-      "clue": "Bright star in the constellation Aquila",
-      "answer": "ALTAIR",
-      "direction": "down",
-      "row": 0,
-      "col": 7,
-      "length": 6,
-      "themed": false
-    },
-    {
-      "number": 8,
-      "clue": "Natasha who solves mysteries in 'Poker Face'",
-      "answer": "LYONNE",
-      "direction": "down",
-      "row": 0,
-      "col": 8,
-      "length": 6,
-      "themed": false
-    },
-    {
-      "number": 10,
-      "clue": "Actor Elba who played Stringer Bell",
-      "answer": "IDRIS",
-      "direction": "down",
+      "clue": "Cable home of the NHL and Premier League until its shutdown in 2021",
+      "answer": "NBCSN",
+      "direction": "across",
       "row": 1,
-      "col": 3,
+      "col": 0,
       "length": 5,
       "themed": false
     },
     {
-      "number": 14,
-      "clue": "Way back when",
-      "answer": "AGO",
-      "direction": "down",
-      "row": 3,
-      "col": 9,
-      "length": 3,
+      "number": 9,
+      "clue": "\"It's been ___!\" (long-time greeting)",
+      "answer": "AGES",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
       "themed": false
     },
     {
-      "number": 15,
-      "clue": "Fittingly chosen, like a clever nickname",
-      "answer": "APT",
-      "direction": "down",
-      "row": 4,
+      "number": 11,
+      "clue": "Trompe l'___ (illusionist art style)",
+      "answer": "LOEIL",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Seven-day stretch",
+      "answer": "WEEK",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "What turns a green screen into a fantasy world, for short",
+      "answer": "CGI",
+      "direction": "across",
+      "row": 3,
       "col": 0,
       "length": 3,
       "themed": false
     },
     {
-      "number": 16,
-      "clue": "Coarsely woven traditional Persian rug",
-      "answer": "GABBEH",
-      "direction": "down",
-      "row": 4,
-      "col": 1,
+      "number": 14,
+      "clue": "Chilly, treeless plain where permafrost rules",
+      "answer": "TUNDRA",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
       "length": 6,
       "themed": false
     },
     {
-      "number": 17,
-      "clue": "For a bit of time",
-      "answer": "AWHILE",
-      "direction": "down",
+      "number": 16,
+      "clue": "Triumphant, childish retort after getting the last word",
+      "answer": "SOTHERE",
+      "direction": "across",
       "row": 4,
-      "col": 2,
-      "length": 6,
+      "col": 0,
+      "length": 7,
       "themed": false
     },
     {
       "number": 18,
-      "clue": "Ponder carefully, as pros and cons",
-      "answer": "WEIGH",
-      "direction": "down",
-      "row": 4,
-      "col": 6,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 20,
-      "clue": "What stares back when you stare into it, per Nietzsche",
-      "answer": "ABYSS",
-      "direction": "down",
+      "clue": "With bated breath, perhaps",
+      "answer": "EAGERLY",
+      "direction": "across",
       "row": 5,
-      "col": 5,
-      "length": 5,
+      "col": 3,
+      "length": 7,
       "themed": false
     },
     {
       "number": 22,
-      "clue": "Part of an envelope, or a minor uproar",
-      "answer": "FLAP",
-      "direction": "down",
+      "clue": "Basic unit of meaning in a language, like \"play\" or \"player\"",
+      "answer": "LEXEME",
+      "direction": "across",
       "row": 6,
-      "col": 4,
-      "length": 4,
-      "themed": false
-    },
-    {
-      "number": 24,
-      "clue": "Moniker starting point for Wayne, Nas X, or Kim",
-      "answer": "LIL",
-      "direction": "down",
-      "row": 7,
-      "col": 3,
-      "length": 3,
+      "col": 0,
+      "length": 6,
       "themed": false
     },
     {
       "number": 25,
-      "clue": "Sound made when getting the wind knocked out of you",
-      "answer": "OOF",
-      "direction": "down",
-      "row": 7,
+      "clue": "Five-dollar bill face, informally",
+      "answer": "ABE",
+      "direction": "across",
+      "row": 6,
       "col": 7,
       "length": 3,
       "themed": false
     },
     {
       "number": 26,
-      "clue": "Reaction to a sleepy puppy's big yawn",
-      "answer": "AWW",
-      "direction": "down",
+      "clue": "Of a similar kind, in a phrase like \"and ___\"",
+      "answer": "SUCH",
+      "direction": "across",
       "row": 7,
-      "col": 8,
-      "length": 3,
+      "col": 0,
+      "length": 4,
       "themed": false
     },
     {
       "number": 27,
-      "clue": "Lasso with a heart of gold on TV",
-      "answer": "TED",
+      "clue": "Be absolutely dominant in, to a gamer",
+      "answer": "OWNAT",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "One with a crown but no head",
+      "answer": "TREE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Pola of silent film fame",
+      "answer": "NEGRI",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Cry heard after a spectacular bit of footwork in Madrid",
+      "answer": "OLE",
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Hi-___ (crisp, as a digital screen)",
+      "answer": "RES",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Defunct app once used to watch \"Game of Thrones\" on the move",
+      "answer": "HBOGO",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Put a game completely out of reach, colloquially",
+      "answer": "ICEIT",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Las Vegas-based CBS franchise that popularized the \"zoom and enhance\" trope",
+      "answer": "CSI",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Fictional Indiana home of Lil' Sebastian in \"Parks and Recreation\"",
+      "answer": "PAWNEE",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Like fine wine or sharp cheddar",
+      "answer": "AGED",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Antlered forest roamer",
+      "answer": "DEER",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "October series that decides the Senior Circuit champion",
+      "answer": "NLCS",
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "The Padres or the Pirates, e.g.",
+      "answer": "NLTEAM",
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Upbeat music genre that originated in Jamaica",
+      "answer": "SKA",
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Cheer on from the sidelines",
+      "answer": "URGEON",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Giggle that might be accompanied by a snort",
+      "answer": "HEEHEE",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Kitchen appliance with a stovetop",
+      "answer": "RANGE",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Right-angled structural steel beams",
+      "answer": "LBARS",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "High-end cooler brand named after a legendary snow beast",
+      "answer": "YETI",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "WWII vessel designed to deliver tanks directly to beaches",
+      "answer": "LST",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Coin featuring Leonardo da Vinci's Vitruvian Man on the Italian version",
+      "answer": "EURO",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "___ Energy (major U.S. electric utility)",
+      "answer": "XCEL",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "\"___ in the money\" (classic showtune lyric)",
+      "answer": "WER",
       "direction": "down",
       "row": 7,
-      "col": 9,
+      "col": 6,
       "length": 3,
       "themed": false
     }
