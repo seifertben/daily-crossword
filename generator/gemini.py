@@ -20,7 +20,7 @@ import httpx
 
 from generator.models import Theme
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.7-flash"
 _BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 _TIMEOUT = 60.0
 _CLUE_BATCH = 25  # words per generateContent call

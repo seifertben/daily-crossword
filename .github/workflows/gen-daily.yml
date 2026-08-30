@@ -36,6 +36,7 @@ jobs:
         id: gen
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
         run: |
           if [ -n "$GEMINI_API_KEY" ]; then
             GEMINI_MODE=live PUZZLE_STORE=static uv run python -m generator "${{ steps.date.outputs.date }}"

@@ -78,7 +78,7 @@ make gen DATE=2026-08-28
 | Env var            | Required | Default             | Notes                                  |
 | ------------------ | -------- | ------------------- | -------------------------------------- |
 | `GEMINI_API_KEY`   | live only| —                   | Google Gemini key; omit for stub mode  |
-| `GEMINI_MODEL`     | no       | `gemini-2.5-flash`  | Any Gemini model id                    |
+| `GEMINI_MODEL`     | no       | `gemini-3.7-flash`  | Any Gemini model id                    |
 | `GEMINI_MODE`      | no       | stub (no key)       | `live` \| `stub` \| `replay`           |
 | `GEMINI_MIN_SCORE` | no       | `51`                | Word-bank quality floor; junk fill below this score is dropped before it reaches the clue provider |
 | `PUZZLE_STORE`     | no       | `local`             | `local` (scratch disk) \| `static` (Vite public dir) \| `gcs` |
