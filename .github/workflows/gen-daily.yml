@@ -32,7 +32,18 @@ jobs:
         id: date
         run: echo "date=$(date -u -d 'tomorrow' +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
+      - name: Check if puzzle already exists
+        id: check
+        run: |
+          if [ -f "web/public/puzzles/${{ steps.date.outputs.date }}.json" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Puzzle for ${{ steps.date.outputs.date }} already exists — no-op"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Generate puzzle
+        if: steps.check.outputs.exists != 'true'
         id: gen
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -46,6 +57,7 @@ jobs:
           fi
 
       - name: Commit and push
+        if: steps.check.outputs.exists != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
