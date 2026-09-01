@@ -6,15 +6,18 @@ import type { Puzzle } from "./types";
 const STATIC = import.meta.env.VITE_PUZZLE_MODE === "static";
 const PUZZLE_DIR = `${import.meta.env.BASE_URL}puzzles`;
 
-// A new puzzle is published each Eastern Time day, so "today" is computed in
-// America/New_York regardless of the viewer's own timezone.
-function todayEastern(): string {
+// The daily puzzle rolls over at 6:00 AM Eastern Time, not midnight: the
+// current day's puzzle only appears from 6 AM, so "today" (EASTERN_DAILY_START
+// hours earlier) keeps showing the previous day's puzzle before 6 AM. This is
+// computed in America/New_York regardless of the viewer's own timezone.
+const EASTERN_DAILY_START = 6;
+export function todayEastern(now: number = Date.now()): string {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/New_York",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
-  }).formatToParts(new Date());
+  }).formatToParts(new Date(now - EASTERN_DAILY_START * 60 * 60 * 1000));
   const byType = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
   return `${byType("year")}-${byType("month")}-${byType("day")}`;
 }

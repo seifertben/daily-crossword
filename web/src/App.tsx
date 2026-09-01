@@ -11,13 +11,19 @@ import { useCoarsePointer, useIsMobile } from "./hooks/useMedia";
 import { fetchPuzzle, fetchToday } from "./api";
 import type { Direction, Puzzle } from "./types";
 
+// The active puzzle day starts at 6 AM ET (matches api.ts's todayEastern).
+const DAILY_START_HOURS = 6;
+
 function todayStr(): string {
-  return new Date().toLocaleDateString("en-US", {
-    timeZone: "America/New_York",
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-  });
+  return new Date(Date.now() - DAILY_START_HOURS * 60 * 60 * 1000).toLocaleDateString(
+    "en-US",
+    {
+      timeZone: "America/New_York",
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+    },
+  );
 }
 
 export default function App() {
