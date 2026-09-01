@@ -128,6 +128,49 @@ def test_filler_unfillable_returns_partial():
     assert result.placed <= 1
 
 
+def test_filler_prefers_non_names_under_cap():
+    # START and TRAMS are proper names; STARS is a common word. All three fit
+    # the across-0 slot. With a small name cap the solver must choose STARS.
+    bank = WordBank(
+        [
+            ("START", 90),
+            ("STARS", 80),
+            ("TRAMS", 70),
+            ("STAB", 40),
+            ("TEAR", 30),
+        ],
+        names={"START", "TRAMS"},
+        common_words={"STARS", "STAB", "TEAR"},
+    )
+    slots = _plus_slots()
+    result = solve_fill(slots, bank, seed=1, node_budget=2000, deadline_seconds=2.0, name_cap=1)
+    assert result.complete
+    assert result.assignment is not None
+    across0 = result.assignment[(0, 0, "across")]
+    assert across0 == "STARS", "preferred a proper name when a common word fit"
+
+
+def test_filler_exceeds_name_cap_only_when_needed():
+    # Every across-0 option is a proper name, so even a tiny cap is exceeded
+    # rather than failing to fill the grid (last-resort fallback).
+    bank = WordBank(
+        [
+            ("START", 90),
+            ("TRAMS", 70),
+            ("STARK", 50),
+            ("STAB", 40),
+            ("TEAR", 30),
+        ],
+        names={"START", "TRAMS", "STARK"},
+        common_words={"STAB", "TEAR"},
+    )
+    slots = _plus_slots()
+    result = solve_fill(slots, bank, seed=3, node_budget=3000, deadline_seconds=2.0, name_cap=1)
+    assert result.complete, "failed to fill despite a name-only option"
+    assert result.assignment is not None
+    assert bank.is_proper(result.assignment[(0, 0, "across")])
+
+
 # ---- numbering ---------------------------------------------------------
 
 

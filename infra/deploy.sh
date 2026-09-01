@@ -47,17 +47,17 @@ gcloud run jobs update "${GEN_JOB}" \
   --service-account "${SA}" \
   --task-timeout 20m
 
-echo "==> Scheduling daily generation (02:00 UTC) via Cloud Scheduler"
+echo "==> Scheduling daily generation (11:00 PM ET) via Cloud Scheduler"
 SCHED_URL="https://run.googleapis.com/v2/projects/${PROJECT_ID}/locations/${REGION}/jobs/${GEN_JOB}:run"
 gcloud scheduler jobs create http "${SCHEDULER_JOB}" \
-  --schedule "0 2 * * *" --time-zone UTC \
+  --schedule "0 23 * * *" --time-zone America/New_York \
   --uri "${SCHED_URL}" --http-method POST \
   --oauth-service-account-email "${SA}" \
   --attempt-deadline 1200s \
   --location "${REGION}" \
   --description "Trigger daily crossword generation" || \
 gcloud scheduler jobs update http "${SCHEDULER_JOB}" \
-  --schedule "0 2 * * *" --time-zone UTC \
+  --schedule "0 23 * * *" --time-zone America/New_York \
   --uri "${SCHED_URL}" --http-method POST \
   --oauth-service-account-email "${SA}" \
   --location "${REGION}"

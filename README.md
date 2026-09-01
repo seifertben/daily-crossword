@@ -81,6 +81,7 @@ make gen DATE=2026-08-28
 | `GEMINI_MODEL`     | no       | `gemini-3.7-flash`  | Any Gemini model id                    |
 | `GEMINI_MODE`      | no       | stub (no key)       | `live` \| `stub` \| `replay`           |
 | `GEMINI_MIN_SCORE` | no       | `75`                | Word-bank quality floor; junk fill below this score is dropped before it reaches the clue provider |
+| `GEMINI_NAME_CAP`  | no       | `3`                 | Preferred max proper names per puzzle; the fill stays under it, exceeding only as a last resort |
 | `PUZZLE_STORE`     | no       | `local`             | `local` (scratch disk) \| `static` (Vite public dir) \| `gcs` |
 | `STATIC_PUZZLE_DIR`| static only | `./web/public`   | Root dir for the static store; puzzles land in its `puzzles/` subdir |
 | `PUZZLE_BUCKET`    | gcs only | —                   | Cloud Storage bucket name              |

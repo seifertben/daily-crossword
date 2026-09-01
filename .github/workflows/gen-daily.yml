@@ -28,9 +28,9 @@ jobs:
       - name: Install Python dependencies
         run: uv sync
 
-      # New puzzles are published for the next Eastern Time day. 03:00 UTC is at
-      # least one hour before ET midnight year-round (23:00 EDT, 22:00 EST), so
-      # tomorrow's puzzle is always in place before ET rolls to a new day.
+      # New puzzles are published for the next Eastern Time day. 03:00 UTC is
+      # 11:00 PM EDT / 10:00 PM EST, so tomorrow's puzzle is in place before
+      # ET rolls to a new day.
       - name: Determine puzzle date
         id: date
         run: echo "date=$(TZ=America/New_York date -d 'tomorrow' +%Y-%m-%d)" >> "$GITHUB_OUTPUT"

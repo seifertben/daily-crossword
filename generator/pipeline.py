@@ -37,6 +37,13 @@ _FILL_SECONDS = 30.0
 _FILL_RESTARTS = 12
 _CLUE_RETRIES = 3  # clue-call attempts before blaming the words
 _CLUE_BACKOFF = 1.0  # base seconds for exponential backoff between clue calls
+_NAME_CAP = 3  # prefer to ship at most this many proper names per puzzle
+
+
+def _default_name_cap() -> int:
+    import os
+
+    return int(os.environ.get("GEMINI_NAME_CAP", _NAME_CAP))
 _VOICE = "neutral, simple, friendly"  # plain-fill clue voice (no theme)
 
 
@@ -104,6 +111,7 @@ async def _fill_one(
     node_budget: int,
     deadline_seconds: float,
     restarts: int,
+    name_cap: int,
 ) -> dict[str, Any] | None:
     """Fill one grid and return its serialized payload, or None.
 
@@ -123,6 +131,7 @@ async def _fill_one(
             node_budget=node_budget,
             deadline_seconds=deadline_seconds,
             restarts=restarts,
+            name_cap=name_cap,
         )
         if not result.complete or not result.assignment:
             return None  # never ship a partial grid; move to the next skeleton
@@ -167,6 +176,7 @@ async def generate_puzzle(
     fill_node_budget: int = _FILL_NODE_BUDGET,
     fill_seconds: float = _FILL_SECONDS,
     fill_restarts: int = _FILL_RESTARTS,
+    name_cap: int | None = None,
     total_seconds: float = 900.0,
     provider: gemini.ClueProvider | None = None,
     bank: WordBank | None = None,
@@ -185,6 +195,7 @@ async def generate_puzzle(
     date = date or dt.datetime.now(dt.UTC).date().strftime("%Y-%m-%d")
     seed = seed if seed is not None else _date_seed(date)
     start = time.monotonic()
+    name_cap = _default_name_cap() if name_cap is None else name_cap
 
     provider = provider or gemini.get_provider()
     bank = bank or get_bank()
@@ -216,6 +227,7 @@ async def generate_puzzle(
             node_budget=fill_node_budget,
             deadline_seconds=min(fill_seconds, max(0.5, remaining)),
             restarts=fill_restarts,
+            name_cap=name_cap,
         )
         if payload is None:
             continue

@@ -20,8 +20,21 @@ from generator.models import Slot
 
 _WILDCARD = "?"
 _DEFAULT_PATH = Path(__file__).resolve().parents[1] / "data" / "broda_scored.txt"
+_DEFAULT_NAMES_PATH = Path(__file__).resolve().parents[1] / "data" / "census_names.txt"
+_DEFAULT_COMMON_PATH = Path(__file__).resolve().parents[1] / "data" / "common_words.txt"
 DEFAULT_MAX_LEN = 15
 DEFAULT_MIN_SCORE = 75
+
+
+def _read_token_lines(path: Path) -> set[str]:
+    """Read a data file of one token per line into an uppercase token set."""
+    tokens: set[str] = set()
+    with path.open(encoding="utf-8") as fh:
+        for line in fh:
+            token = line.strip().upper()
+            if token and not token.startswith("#") and token.isalpha():
+                tokens.add(token)
+    return tokens
 
 
 class WordBank:
@@ -38,6 +51,8 @@ class WordBank:
         *,
         max_len: int = DEFAULT_MAX_LEN,
         min_score: int = 0,
+        names: set[str] | None = None,
+        common_words: set[str] | None = None,
     ) -> None:
         self._score: dict[str, int] = {}
         self._by_length: dict[int, list[str]] = {}
@@ -56,6 +71,15 @@ class WordBank:
                 seen[w] = max(seen[w], score)
             else:
                 seen[w] = score
+
+        # A word is a "proper name" for solvability when it is a known name AND
+        # has no common-word reading (e.g. SEA or ROSE are fine as fill; SMITH
+        # or MADONNA are genuine names a solver may not derive from a clue).
+        common = common_words if common_words is not None else set()
+        names = names if names is not None else set()
+        self._proper: frozenset[str] = frozenset(
+            w for w in seen if w in names and w not in common
+        )
 
         # sort each length bucket by score desc then alpha for deterministic ties
         buckets: dict[int, list[tuple[str, int]]] = {}
@@ -95,6 +119,15 @@ class WordBank:
 
     def contains(self, word: str) -> bool:
         return word.upper() in self._score
+
+    def is_proper(self, word: str) -> bool:
+        """True when ``word`` is a proper name with no common-word reading.
+
+        These are the entries a solver often cannot derive from a clue (e.g.
+        SMITH, MADONNA); SEE, ROSE return False so common homonyms are not
+        penalized as names.
+        """
+        return word.upper() in self._proper
 
     def candidates(self, pattern: str, *, exclude: set[str] | None = None) -> list[str]:
         """Words matching ``pattern`` (``?`` = any), best-scored first.
@@ -178,7 +211,13 @@ def get_bank(
     p = Path(path) if path else _DEFAULT_PATH
     if min_score is None:
         min_score = int(os.environ.get("GEMINI_MIN_SCORE", DEFAULT_MIN_SCORE))
-    return WordBank(_parse_broda(p), max_len=max_len, min_score=min_score)
+    return WordBank(
+        _parse_broda(p),
+        max_len=max_len,
+        min_score=min_score,
+        names=_read_token_lines(_DEFAULT_NAMES_PATH),
+        common_words=_read_token_lines(_DEFAULT_COMMON_PATH),
+    )
 
 
 def reset_cache() -> None:

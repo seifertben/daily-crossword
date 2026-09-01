@@ -126,3 +126,43 @@ def test_min_score_threshold_filters_low_score_entries():
     assert not floor.contains("NRACODE")
     assert not floor.contains("VEINE")
     reset_cache()
+
+
+def test_is_proper_classification():
+    # fixture: names known to the census + common/dictionary words
+    bank = WordBank(
+        [
+            ("SMITH", 80),
+            ("PARK", 80),
+            ("PARKER", 80),
+        ],
+        names={"SMITH", "PARK", "PARKER"},
+        common_words={"PARK"},  # PARK is a common word homonym of the name
+    )
+    # a name with no common-word reading is proper
+    assert bank.is_proper("SMITH")
+    assert bank.is_proper("PARKER")
+    # a name that is also a common word is NOT treated as a hard proper name
+    assert not bank.is_proper("PARK")
+    # a word not in the names list at all is not proper
+    assert not bank.is_proper("CATS")
+
+
+def test_default_bank_marks_real_names_proper():
+    reset_cache()
+    try:
+        bank = get_bank()
+    except FileNotFoundError:
+        pytest.skip("broda_scored.txt not vendored")
+    # common homonyms are not flagged as hard names
+    assert not bank.is_proper("ROSE")
+    assert not bank.is_proper("SEA")
+    # celebrity/dictionary names pass through unrestricted (treated as words)
+    assert not bank.is_proper("JAGGER")
+    assert not bank.is_proper("EINSTEIN")
+    assert not bank.is_proper("MADONNA")
+    # purely surname-only entries are flagged (no common-word reading)
+    assert bank.is_proper("NICOLAI")
+    assert bank.is_proper("ARNETT")
+    reset_cache()
+

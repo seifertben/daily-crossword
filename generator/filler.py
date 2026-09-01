@@ -83,6 +83,7 @@ def _backtrack(
     node_budget: int,
     deadline: float,
     best: _Best,
+    name_cap: int,
 ) -> bool:
     if nodes[0] >= node_budget or time.monotonic() > deadline:
         return False
@@ -113,11 +114,24 @@ def _backtrack(
 
     slot = best_slot
     # commit to this slot: build the authoritative ordered candidate list,
-    # excluding all placed words, sorted best-score first. (Domains are kept as
-    # unsorted frozensets for cheap MRV sizing; only the chosen slot is sorted.)
+    # excluding all placed words, ordered to prefer non-names then best score.
+    # (Domains are kept as unsorted frozensets for cheap MRV sizing; only the
+    # chosen slot is sorted.)
     rank = bank.rank_of(slot.length)
     fallback = len(rank)
-    candidates = sorted(domains[slot.key] - placed, key=lambda w: rank.get(w, fallback))
+    # Hard cap on proper names: once ``name_cap`` proper names are already
+    # placed, a proper name is only eligible here if it is the slot's only
+    # option (we keep it as a last resort so the grid can still complete).
+    names_used = sum(1 for w in assignment.values() if bank.is_proper(w))
+    candidates = sorted(
+        domains[slot.key] - placed,
+        key=lambda w: (bank.is_proper(w), rank.get(w, fallback)),
+    )
+    if names_used >= name_cap and any(bank.is_proper(w) for w in candidates):
+        # Prefer non-names; proper names are only tried as a last resort below.
+        candidates = [w for w in candidates if not bank.is_proper(w)] + [
+            w for w in candidates if bank.is_proper(w)
+        ]
     # light randomization among the top-scoring options to diversify restarts
     if len(candidates) > 8:
         top = candidates[: max(4, len(candidates) // 8)]
@@ -163,6 +177,7 @@ def _backtrack(
             node_budget,
             deadline,
             best,
+            name_cap,
         ):
             return True
 
@@ -190,6 +205,7 @@ def solve_fill(
     node_budget: int = 1_000_000,
     deadline_seconds: float = 30.0,
     restarts: int = 12,
+    name_cap: int = 10**9,
 ) -> FillResult:
     """Fill all slots. Returns a FillResult (complete or best partial).
 
@@ -199,6 +215,10 @@ def solve_fill(
 
     ``ban`` is a persistent set of words that may never be used (e.g. words the
     clue provider could not clue); it is excluded from every candidate query.
+
+    ``name_cap`` is a soft ceiling on proper names: the solver prefers non-name
+    candidates so it stays under the cap, but will exceed it as a last resort
+    only when no non-name can complete the grid.
     """
     crossings = _build_crossings(slots)
     fixed = fixed or {}
@@ -261,6 +281,7 @@ def solve_fill(
             node_budget,
             deadline,
             best,
+            name_cap,
         )
         nodes_total += nodes[0]
         restarts_used += 1
