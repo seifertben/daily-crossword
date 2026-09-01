@@ -1,0 +1,697 @@
+{
+  "date": "2026-09-02",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "A",
+        "number": 1
+      },
+      {
+        "solution": "L",
+        "number": 2
+      },
+      {
+        "solution": "A",
+        "number": 3
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 4
+      },
+      {
+        "solution": "I",
+        "number": 5
+      },
+      {
+        "solution": "S",
+        "number": 6
+      },
+      {
+        "solution": "S",
+        "number": 7
+      },
+      {
+        "solution": "M",
+        "number": 8
+      },
+      {
+        "solution": "E",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 10
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "W"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 11
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 12
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 13
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 14
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S",
+        "number": 15
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 16
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 17
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "U",
+        "number": 18
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "V",
+        "number": 19
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "Y",
+        "number": 20
+      },
+      {
+        "solution": "C",
+        "number": 21
+      },
+      {
+        "solution": "K",
+        "number": 22
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 23
+      },
+      {
+        "solution": "A",
+        "number": 24
+      },
+      {
+        "solution": "R",
+        "number": 25
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 26
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 27
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I",
+        "number": 28
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 29
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 30
+      },
+      {
+        "solution": "F"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "Z",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "P"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 33
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "F"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "\"Pie ___ mode\"",
+      "answer": "ALA",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Cocky question from someone returning from a break",
+      "answer": "MISSME",
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Work with a needle and thread",
+      "answer": "SEW",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Joel with a Houston megachurch",
+      "answer": "OSTEEN",
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "1997 French Open champion Majoli",
+      "answer": "IVA",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Storybook closer",
+      "answer": "THEEND",
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Wetland full of reeds and cattails",
+      "answer": "MARSH",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Fast-running Aussie birds",
+      "answer": "EMUS",
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Short-order cook's cry to the waitstaff",
+      "answer": "ORDERUP",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Jan ___, Flemish master who painted the Arnolfini Portrait",
+      "answer": "VANEYCK",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Mother in a stable",
+      "answer": "MARE",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Doctor who gave his name to an inflammatory bowel disease",
+      "answer": "CROHN",
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Female advisor or counselor",
+      "answer": "EGERIA",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Shower with flowers and candy, say",
+      "answer": "WOO",
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Gridiron official behind the defensive line, informally",
+      "answer": "NFLUMP",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Nada, in slang",
+      "answer": "ZIP",
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Official green lights",
+      "answer": "SAYSOS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Little bark from a small dog",
+      "answer": "ARF",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Humanoid robot created by Honda",
+      "answer": "ASIMO",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Burton of \"Reading Rainbow\"",
+      "answer": "LEVAR",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Grammy or Oscar, for example",
+      "answer": "AWARD",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Winged kaiju and occasional ally of Godzilla",
+      "answer": "MOTHRA",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "\"More or less\" suffix",
+      "answer": "ISH",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Harder to climb, like a mountain trail",
+      "answer": "STEEPER",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Appear to be",
+      "answer": "SEEM",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "It lists the specials",
+      "answer": "MENU",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Wraps things up",
+      "answer": "ENDS",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Snape of Hogwarts",
+      "answer": "SEVERUS",
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Opens, as a bottle of soda or a highlighter",
+      "answer": "UNCAPS",
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "\"Holy smokes!\"",
+      "answer": "YOWZA",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Vocal group often found in a loft",
+      "answer": "CHOIR",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Alfred A. ___ (major publishing imprint with a borzoi logo)",
+      "answer": "KNOPF",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Department store section for suits and ties",
+      "answer": "MENS",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Longtime German brand of photographic film",
+      "answer": "AGFA",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Lean on for support, with \"on\"",
+      "answer": "RELY",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Reviewer's shorthand before a personal take",
+      "answer": "IMO",
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
