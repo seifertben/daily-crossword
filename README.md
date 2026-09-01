@@ -81,7 +81,8 @@ make gen DATE=2026-08-28
 | `GEMINI_MODEL`     | no       | `gemini-3.7-flash`  | Any Gemini model id                    |
 | `GEMINI_MODE`      | no       | stub (no key)       | `live` \| `stub` \| `replay`           |
 | `GEMINI_MIN_SCORE` | no       | `75`                | Word-bank quality floor; junk fill below this score is dropped before it reaches the clue provider |
-| `GEMINI_NAME_CAP`  | no       | `3`                 | Preferred max proper names per puzzle; the fill stays under it, exceeding only as a last resort |
+| `GEMINI_MIN_ZIPF`  | no       | `1.1`               | Frequency floor for genuine dictionary words: those this rare in ordinary-text corpora (Zipf `data/word_frequency.txt`, e.g. AOUDAD ≈ 0, ADYTUM ≈ 1.01) are deprioritized and used only when no commoner word fits. Phrases ("cuff 'em"), names, and words at or above the floor are exempt |
+| `GEMINI_NAME_CAP`  | no       | `5`                 | Preferred max proper names per puzzle; the fill stays under it, exceeding only as a last resort |
 | `PUZZLE_STORE`     | no       | `local`             | `local` (scratch disk) \| `static` (Vite public dir) \| `gcs` |
 | `STATIC_PUZZLE_DIR`| static only | `./web/public`   | Root dir for the static store; puzzles land in its `puzzles/` subdir |
 | `PUZZLE_BUCKET`    | gcs only | —                   | Cloud Storage bucket name              |
@@ -105,7 +106,7 @@ daily-crossword/
 ├── generator/      # skeleton, CSP filler, wordbank, gemini, pipeline, store, serialize
 ├── api/            # FastAPI serving app
 ├── web/            # React + Vite + TypeScript SPA
-├── data/           # vendored Peter Broda scored wordlist (~527k words)
+├── data/           # vendored Peter Broda scored wordlist (~527k words) + Zipf frequency map
 ├── infra/          # deploy.sh (GCP)
 ├── Dockerfile.web  # SPA + API image
 ├── Dockerfile.gen  # generation job image

@@ -37,7 +37,7 @@ _FILL_SECONDS = 30.0
 _FILL_RESTARTS = 12
 _CLUE_RETRIES = 3  # clue-call attempts before blaming the words
 _CLUE_BACKOFF = 1.0  # base seconds for exponential backoff between clue calls
-_NAME_CAP = 3  # prefer to ship at most this many proper names per puzzle
+_NAME_CAP = 5  # prefer to ship at most this many proper names per puzzle
 
 
 def _default_name_cap() -> int:

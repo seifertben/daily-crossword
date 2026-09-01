@@ -22,8 +22,10 @@ _WILDCARD = "?"
 _DEFAULT_PATH = Path(__file__).resolve().parents[1] / "data" / "broda_scored.txt"
 _DEFAULT_NAMES_PATH = Path(__file__).resolve().parents[1] / "data" / "census_names.txt"
 _DEFAULT_COMMON_PATH = Path(__file__).resolve().parents[1] / "data" / "common_words.txt"
+_DEFAULT_FREQ_PATH = Path(__file__).resolve().parents[1] / "data" / "word_frequency.txt"
 DEFAULT_MAX_LEN = 15
 DEFAULT_MIN_SCORE = 75
+DEFAULT_MIN_ZIPF = 1.1  # words below this Zipf frequency are treated as rare fill
 
 
 def _read_token_lines(path: Path) -> set[str]:
@@ -35,6 +37,22 @@ def _read_token_lines(path: Path) -> set[str]:
             if token and not token.startswith("#") and token.isalpha():
                 tokens.add(token)
     return tokens
+
+
+def _read_freq_lines(path: Path) -> dict[str, float]:
+    """Read a data file of ``WORD;FLOAT`` lines into a word->frequency map."""
+    freq: dict[str, float] = {}
+    with path.open(encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line or line.startswith("#") or ";" not in line:
+                continue
+            word, _, val = line.partition(";")
+            try:
+                freq[word] = float(val)
+            except ValueError:
+                continue
+    return freq
 
 
 class WordBank:
@@ -53,6 +71,8 @@ class WordBank:
         min_score: int = 0,
         names: set[str] | None = None,
         common_words: set[str] | None = None,
+        frequencies: dict[str, float] | None = None,
+        min_zipf: float = DEFAULT_MIN_ZIPF,
     ) -> None:
         self._score: dict[str, int] = {}
         self._by_length: dict[int, list[str]] = {}
@@ -60,6 +80,8 @@ class WordBank:
         self._index: dict[int, dict[tuple[int, str], frozenset[str]]] = {}
         self._order_rank: dict[int, dict[str, int]] = {}
         self._max_len = max_len
+        self._freq: dict[str, float] = frequencies if frequencies is not None else {}
+        self._min_zipf = min_zipf
 
         # dedup keeping the highest score if a word repeats
         seen: dict[str, int] = {}
@@ -77,6 +99,7 @@ class WordBank:
         # or MADONNA are genuine names a solver may not derive from a clue).
         common = common_words if common_words is not None else set()
         names = names if names is not None else set()
+        self._common: frozenset[str] = frozenset(common)
         self._proper: frozenset[str] = frozenset(w for w in seen if w in names and w not in common)
 
         # sort each length bucket by score desc then alpha for deterministic ties
@@ -126,6 +149,24 @@ class WordBank:
         penalized as names.
         """
         return word.upper() in self._proper
+
+    def frequency_of(self, word: str) -> float:
+        """Zipf frequency of ``word`` (0.0 when unknown, i.e. extremely rare)."""
+        return self._freq.get(word.upper(), 0.0)
+
+    def is_rare(self, word: str) -> bool:
+        """True when ``word`` is an uncommon *dictionary* word a solver may not know.
+
+        Only genuine English words (present in the ENABLE list, i.e. ``common``)
+        are judged this way: rare-but-real words like AOUDAD or SERIN are
+        deprioritized, while phrases ("cuff 'em"), abbreviations, and names are
+        NOT — they stay normal choices rather than being penalized by a
+        frequency cutoff. Judged by Zipf frequency; missing words count as 0.
+        """
+        return (
+            word.upper() in self._common
+            and self.frequency_of(word) < self._min_zipf
+        )
 
     def candidates(self, pattern: str, *, exclude: set[str] | None = None) -> list[str]:
         """Words matching ``pattern`` (``?`` = any), best-scored first.
@@ -209,12 +250,15 @@ def get_bank(
     p = Path(path) if path else _DEFAULT_PATH
     if min_score is None:
         min_score = int(os.environ.get("GEMINI_MIN_SCORE", DEFAULT_MIN_SCORE))
+    min_zipf = float(os.environ.get("GEMINI_MIN_ZIPF", DEFAULT_MIN_ZIPF))
     return WordBank(
         _parse_broda(p),
         max_len=max_len,
         min_score=min_score,
         names=_read_token_lines(_DEFAULT_NAMES_PATH),
         common_words=_read_token_lines(_DEFAULT_COMMON_PATH),
+        frequencies=_read_freq_lines(_DEFAULT_FREQ_PATH),
+        min_zipf=min_zipf,
     )
 
 

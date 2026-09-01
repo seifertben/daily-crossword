@@ -148,6 +148,40 @@ def test_is_proper_classification():
     assert not bank.is_proper("CATS")
 
 
+def test_frequency_and_rarity():
+    bank = WordBank(
+        [
+            ("TASK", 80),
+            ("AOUDAD", 80),
+            ("SPOON", 70),
+        ],
+        common_words={"TASK", "AOUDAD", "SPOON"},
+        frequencies={"TASK": 4.6, "SPOON": 3.9},
+    )
+    assert bank.frequency_of("task") == 4.6  # case-insensitive
+    assert bank.frequency_of("SPOON") == 3.9
+    assert bank.frequency_of("AOUDAD") == 0.0  # absent = extremely rare
+    assert not bank.is_rare("TASK")
+    assert not bank.is_rare("SPOON")
+    assert bank.is_rare("AOUDAD")
+
+
+def test_rarity_only_applies_to_dictionary_words():
+    # XENON is a real (if uncommon) English word, so a raised floor makes it
+    # rare. CUFFEM ("cuff 'em") is a phrase and SMITH is a proper name — neither
+    # is a dictionary word, so the rarity cutoff must NOT deprioritize them.
+    bank = WordBank(
+        [("XENON", 80), ("CUFFEM", 50), ("SMITH", 40)],
+        common_words={"XENON"},
+        names={"SMITH"},  # census name with no common reading -> proper name
+        frequencies={"XENON": 2.9},
+        min_zipf=3.0,
+    )
+    assert bank.is_rare("XENON")    # 2.9 < 3.0 floor
+    assert not bank.is_rare("CUFFEM")  # phrase: exempt from the cutoff
+    assert not bank.is_rare("SMITH")   # name: exempt from the cutoff
+
+
 def test_default_bank_marks_real_names_proper():
     reset_cache()
     try:
@@ -164,4 +198,36 @@ def test_default_bank_marks_real_names_proper():
     # purely surname-only entries are flagged (no common-word reading)
     assert bank.is_proper("NICOLAI")
     assert bank.is_proper("ARNETT")
+    reset_cache()
+
+
+def test_default_bank_marks_obscure_fill_rare():
+    reset_cache()
+    try:
+        bank = get_bank()
+    except FileNotFoundError:
+        pytest.skip("broda_scored.txt not vendored")
+    # everyday fill words are not rare
+    assert not bank.is_rare("TASK")
+    assert not bank.is_rare("SPOON")
+    assert not bank.is_rare("BRIDE")
+    assert not bank.is_rare("TOAST")
+    # obscure but genuine dictionary words absent from any corpus are rare
+    assert bank.is_rare("AOUDAD")
+    assert bank.is_rare("MURTHER")
+    assert bank.is_rare("OVIFORM")
+    # ACCENTOR (zipf ~1.01) sits below the 1.1 floor -> rare;
+    # ALBEDOS (1.15) and SERIN (1.62) are at/above it -> fine
+    assert bank.is_rare("ACCENTOR")
+    assert not bank.is_rare("ALBEDOS")
+    assert not bank.is_rare("SERIN")
+    # phrases and mashed entries are NOT penalized by the rarity cutoff
+    assert not bank.is_rare("AHAIR")   # "a hair"
+    assert not bank.is_rare("IKNEW")   # "I knew"
+    assert not bank.is_rare("CUFFEM")  # "cuff 'em"
+    assert not bank.is_rare("OHIOU")   # "Ohio U"
+    # non-dictionary abbreviations/foreign entries are not rare either
+    assert not bank.is_rare("SPAGO")
+    assert not bank.is_rare("SOMAD")
+    assert not bank.is_rare("ONEGAME")
     reset_cache()

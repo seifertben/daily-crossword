@@ -114,7 +114,8 @@ def _backtrack(
 
     slot = best_slot
     # commit to this slot: build the authoritative ordered candidate list,
-    # excluding all placed words, ordered to prefer non-names then best score.
+    # excluding all placed words, ordered to prefer non-names then common (=
+    # non-rare) words, then rare words, then best score within each tier.
     # (Domains are kept as unsorted frozensets for cheap MRV sizing; only the
     # chosen slot is sorted.)
     rank = bank.rank_of(slot.length)
@@ -125,7 +126,11 @@ def _backtrack(
     names_used = sum(1 for w in assignment.values() if bank.is_proper(w))
     candidates = sorted(
         domains[slot.key] - placed,
-        key=lambda w: (bank.is_proper(w), rank.get(w, fallback)),
+        key=lambda w: (
+            bank.is_proper(w),
+            bank.is_rare(w),
+            rank.get(w, fallback),
+        ),
     )
     if names_used >= name_cap and any(bank.is_proper(w) for w in candidates):
         # Prefer non-names; proper names are only tried as a last resort below.

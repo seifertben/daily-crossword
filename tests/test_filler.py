@@ -171,6 +171,31 @@ def test_filler_exceeds_name_cap_only_when_needed():
     assert bank.is_proper(result.assignment[(0, 0, "across")])
 
 
+def test_filler_deprioritizes_rare_words():
+    # SOMAD and AEREO out-score the alternatives but are rare dictionary words
+    # (no frequency entry); the solver must prefer the commoner words despite
+    # their lower scores. The old score-first ordering would pick SOMAD.
+    bank = WordBank(
+        [
+            ("SOMAD", 90),
+            ("AEREO", 80),
+            ("STARS", 70),
+            ("ANGLE", 60),
+            ("SALE", 50),
+        ],
+        common_words={"SOMAD", "AEREO", "STARS", "ANGLE", "SALE"},
+        frequencies={"STARS": 4.2, "ANGLE": 4.6, "SALE": 4.0},
+    )
+    slots = _plus_slots()
+    result = solve_fill(slots, bank, seed=1, node_budget=2000, deadline_seconds=2.0)
+    assert result.complete
+    assert result.assignment is not None
+    across0 = result.assignment[(0, 0, "across")]
+    across1 = result.assignment[(1, 0, "across")]
+    assert across0 == "STARS", f"preferred rare {across0} over common STARS"
+    assert across1 == "ANGLE", f"preferred rare {across1} over common ANGLE"
+
+
 # ---- numbering ---------------------------------------------------------
 
 
