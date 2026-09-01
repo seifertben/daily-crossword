@@ -29,7 +29,14 @@ html, body {
 }
 
 .masthead { text-align: center; margin: 0.5rem 0 0.25rem; }
-.masthead h1 { font-size: 1.6rem; margin: 0; letter-spacing: 0.02em; }
+.masthead h1 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 0.01em;
+  font-variation-settings: normal;
+}
 .masthead .date { margin: 0.15rem 0; color: var(--muted); font-size: 0.95rem; }
 .masthead .theme { margin: 0; font-style: italic; color: var(--ink); font-size: 0.95rem; }
 
