@@ -165,4 +165,3 @@ def test_default_bank_marks_real_names_proper():
     assert bank.is_proper("NICOLAI")
     assert bank.is_proper("ARNETT")
     reset_cache()
-

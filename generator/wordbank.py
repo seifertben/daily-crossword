@@ -77,9 +77,7 @@ class WordBank:
         # or MADONNA are genuine names a solver may not derive from a clue).
         common = common_words if common_words is not None else set()
         names = names if names is not None else set()
-        self._proper: frozenset[str] = frozenset(
-            w for w in seen if w in names and w not in common
-        )
+        self._proper: frozenset[str] = frozenset(w for w in seen if w in names and w not in common)
 
         # sort each length bucket by score desc then alpha for deterministic ties
         buckets: dict[int, list[tuple[str, int]]] = {}

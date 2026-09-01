@@ -44,6 +44,8 @@ def _default_name_cap() -> int:
     import os
 
     return int(os.environ.get("GEMINI_NAME_CAP", _NAME_CAP))
+
+
 _VOICE = "neutral, simple, friendly"  # plain-fill clue voice (no theme)
 
 
