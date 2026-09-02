@@ -9,159 +9,159 @@
         "number": 1
       },
       {
-        "solution": "L",
+        "solution": "G",
         "number": 2
       },
       {
-        "solution": "A",
+        "solution": "T",
         "number": 3
       },
       null,
       {
-        "solution": "M",
+        "solution": "F",
         "number": 4
       },
       {
-        "solution": "I",
+        "solution": "B",
         "number": 5
       },
       {
-        "solution": "S",
+        "solution": "O",
         "number": 6
       },
       {
-        "solution": "S",
+        "solution": "M",
         "number": 7
       },
       {
-        "solution": "M",
+        "solution": "B",
         "number": 8
       },
       {
-        "solution": "E",
+        "solution": "S",
         "number": 9
       }
     ],
     [
       {
-        "solution": "S",
+        "solution": "R",
         "number": 10
       },
       {
-        "solution": "E"
+        "solution": "O"
       },
       {
-        "solution": "W"
+        "solution": "V"
       },
       null,
       {
-        "solution": "O",
+        "solution": "I",
         "number": 11
       },
       {
-        "solution": "S"
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 12
       },
       {
         "solution": "T"
       },
       {
-        "solution": "E"
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "N"
-      }
-    ],
-    [
-      {
-        "solution": "I",
-        "number": 12
-      },
-      {
-        "solution": "V"
-      },
-      {
-        "solution": "A"
+        "solution": "D"
       },
       null,
       {
-        "solution": "T",
+        "solution": "E",
         "number": 13
       },
       {
-        "solution": "H"
+        "solution": "D"
       },
       {
-        "solution": "E"
+        "solution": "I"
       },
       {
-        "solution": "E"
+        "solution": "T"
+      },
+      {
+        "solution": "I"
       },
       {
         "solution": "N"
-      },
-      {
-        "solution": "D"
       }
     ],
     [
       {
-        "solution": "M",
+        "solution": "P",
         "number": 14
       },
       {
-        "solution": "A"
+        "solution": "I"
       },
       {
-        "solution": "R"
+        "solution": "U"
       },
       {
         "solution": "S",
         "number": 15
       },
       {
-        "solution": "H"
+        "solution": "V"
       },
       null,
       {
-        "solution": "E",
+        "solution": "G",
         "number": 16
-      },
-      {
-        "solution": "M"
-      },
-      {
-        "solution": "U"
-      },
-      {
-        "solution": "S"
-      }
-    ],
-    [
-      {
-        "solution": "O",
-        "number": 17
-      },
-      {
-        "solution": "R"
-      },
-      {
-        "solution": "D"
       },
       {
         "solution": "E"
       },
       {
-        "solution": "R"
+        "solution": "N"
       },
       {
-        "solution": "U",
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 17
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "G",
         "number": 18
       },
       {
-        "solution": "P"
+        "solution": "O"
       },
       null,
       null,
@@ -172,149 +172,149 @@
       null,
       null,
       {
-        "solution": "V",
-        "number": 19
-      },
-      {
-        "solution": "A"
-      },
-      {
-        "solution": "N"
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "Y",
-        "number": 20
-      },
-      {
-        "solution": "C",
-        "number": 21
-      },
-      {
-        "solution": "K",
-        "number": 22
-      }
-    ],
-    [
-      {
-        "solution": "M",
-        "number": 23
-      },
-      {
         "solution": "A",
-        "number": 24
-      },
-      {
-        "solution": "R",
-        "number": 25
-      },
-      {
-        "solution": "E"
-      },
-      null,
-      {
-        "solution": "C",
-        "number": 26
-      },
-      {
-        "solution": "R"
-      },
-      {
-        "solution": "O"
-      },
-      {
-        "solution": "H"
-      },
-      {
-        "solution": "N"
-      }
-    ],
-    [
-      {
-        "solution": "E",
-        "number": 27
-      },
-      {
-        "solution": "G"
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "R"
-      },
-      {
-        "solution": "I",
-        "number": 28
-      },
-      {
-        "solution": "A"
-      },
-      null,
-      {
-        "solution": "W",
-        "number": 29
-      },
-      {
-        "solution": "O"
-      },
-      {
-        "solution": "O"
-      }
-    ],
-    [
-      {
-        "solution": "N",
-        "number": 30
-      },
-      {
-        "solution": "F"
+        "number": 19
       },
       {
         "solution": "L"
       },
       {
-        "solution": "U"
+        "solution": "A"
       },
       {
-        "solution": "M"
+        "solution": "S"
+      },
+      {
+        "solution": "S",
+        "number": 20
+      },
+      {
+        "solution": "A",
+        "number": 21
+      },
+      {
+        "solution": "D",
+        "number": 22
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 23
+      },
+      {
+        "solution": "B",
+        "number": 24
+      },
+      {
+        "solution": "S",
+        "number": 25
       },
       {
         "solution": "P"
       },
       null,
       {
-        "solution": "Z",
-        "number": 31
+        "solution": "Y",
+        "number": 26
       },
       {
-        "solution": "I"
+        "solution": "H"
       },
       {
-        "solution": "P"
-      }
-    ],
-    [
-      {
-        "solution": "S",
-        "number": 32
+        "solution": "E"
       },
       {
         "solution": "A"
       },
       {
-        "solution": "Y"
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 27
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 29
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 30
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 31
+      },
+      {
+        "solution": "G"
       },
       {
         "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 32
       },
       {
         "solution": "O"
       },
       {
-        "solution": "S"
+        "solution": "U"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
       },
       null,
       {
@@ -322,18 +322,18 @@
         "number": 33
       },
       {
-        "solution": "R"
+        "solution": "H"
       },
       {
-        "solution": "F"
+        "solution": "S"
       }
     ]
   ],
   "across": [
     {
       "number": 1,
-      "clue": "\"Pie ___ mode\"",
-      "answer": "ALA",
+      "clue": "Simon Cowell's NBC competition show, briefly",
+      "answer": "AGT",
       "direction": "across",
       "row": 0,
       "col": 0,
@@ -342,8 +342,8 @@
     },
     {
       "number": 4,
-      "clue": "Cocky question from someone returning from a break",
-      "answer": "MISSME",
+      "clue": "Explosive words dropped in R-rated movies",
+      "answer": "FBOMBS",
       "direction": "across",
       "row": 0,
       "col": 4,
@@ -352,8 +352,8 @@
     },
     {
       "number": 10,
-      "clue": "Work with a needle and thread",
-      "answer": "SEW",
+      "clue": "Deep-sea explorer, briefly",
+      "answer": "ROV",
       "direction": "across",
       "row": 1,
       "col": 0,
@@ -362,8 +362,8 @@
     },
     {
       "number": 11,
-      "clue": "Joel with a Houston megachurch",
-      "answer": "OSTEEN",
+      "clue": "'___?' (sarcastic response to 'You are!')",
+      "answer": "IAMAMI",
       "direction": "across",
       "row": 1,
       "col": 4,
@@ -372,8 +372,8 @@
     },
     {
       "number": 12,
-      "clue": "1997 French Open champion Majoli",
-      "answer": "IVA",
+      "clue": "Airport monitor placeholder, briefly",
+      "answer": "ETD",
       "direction": "across",
       "row": 2,
       "col": 0,
@@ -382,8 +382,8 @@
     },
     {
       "number": 13,
-      "clue": "Storybook closer",
-      "answer": "THEEND",
+      "clue": "Add to a movie during post-production",
+      "answer": "EDITIN",
       "direction": "across",
       "row": 2,
       "col": 4,
@@ -392,8 +392,8 @@
     },
     {
       "number": 14,
-      "clue": "Wetland full of reeds and cattails",
-      "answer": "MARSH",
+      "clue": "Sixteenth-century pope who excommunicated Elizabeth I",
+      "answer": "PIUSV",
       "direction": "across",
       "row": 3,
       "col": 0,
@@ -402,8 +402,8 @@
     },
     {
       "number": 16,
-      "clue": "Fast-running Aussie birds",
-      "answer": "EMUS",
+      "clue": "Loo door designation, often",
+      "answer": "GENT",
       "direction": "across",
       "row": 3,
       "col": 6,
@@ -412,8 +412,8 @@
     },
     {
       "number": 17,
-      "clue": "Short-order cook's cry to the waitstaff",
-      "answer": "ORDERUP",
+      "clue": "In a single attempt, to a Brit",
+      "answer": "ATONEGO",
       "direction": "across",
       "row": 4,
       "col": 0,
@@ -422,8 +422,8 @@
     },
     {
       "number": 19,
-      "clue": "Jan ___, Flemish master who painted the Arnolfini Portrait",
-      "answer": "VANEYCK",
+      "clue": "Syrian president Bashar ___",
+      "answer": "ALASSAD",
       "direction": "across",
       "row": 5,
       "col": 3,
@@ -432,8 +432,8 @@
     },
     {
       "number": 23,
-      "clue": "Mother in a stable",
-      "answer": "MARE",
+      "clue": "Recipe unit equal to three tsps.",
+      "answer": "TBSP",
       "direction": "across",
       "row": 6,
       "col": 0,
@@ -442,8 +442,8 @@
     },
     {
       "number": 26,
-      "clue": "Doctor who gave his name to an inflammatory bowel disease",
-      "answer": "CROHN",
+      "clue": "Listen up, d'___?",
+      "answer": "YHEAR",
       "direction": "across",
       "row": 6,
       "col": 5,
@@ -452,8 +452,8 @@
     },
     {
       "number": 27,
-      "clue": "Female advisor or counselor",
-      "answer": "EGERIA",
+      "clue": "Advertisement plastered all over a city bus, say",
+      "answer": "WRAPAD",
       "direction": "across",
       "row": 7,
       "col": 0,
@@ -462,8 +462,8 @@
     },
     {
       "number": 29,
-      "clue": "Shower with flowers and candy, say",
-      "answer": "WOO",
+      "clue": "Look back on with regret",
+      "answer": "RUE",
       "direction": "across",
       "row": 7,
       "col": 7,
@@ -472,8 +472,8 @@
     },
     {
       "number": 30,
-      "clue": "Gridiron official behind the defensive line, informally",
-      "answer": "NFLUMP",
+      "clue": "Still being tested by select users, as software",
+      "answer": "ONBETA",
       "direction": "across",
       "row": 8,
       "col": 0,
@@ -482,8 +482,8 @@
     },
     {
       "number": 31,
-      "clue": "Nada, in slang",
-      "answer": "ZIP",
+      "clue": "Linemen to the right of centers in the NFL",
+      "answer": "RGS",
       "direction": "across",
       "row": 8,
       "col": 7,
@@ -492,8 +492,8 @@
     },
     {
       "number": 32,
-      "clue": "Official green lights",
-      "answer": "SAYSOS",
+      "clue": "How to speak when someone says \"Eh?\"",
+      "answer": "LOUDER",
       "direction": "across",
       "row": 9,
       "col": 0,
@@ -502,8 +502,8 @@
     },
     {
       "number": 33,
-      "clue": "Little bark from a small dog",
-      "answer": "ARF",
+      "clue": "Sounds of satisfaction at a spa",
+      "answer": "AHS",
       "direction": "across",
       "row": 9,
       "col": 7,
@@ -514,8 +514,8 @@
   "down": [
     {
       "number": 1,
-      "clue": "Humanoid robot created by Honda",
-      "answer": "ASIMO",
+      "clue": "Cornmeal cake popular in Venezuela",
+      "answer": "AREPA",
       "direction": "down",
       "row": 0,
       "col": 0,
@@ -524,8 +524,8 @@
     },
     {
       "number": 2,
-      "clue": "Burton of \"Reading Rainbow\"",
-      "answer": "LEVAR",
+      "clue": "'Understood, thanks!'",
+      "answer": "GOTIT",
       "direction": "down",
       "row": 0,
       "col": 1,
@@ -534,8 +534,8 @@
     },
     {
       "number": 3,
-      "clue": "Grammy or Oscar, for example",
-      "answer": "AWARD",
+      "clue": "Mulder and Scully, e.g.",
+      "answer": "TVDUO",
       "direction": "down",
       "row": 0,
       "col": 2,
@@ -544,8 +544,8 @@
     },
     {
       "number": 4,
-      "clue": "Winged kaiju and occasional ally of Godzilla",
-      "answer": "MOTHRA",
+      "clue": "Mouse who traveled 'West' in a 1991 animated film",
+      "answer": "FIEVEL",
       "direction": "down",
       "row": 0,
       "col": 4,
@@ -554,8 +554,8 @@
     },
     {
       "number": 5,
-      "clue": "\"More or less\" suffix",
-      "answer": "ISH",
+      "clue": "Like behavior that gets you on the naughty list",
+      "answer": "BAD",
       "direction": "down",
       "row": 0,
       "col": 5,
@@ -564,8 +564,8 @@
     },
     {
       "number": 6,
-      "clue": "Harder to climb, like a mountain trail",
-      "answer": "STEEPER",
+      "clue": "Squeal of pure excitement",
+      "answer": "OMIGOSH",
       "direction": "down",
       "row": 0,
       "col": 6,
@@ -574,8 +574,8 @@
     },
     {
       "number": 7,
-      "clue": "Appear to be",
-      "answer": "SEEM",
+      "clue": "End-of-game shout in chess",
+      "answer": "MATE",
       "direction": "down",
       "row": 0,
       "col": 7,
@@ -584,8 +584,8 @@
     },
     {
       "number": 8,
-      "clue": "It lists the specials",
-      "answer": "MENU",
+      "clue": "Key of Schubert's 'Unfinished' Symphony, briefly",
+      "answer": "BMIN",
       "direction": "down",
       "row": 0,
       "col": 8,
@@ -594,8 +594,8 @@
     },
     {
       "number": 9,
-      "clue": "Wraps things up",
-      "answer": "ENDS",
+      "clue": "___ Maarten (Caribbean island destination)",
+      "answer": "SINT",
       "direction": "down",
       "row": 0,
       "col": 9,
@@ -604,8 +604,8 @@
     },
     {
       "number": 15,
-      "clue": "Snape of Hogwarts",
-      "answer": "SEVERUS",
+      "clue": "Lost one's cool entirely",
+      "answer": "SNAPPED",
       "direction": "down",
       "row": 3,
       "col": 3,
@@ -614,8 +614,8 @@
     },
     {
       "number": 18,
-      "clue": "Opens, as a bottle of soda or a highlighter",
-      "answer": "UNCAPS",
+      "clue": "Intuitive social radar",
+      "answer": "GAYDAR",
       "direction": "down",
       "row": 4,
       "col": 5,
@@ -624,8 +624,8 @@
     },
     {
       "number": 20,
-      "clue": "\"Holy smokes!\"",
-      "answer": "YOWZA",
+      "clue": "Richard who sculpted monumental sheets of steel",
+      "answer": "SERRA",
       "direction": "down",
       "row": 5,
       "col": 7,
@@ -634,8 +634,8 @@
     },
     {
       "number": 21,
-      "clue": "Vocal group often found in a loft",
-      "answer": "CHOIR",
+      "clue": "Scream of frustration from Charlie Brown",
+      "answer": "AAUGH",
       "direction": "down",
       "row": 5,
       "col": 8,
@@ -644,8 +644,8 @@
     },
     {
       "number": 22,
-      "clue": "Alfred A. ___ (major publishing imprint with a borzoi logo)",
-      "answer": "KNOPF",
+      "clue": "Garment that is infinitely better when it has pockets",
+      "answer": "DRESS",
       "direction": "down",
       "row": 5,
       "col": 9,
@@ -654,8 +654,8 @@
     },
     {
       "number": 23,
-      "clue": "Department store section for suits and ties",
-      "answer": "MENS",
+      "clue": "What Ogden Nash's beastly llama has",
+      "answer": "TWOL",
       "direction": "down",
       "row": 6,
       "col": 0,
@@ -664,8 +664,8 @@
     },
     {
       "number": 24,
-      "clue": "Longtime German brand of photographic film",
-      "answer": "AGFA",
+      "clue": "The Czech Republic's second-largest city",
+      "answer": "BRNO",
       "direction": "down",
       "row": 6,
       "col": 1,
@@ -674,8 +674,8 @@
     },
     {
       "number": 25,
-      "clue": "Lean on for support, with \"on\"",
-      "answer": "RELY",
+      "clue": "One-named actor of 1937's \"Elephant Boy\"",
+      "answer": "SABU",
       "direction": "down",
       "row": 6,
       "col": 2,
@@ -684,8 +684,8 @@
     },
     {
       "number": 28,
-      "clue": "Reviewer's shorthand before a personal take",
-      "answer": "IMO",
+      "clue": "Left no crumbs, whether at a buffet or on a stage",
+      "answer": "ATE",
       "direction": "down",
       "row": 7,
       "col": 4,
