@@ -177,9 +177,9 @@ def test_rarity_only_applies_to_dictionary_words():
         frequencies={"XENON": 2.9},
         min_zipf=3.0,
     )
-    assert bank.is_rare("XENON")    # 2.9 < 3.0 floor
+    assert bank.is_rare("XENON")  # 2.9 < 3.0 floor
     assert not bank.is_rare("CUFFEM")  # phrase: exempt from the cutoff
-    assert not bank.is_rare("SMITH")   # name: exempt from the cutoff
+    assert not bank.is_rare("SMITH")  # name: exempt from the cutoff
 
 
 def test_default_bank_marks_real_names_proper():
@@ -222,10 +222,10 @@ def test_default_bank_marks_obscure_fill_rare():
     assert not bank.is_rare("ALBEDOS")
     assert not bank.is_rare("SERIN")
     # phrases and mashed entries are NOT penalized by the rarity cutoff
-    assert not bank.is_rare("AHAIR")   # "a hair"
-    assert not bank.is_rare("IKNEW")   # "I knew"
+    assert not bank.is_rare("AHAIR")  # "a hair"
+    assert not bank.is_rare("IKNEW")  # "I knew"
     assert not bank.is_rare("CUFFEM")  # "cuff 'em"
-    assert not bank.is_rare("OHIOU")   # "Ohio U"
+    assert not bank.is_rare("OHIOU")  # "Ohio U"
     # non-dictionary abbreviations/foreign entries are not rare either
     assert not bank.is_rare("SPAGO")
     assert not bank.is_rare("SOMAD")

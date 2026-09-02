@@ -163,10 +163,7 @@ class WordBank:
         NOT — they stay normal choices rather than being penalized by a
         frequency cutoff. Judged by Zipf frequency; missing words count as 0.
         """
-        return (
-            word.upper() in self._common
-            and self.frequency_of(word) < self._min_zipf
-        )
+        return word.upper() in self._common and self.frequency_of(word) < self._min_zipf
 
     def candidates(self, pattern: str, *, exclude: set[str] | None = None) -> list[str]:
         """Words matching ``pattern`` (``?`` = any), best-scored first.
