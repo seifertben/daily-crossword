@@ -200,7 +200,7 @@ export default function App() {
         onToggleAutocheck={cw.toggleAutocheck}
       />
 
-      <ClueBar word={cw.currentWord} />
+      {!paused && !isMobile && <ClueBar word={cw.currentWord} />}
 
       {isMobile && (
         <nav className="view-tabs" aria-label="Puzzle view">
@@ -240,6 +240,7 @@ export default function App() {
                 <button className="btn big" onClick={resume}>Resume</button>
               </div>
             )}
+            {!paused && isMobile && <ClueBar word={cw.currentWord} />}
             <p className="hint small">
               {isMobile
                 ? "Tap a cell to type · tap again to flip direction"
@@ -248,7 +249,7 @@ export default function App() {
           </div>
         )}
 
-        {(!isMobile || mobileTab === "clues") && (
+        {!paused && (!isMobile || mobileTab === "clues") && (
           <div className="clues">
             {isMobile && (
               <nav className="clue-tabs" aria-label="Clue direction">
