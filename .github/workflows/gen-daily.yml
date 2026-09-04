@@ -28,12 +28,12 @@ jobs:
       - name: Install Python dependencies
         run: uv sync
 
-      # New puzzles are published for the next Eastern Time day. 03:00 UTC is
-      # 11:00 PM EDT / 10:00 PM EST, so tomorrow's puzzle is in place before
-      # ET rolls to a new day.
+      # The puzzle is dated for the current Eastern Time day. Using the real
+      # (not tomorrow's) date keeps the date correct even if the job triggers
+      # late and ET has already rolled to a new day.
       - name: Determine puzzle date
         id: date
-        run: echo "date=$(TZ=America/New_York date -d 'tomorrow' +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+        run: echo "date=$(TZ=America/New_York date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
       - name: Check if puzzle already exists
         id: check

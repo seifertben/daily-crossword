@@ -17,6 +17,7 @@ import random
 import time
 from dataclasses import dataclass
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from generator import gemini
 from generator.filler import realize, solve_fill
@@ -194,7 +195,7 @@ async def generate_puzzle(
     random existing puzzle from another date (restamped to ``date``) so the day
     never ships empty.
     """
-    date = date or dt.datetime.now(dt.UTC).date().strftime("%Y-%m-%d")
+    date = date or dt.datetime.now(ZoneInfo("America/New_York")).date().strftime("%Y-%m-%d")
     seed = seed if seed is not None else _date_seed(date)
     start = time.monotonic()
     name_cap = _default_name_cap() if name_cap is None else name_cap
