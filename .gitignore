@@ -24,6 +24,7 @@ web/public/*
 !web/public/puzzles/
 !web/public/puzzles/*.json
 !web/public/.nojekyll
+!web/public/CNAME
 
 # Secrets
 .env
