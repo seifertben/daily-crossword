@@ -1,0 +1,693 @@
+{
+  "date": "2026-09-06",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "B",
+        "number": 1
+      },
+      {
+        "solution": "A",
+        "number": 2
+      },
+      {
+        "solution": "T",
+        "number": 3
+      },
+      {
+        "solution": "H",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 5
+      },
+      {
+        "solution": "T",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      },
+      {
+        "solution": "L",
+        "number": 8
+      },
+      {
+        "solution": "K",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 10
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 12
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "D",
+        "number": 13
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 14
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E",
+        "number": 15
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 17
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E",
+        "number": 18
+      },
+      {
+        "solution": "B",
+        "number": 19
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "solution": "A",
+        "number": 20
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "R",
+        "number": 21
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 22
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "M",
+        "number": 23
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "I",
+        "number": 24
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "F",
+        "number": 25
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 26
+      },
+      {
+        "solution": "O",
+        "number": 27
+      },
+      {
+        "solution": "P",
+        "number": 28
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 29
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 30
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 33
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Relaxing soak in a tub",
+      "answer": "BATH",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Celery serving",
+      "answer": "STALK",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "\"___ for real?\"",
+      "answer": "ISHE",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Get out of bed",
+      "answer": "ARISE",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Flightless South American bird similar to an ostrich",
+      "answer": "RHEA",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Word before 'longlegs' or 'warbucks'",
+      "answer": "DADDY",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Lowercase letter feature in 'skiing'",
+      "answer": "DOTTEDI",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Upbeat Jamaican genre with walking basslines",
+      "answer": "SKA",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Red-carpet VIP, for short",
+      "answer": "CELEB",
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Kitchen wear that protects your clothes",
+      "answer": "APRON",
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Base liquor in a mojito",
+      "answer": "RUM",
+      "direction": "across",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "\"No worries at all\"",
+      "answer": "ITSFINE",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Flopsy and Cotton-tail's sister",
+      "answer": "MOPSY",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "New Testament book following the Gospels",
+      "answer": "ACTS",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Move slowly and stealthily",
+      "answer": "CREEP",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Crusty bakery desserts",
+      "answer": "PIES",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Logic or sound judgment",
+      "answer": "SENSE",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Apple's voice-activated assistant",
+      "answer": "SIRI",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Hitchcock's feathered fiends, with \"The\"",
+      "answer": "BIRDS",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Ancient Indian emperor who embraced Buddhism",
+      "answer": "ASHOKA",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "On ___ (ready to be poured at a pub)",
+      "answer": "THETAP",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "What you might not be able to stand in the kitchen, proverbially",
+      "answer": "HEAT",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Bums out",
+      "answer": "SADDENS",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Blazed path for hikers",
+      "answer": "TRAIL",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Lend a helping hand",
+      "answer": "AID",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Acid in a drop",
+      "answer": "LSD",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Crucial, as an ingredient",
+      "answer": "KEY",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Subspecies adapted to a specific local habitat",
+      "answer": "ECOTYPE",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "13th-century king of Norway called \"Priest Hater\"",
+      "answer": "ERICII",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Batter laying down a sacrifice, perhaps",
+      "answer": "BUNTER",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "What bread dough does before baking",
+      "answer": "RISES",
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Argentine soccer legend Lionel",
+      "answer": "MESSI",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Pleasures oneself, in crude internet slang",
+      "answer": "FAPS",
+      "direction": "down",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Show hosts holding the mics",
+      "answer": "MCS",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Raw mineral mined from the earth",
+      "answer": "ORE",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Muddy enclosure for pigs",
+      "answer": "PEN",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
