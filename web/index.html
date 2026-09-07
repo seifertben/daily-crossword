@@ -2,6 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <title>Daily Crossword — A New Free Puzzle Every Day</title>
+    <meta
+      name="description"
+      content="A new free crossword puzzle every day at 6 AM Eastern. Play today's grid, revisit the archive, and get instant feedback with hints and autocheck."
+    />
+    <meta name="keywords" content="daily crossword, free crossword, crossword puzzle, daily puzzle, word puzzle" />
+    <link rel="canonical" href="https://playdailycrossword.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Daily Crossword" />
+    <meta property="og:title" content="Daily Crossword — A New Free Puzzle Every Day" />
+    <meta
+      property="og:description"
+      content="A new free crossword puzzle every day at 6 AM Eastern. Play today's grid or dive into the archive."
+    />
+    <meta property="og:url" content="https://playdailycrossword.com/" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Daily Crossword — A New Free Puzzle Every Day" />
+    <meta
+      name="twitter:description"
+      content="A new free crossword puzzle every day at 6 AM Eastern. Play today's grid or dive into the archive."
+    />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Daily Crossword",
+      "url": "https://playdailycrossword.com/",
+      "description": "A new free crossword puzzle every day at 6 AM Eastern with hints, autocheck, and an archive.",
+      "inLanguage": "en",
+      "publisher": { "@type": "Organization", "name": "Daily Crossword" }
+    }
+    </script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1R2C3KEPB"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -9,8 +50,7 @@
       gtag('js', new Date());
       gtag('config', 'G-X1R2C3KEPB');
     </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <title>Daily Crossword</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +59,17 @@
     />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static fallback for no-JS crawlers / search engines that render -->
+      <noscript>
+        <main style="font-family:system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#1a1a1a;">
+          <h1>Daily Crossword</h1>
+          <p>A new free crossword puzzle every day at <strong>6 AM Eastern</strong>. Play today's grid, get hints and
+          autocheck, and explore the complete archive of past puzzles by date.</p>
+          <p>Popular searches: free crossword puzzle, daily crossword, today's crossword, archive of past crosswords.</p>
+        </main>
+      </noscript>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

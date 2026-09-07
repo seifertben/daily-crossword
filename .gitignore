@@ -26,6 +26,9 @@ web/public/*
 !web/public/.nojekyll
 !web/public/CNAME
 !web/public/404.html
+!web/public/robots.txt
+!web/public/llms.txt
+!web/public/sitemap.xml
 
 # Secrets
 .env

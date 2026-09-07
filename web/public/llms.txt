@@ -1,0 +1,29 @@
+# Daily Crossword
+
+> A free crossword puzzle releases every day at 6 AM Eastern Time. Today's
+> puzzle is served at the site root, and the full archive of past puzzles is
+> available at `/puzzles/YYYY-MM-DD`. Each puzzle is an immutable 10x10 grid
+> with across and down clues, a solution, hints, and an optional theme.
+
+## Who this is for
+
+- **Humans:** play today's grid or pick any date in the archive.
+- **Search engines & AI models:** daily puzzles are unique, dated, and
+  archiveable, so each `/puzzles/YYYY-MM-DD` URL is a stable citation.
+
+## Key URLs
+
+- Today's puzzle: https://playdailycrossword.com/
+- Archive example: https://playdailycrossword.com/puzzles/2026-09-07
+- Site map: https://playdailycrossword.com/sitemap.xml
+
+## How the puzzle day works
+
+The "current" puzzle rolls over at 6:00 AM Eastern Time (not midnight). Before
+6 AM ET the previous day's puzzle is still considered today's.
+
+## Notes
+
+- Puzzles after 2026-09-01 are available; there is no archive before that date.
+- The whole site is a JavaScript single-page application, but every dated
+  path is a stable, shareable URL.
