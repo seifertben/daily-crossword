@@ -246,6 +246,41 @@ code { background: #eee; padding: 0.1em 0.35em; border-radius: 3px; }
 .view-tabs { display: none; }
 .clue-tabs { display: none; }
 
+/* desktop: fit the whole app to the screen; only the clue lists scroll */
+@media (min-width: 721px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+    padding-bottom: 0.75rem;
+  }
+
+  .play-area {
+    flex: 1 1 0;
+    min-height: 0;
+    align-items: stretch;
+  }
+
+  /* keep the grid sized to its own content (no stray row stretching) */
+  .grid-wrap { align-content: start; }
+
+  .clues { min-height: 0; }
+
+  .clue-list-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .clue-list {
+    flex: 1 1 0;
+    max-height: none;
+    min-height: 0;
+  }
+}
+
 /* responsive */
 @media (max-width: 720px) {
   .app { padding: 0.5rem 0.75rem calc(2rem + env(safe-area-inset-bottom)); }

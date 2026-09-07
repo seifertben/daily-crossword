@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { memo, useEffect, useRef, useState } from "react";
 import type { CrosswordState } from "../hooks/useCrossword";
 import { wordCells } from "../crossword";
 import { useViewportWidth } from "../hooks/useMedia";
@@ -11,6 +11,9 @@ interface GridProps {
   onCellClick: (p: Pos) => void;
 }
 
+// Vertical room below the grid for the hint line ("Type to fill · ...").
+const HINT_RESERVE = 30;
+
 function buildSelectedSet(currentWord: WordDTO | null): Set<string> {
   if (!currentWord) return new Set();
   return new Set(wordCells(currentWord).map((p) => `${p.row}-${p.col}`));
@@ -19,12 +22,33 @@ function buildSelectedSet(currentWord: WordDTO | null): Set<string> {
 export const Grid = memo(function Grid({ puzzle, state, currentWord, onCellClick }: GridProps) {
   const selected = buildSelectedSet(currentWord);
   const viewport = useViewportWidth();
+  const gridRef = useRef<HTMLDivElement | null>(null);
+  const [wrapHeight, setWrapHeight] = useState(0);
+
+  // The grid's wrapper (.grid-wrap) is stretched to the play area's height on
+  // desktop, so its height is the amount of vertical room the grid may use.
+  useEffect(() => {
+    const wrap = gridRef.current?.parentElement ?? null;
+    if (!wrap) return;
+    const update = () => setWrapHeight(wrap.clientHeight);
+    update();
+    if (typeof ResizeObserver === "undefined") return;
+    const ro = new ResizeObserver(update);
+    ro.observe(wrap);
+    return () => ro.disconnect();
+  }, []);
+
   const available = Math.min(560, viewport - 32);
-  const px = Math.max(18, Math.min(44, Math.floor(available / puzzle.width)));
+  const pxByWidth = Math.max(18, Math.min(44, Math.floor(available / puzzle.width)));
+  const pxByHeight =
+    wrapHeight > 0
+      ? Math.max(18, Math.floor((wrapHeight - HINT_RESERVE) / puzzle.height))
+      : Infinity;
+  const px = Math.min(pxByWidth, pxByHeight);
   const style = { "--cell": `${px}px`, gridTemplateColumns: `repeat(${puzzle.width}, var(--cell))` } as React.CSSProperties;
 
   return (
-    <div className="grid" style={style} role="grid" aria-label="Crossword grid">
+    <div className="grid" ref={gridRef} style={style} role="grid" aria-label="Crossword grid">
       {puzzle.grid.map((row, r) =>
         row.map((info, c) => {
           if (!info) return <div key={`${r}-${c}`} className="cell block" role="presentation" />;
