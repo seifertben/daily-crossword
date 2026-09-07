@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Daily Crossword</title>
+    <script>
+      var segmentCount = window.location.pathname.replace(/^\//, "").split("/").length;
+      var redirect = "/" + new Array(segmentCount).join("../");
+      window.location.replace(redirect);
+    </script>
+  </head>
+  <body></body>
+</html>
