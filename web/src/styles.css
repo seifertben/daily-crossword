@@ -251,7 +251,7 @@ code { background: #eee; padding: 0.1em 0.35em; border-radius: 3px; }
   .app { padding: 0.5rem 0.75rem calc(2rem + env(safe-area-inset-bottom)); }
 
   .masthead { margin-top: 0.25rem; }
-  .masthead h1 { font-size: 1.3rem; }
+  .masthead h1 { font-size: 1.6rem; }
 
   .play-area { grid-template-columns: 1fr; }
   .clues { grid-template-columns: 1fr; }
