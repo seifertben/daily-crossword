@@ -186,9 +186,10 @@ export default function App() {
               type="date"
               min={MIN_DATE}
               max={todayEastern()}
-              value={dateParam ?? ""}
+              value={dateParam ?? todayEastern()}
               onChange={(e) => {
-                if (e.target.value) window.location.href = `/puzzles/${e.target.value}`;
+                if (e.target.value && e.target.value <= todayEastern())
+                  window.location.href = `/puzzles/${e.target.value}`;
               }}
             />
           </label>
