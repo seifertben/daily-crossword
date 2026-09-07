@@ -52,6 +52,10 @@ jobs:
             cd web && VITE_PUZZLE_MODE=static npm run build
           fi
 
+      - name: Generate per-date SEO pages
+        run: |
+          uv run python -m api.static_pages --dist web/dist
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

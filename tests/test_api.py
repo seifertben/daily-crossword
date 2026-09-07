@@ -116,6 +116,90 @@ def test_dev_generate_disabled_in_prod(client, monkeypatch):
     assert r.status_code == 404
 
 
+_FAKE_INDEX = """<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Crossword — A New Free Puzzle Every Day</title>
+    <meta
+      name="description"
+      content="A new free crossword puzzle every day at 6 AM Eastern."
+    />
+    <link rel="canonical" href="https://playdailycrossword.com/" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Daily Crossword" />
+    <meta property="og:title" content="Daily Crossword — A New Free Puzzle Every Day" />
+    <meta property="og:url" content="https://playdailycrossword.com/" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Daily Crossword — A New Free Puzzle Every Day" />
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Daily Crossword",
+      "url": "https://playdailycrossword.com/"
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <noscript><h1>Daily Crossword</h1></noscript>
+    </div>
+  </body>
+</html>
+"""
+
+
+def _write_fake_index(tmp_path):
+    dist = tmp_path / "dist"
+    dist.mkdir(parents=True, exist_ok=True)
+    (dist / "index.html").write_text(_FAKE_INDEX, encoding="utf-8")
+
+
+def test_spa_dated_injects_seo(client, tmp_path, monkeypatch):
+    monkeypatch.setattr(main, "_STATIC_DIR", tmp_path / "dist")
+    _write_fake_index(tmp_path)
+    _write_fixture(tmp_path, "2026-01-01")
+
+    r = client.get("/puzzles/2026-01-01/")
+    assert r.status_code == 200
+    assert r.headers["content-type"] == "text/html; charset=utf-8"
+    body = r.text
+    assert "<title>Daily Crossword — Thursday, January 1, 2026</title>" in body
+    assert 'rel="canonical" href="https://playdailycrossword.com/puzzles/2026-01-01/"' in body
+    assert '"@type": "WebPage"' in body
+    assert '"datePublished": "2026-01-01"' in body
+    assert '"dateModified": "2026-01-01"' in body
+    assert '"url": "https://playdailycrossword.com/"' in body
+    # The static homepage title must be gone (no duplicate/conflicting tags).
+    assert "A New Free Puzzle Every Day" not in body
+    # The static homepage canonical must be gone.
+    assert 'rel="canonical" href="https://playdailycrossword.com/"' not in body
+
+
+def test_spa_dated_missing_puzzle_serves_plain_index(client, tmp_path, monkeypatch):
+    monkeypatch.setattr(main, "_STATIC_DIR", tmp_path / "dist")
+    _write_fake_index(tmp_path)
+    # No fixture written -> puzzle missing.
+
+    r = client.get("/puzzles/2026-01-01")
+    assert r.status_code == 200
+    assert r.text == _FAKE_INDEX
+    assert "A New Free Puzzle Every Day" in r.text
+
+
+def test_spa_no_build_serves_placeholder(client, tmp_path, monkeypatch):
+    monkeypatch.setattr(main, "_STATIC_DIR", tmp_path / "dist")
+    # dist dir exists but has no index.html
+    r = client.get("/some/path")
+    assert r.status_code == 200
+    assert "SPA build has not been produced" in r.text
+
+
 def test_dev_generate_stub(client):
     r = client.post(
         "/api/dev/generate",

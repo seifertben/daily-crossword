@@ -23,6 +23,8 @@ from pydantic import BaseModel, field_validator
 from generator.pipeline import generate_puzzle
 from generator.store import PuzzleStore, get_store
 
+from .seo import _DATE_FMT, render_date_html
+
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 app = FastAPI(title="Daily Crossword")
@@ -30,7 +32,6 @@ app = FastAPI(title="Daily Crossword")
 _STATIC_DIR = Path(__file__).resolve().parents[1] / "web" / "dist"
 _STATIC_DIR.mkdir(parents=True, exist_ok=True)
 
-_DATE_FMT = "%Y-%m-%d"
 _ET = ZoneInfo("America/New_York")
 
 
@@ -140,6 +141,40 @@ async def dev_generate(req: DevGenerateRequest) -> JSONResponse:
     return JSONResponse(content=result.payload, headers={"Cache-Control": "no-cache"})
 
 
+# ISO date as the last non-empty path segment, e.g. /puzzles/2026-09-07.
+def _date_from_path(path: str) -> str | None:
+    parts = [p for p in path.split("/") if p]
+    if not parts:
+        return None
+    last = parts[-1]
+    try:
+        dt.datetime.strptime(last, _DATE_FMT)
+    except ValueError:
+        return None
+    return last
+
+
+# Inject per-puzzle SEO tags into the built SPA shell for dated routes
+# (e.g. /puzzles/2026-09-07) so crawlers get unique titles, canonicals, and
+# structured data. Backward compatible: unknown paths and non-dated routes
+# keep serving the untouched index.html.
+def _serve_date_html(date: str) -> Response | None:
+    if not _store().exists(date):
+        return None
+    index_html = _STATIC_DIR / "index.html"
+    if not index_html.exists():
+        return None
+    shell = index_html.read_text(encoding="utf-8")
+    html = render_date_html(shell, date)
+    if html is None:
+        return None
+    return Response(
+        content=html,
+        media_type="text/html",
+        headers={"Cache-Control": "no-cache"},
+    )
+
+
 @app.get("/")
 async def index() -> Response:
     return _serve_index()
@@ -164,6 +199,11 @@ def _serve_index() -> Response:
 async def spa(path: str) -> Response:
     if path.startswith("api/"):
         raise HTTPException(status_code=404, detail="Not found")
+    date = _date_from_path(path)
+    if date is not None:
+        dated = _serve_date_html(date)
+        if dated is not None:
+            return dated
     return _serve_index()
 
 
