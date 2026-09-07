@@ -8,22 +8,44 @@ import { useCrossword } from "./hooks/useCrossword";
 import { useTimer } from "./hooks/useTimer";
 import { loadProgress, saveProgress } from "./hooks/useProgress";
 import { useCoarsePointer, useIsMobile } from "./hooks/useMedia";
-import { fetchPuzzle, fetchToday } from "./api";
+import { fetchPuzzle, fetchToday, todayEastern } from "./api";
 import type { Direction, Puzzle } from "./types";
 
 // The active puzzle day starts at 6 AM ET (matches api.ts's todayEastern).
-const DAILY_START_HOURS = 6;
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+// Archive begins on 9/1/2026; no puzzles exist before then.
+const MIN_DATE = "2026-09-01";
 
-function todayStr(): string {
-  return new Date(Date.now() - DAILY_START_HOURS * 60 * 60 * 1000).toLocaleDateString(
-    "en-US",
-    {
-      timeZone: "America/New_York",
-      weekday: "long",
-      month: "long",
-      day: "numeric",
-    },
-  );
+// A human-friendly version of a puzzle date like "Sunday, September 7".
+function dateLabel(date: string): string {
+  const d = new Date(`${date}T12:00:00`);
+  return isNaN(d.getTime())
+    ? date
+    : d.toLocaleDateString("en-US", {
+        timeZone: "America/New_York",
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+      });
+}
+
+// Extract a valid YYYY-MM-DD from a path/query string, else undefined.
+function dateFromPath(path: string): string | undefined {
+  const parts = path.split("/").filter(Boolean);
+  const last = parts[parts.length - 1];
+  if (last && DATE_RE.test(last)) return last;
+  return undefined;
+}
+
+// Pull the date from the URL: /puzzles/YYYY-MM-DD, else ?date=YYYY-MM-DD,
+// else the preserved path from ?p= (set by 404.html on GitHub Pages), else today.
+function dateFromUrl(): string | undefined {
+  const q = new URLSearchParams(window.location.search);
+  const preserved = q.get("p");
+  if (preserved && dateFromPath(preserved)) return dateFromPath(preserved)!;
+  if (dateFromPath(window.location.pathname)) return dateFromPath(window.location.pathname)!;
+  const d = q.get("date");
+  return d && DATE_RE.test(d) ? d : undefined;
 }
 
 export default function App() {
@@ -42,10 +64,7 @@ export default function App() {
   const [mobileTab, setMobileTab] = useState<"grid" | "clues">("grid");
   const [clueDir, setClueDir] = useState<Direction>("across");
 
-  const dateParam = useMemo(
-    () => new URLSearchParams(window.location.search).get("date"),
-    [],
-  );
+  const dateParam = useMemo(dateFromUrl, []);
 
   useEffect(() => {
     let alive = true;
@@ -152,8 +171,28 @@ export default function App() {
     <div className="app">
       <header className="masthead">
         <h1>Daily Crossword</h1>
-        <p className="date">{todayStr()}</p>
+        <p className="date">{dateLabel(puzzle.date)}</p>
         {puzzle.theme && <p className="theme">{puzzle.theme.title}</p>}
+        <nav className="date-nav" aria-label="Puzzle date">
+          <label className="date-picker">
+            {dateParam ? (
+              <>
+                <a className="date-link" href="/">← Today</a>
+                <span aria-hidden="true"> · </span>
+              </>
+            ) : null}
+            <span className="sr-only">Choose a puzzle date</span>
+            <input
+              type="date"
+              min={MIN_DATE}
+              max={todayEastern()}
+              value={dateParam ?? ""}
+              onChange={(e) => {
+                if (e.target.value) window.location.href = `/puzzles/${e.target.value}`;
+              }}
+            />
+          </label>
+        </nav>
       </header>
 
       <input

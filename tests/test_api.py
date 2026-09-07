@@ -13,7 +13,10 @@ import api.main as main
 
 
 def _et_today() -> str:
-    return dt.datetime.now(ZoneInfo("America/New_York")).date().strftime("%Y-%m-%d")
+    # Mirrors api.main._today(): the puzzle day starts at 6 AM Eastern, so
+    # "today" is the ET date six hours ago.
+    now = dt.datetime.now(ZoneInfo("America/New_York")) - dt.timedelta(hours=6)
+    return now.date().strftime("%Y-%m-%d")
 
 
 @pytest.fixture()

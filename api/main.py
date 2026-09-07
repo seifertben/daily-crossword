@@ -35,7 +35,11 @@ _ET = ZoneInfo("America/New_York")
 
 
 def _today() -> str:
-    return dt.datetime.now(_ET).date().strftime(_DATE_FMT)
+    # The puzzle day starts at 6 AM Eastern, so "today" is the ET date six
+    # hours ago: before 6 AM we still show the previous day's puzzle. This
+    # matches the client's todayEastern() in web/src/api.ts.
+    now = dt.datetime.now(_ET) - dt.timedelta(hours=6)
+    return now.date().strftime(_DATE_FMT)
 
 
 def _valid_date(s: str) -> str:
@@ -138,6 +142,10 @@ async def dev_generate(req: DevGenerateRequest) -> JSONResponse:
 
 @app.get("/")
 async def index() -> Response:
+    return _serve_index()
+
+
+def _serve_index() -> Response:
     index_html = _STATIC_DIR / "index.html"
     if index_html.exists():
         return FileResponse(index_html, headers={"Cache-Control": "no-cache"})
@@ -147,6 +155,16 @@ async def index() -> Response:
         media_type="text/html",
         headers={"Cache-Control": "no-cache"},
     )
+
+
+# Serve the SPA for client-side routes (e.g. /puzzles/2026-09-07) and any
+# non-API path. The React app resolves the date from the URL and falls back
+# to today's puzzle for unknown paths.
+@app.get("/{path:path}")
+async def spa(path: str) -> Response:
+    if path.startswith("api/"):
+        raise HTTPException(status_code=404, detail="Not found")
+    return _serve_index()
 
 
 if _STATIC_DIR.exists():
