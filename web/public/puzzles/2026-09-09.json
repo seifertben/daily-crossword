@@ -5,139 +5,186 @@
   "grid": [
     [
       {
-        "solution": "A",
+        "solution": "S",
         "number": 1
       },
       {
-        "solution": "P",
+        "solution": "M",
         "number": 2
       },
       {
-        "solution": "P",
+        "solution": "A",
         "number": 3
       },
-      null,
       {
-        "solution": "B",
+        "solution": "S",
         "number": 4
       },
       {
-        "solution": "L",
+        "solution": "H",
         "number": 5
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 6
+      },
+      {
+        "solution": "I",
+        "number": 7
       },
       {
         "solution": "M",
-        "number": 6
+        "number": 8
       },
-      null,
-      null,
-      null
+      {
+        "solution": "P",
+        "number": 9
+      }
     ],
     [
       {
         "solution": "T",
-        "number": 7
-      },
-      {
-        "solution": "O"
-      },
-      {
-        "solution": "L"
-      },
-      {
-        "solution": "L",
-        "number": 8
-      },
-      {
-        "solution": "R"
-      },
-      {
-        "solution": "O"
+        "number": 10
       },
       {
         "solution": "A"
       },
       {
-        "solution": "D",
-        "number": 9
-      },
-      {
-        "solution": "S",
-        "number": 10
-      },
-      null
-    ],
-    [
-      {
-        "solution": "E",
-        "number": 11
-      },
-      {
-        "solution": "X"
-      },
-      {
-        "solution": "O"
-      },
-      {
-        "solution": "T"
-      },
-      {
         "solution": "I"
-      },
-      {
-        "solution": "C"
-      },
-      {
-        "solution": "P"
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "T"
-      },
-      null
-    ],
-    [
-      null,
-      null,
-      {
-        "solution": "T",
-        "number": 12
-      },
-      {
-        "solution": "I"
-      },
-      {
-        "solution": "C"
       },
       {
         "solution": "K"
       },
+      {
+        "solution": "O"
+      },
       null,
       {
-        "solution": "L",
-        "number": 13
+        "solution": "O",
+        "number": 11
       },
       {
-        "solution": "A"
+        "solution": "K"
       },
       {
-        "solution": "P",
-        "number": 14
+        "solution": "I"
+      },
+      {
+        "solution": "E"
       }
     ],
     [
       {
-        "solution": "O",
+        "solution": "Y",
+        "number": 12
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 13
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "G",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T",
         "number": 15
       },
       {
-        "solution": "R",
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "B",
         "number": 16
       },
       {
+        "solution": "I",
+        "number": 17
+      },
+      {
+        "solution": "D",
+        "number": 18
+      },
+      null,
+      {
+        "solution": "D",
+        "number": 19
+      },
+      {
         "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 20
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "F",
+        "number": 21
+      },
+      {
+        "solution": "U"
       },
       {
         "solution": "L"
@@ -145,59 +192,19 @@
       null,
       {
         "solution": "S",
-        "number": 17
-      },
-      {
-        "solution": "L",
-        "number": 18
-      },
-      {
-        "solution": "A"
-      },
-      {
-        "solution": "V"
-      },
-      {
-        "solution": "E"
-      }
-    ],
-    [
-      {
-        "solution": "C",
-        "number": 19
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "R"
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "S",
-        "number": 20
-      },
-      null,
-      {
-        "solution": "A",
-        "number": 21
-      },
-      {
-        "solution": "R"
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "A"
-      }
-    ],
-    [
-      {
-        "solution": "D",
         "number": 22
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 23
       },
       {
         "solution": "A"
@@ -205,48 +212,44 @@
       {
         "solution": "M"
       },
-      null,
-      {
-        "solution": "H",
-        "number": 23
-      },
-      {
-        "solution": "A",
-        "number": 24
-      },
-      {
-        "solution": "V"
-      },
       {
         "solution": "E"
       },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "D",
+        "number": 24
+      },
+      null,
       null,
       null
     ],
     [
-      null,
       {
-        "solution": "C",
+        "solution": "R",
         "number": 25
       },
       {
-        "solution": "O"
+        "solution": "I"
       },
       {
-        "solution": "P",
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "R",
         "number": 26
       },
       {
-        "solution": "A"
-      },
-      {
-        "solution": "G"
-      },
-      {
-        "solution": "A"
-      },
-      {
-        "solution": "N"
+        "solution": "O"
       },
       {
         "solution": "D",
@@ -255,233 +258,264 @@
       {
         "solution": "A",
         "number": 28
-      }
-    ],
-    [
-      null,
+      },
       {
-        "solution": "T",
+        "solution": "Y",
         "number": 29
-      },
-      {
-        "solution": "R"
-      },
-      {
-        "solution": "I"
-      },
-      {
-        "solution": "M"
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "S"
-      },
-      {
-        "solution": "T"
-      },
-      {
-        "solution": "E"
-      },
-      {
-        "solution": "R"
       }
     ],
     [
-      null,
-      null,
-      null,
       {
-        "solution": "N",
+        "solution": "I",
         "number": 30
       },
       {
-        "solution": "E"
-      },
-      {
-        "solution": "D"
-      },
-      null,
-      {
-        "solution": "A",
-        "number": 31
+        "solution": "S"
       },
       {
         "solution": "N"
       },
       {
         "solution": "T"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 31
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 32
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 33
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "S"
       }
     ]
   ],
   "across": [
     {
       "number": 1,
-      "clue": "Icon tapped on a smartphone",
-      "answer": "APP",
+      "clue": "A massive hit at the box office",
+      "answer": "SMASH",
       "direction": "across",
       "row": 0,
-      "col": 0,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 4,
-      "clue": "Agency managing public lands, for short",
-      "answer": "BLM",
-      "direction": "across",
-      "row": 0,
-      "col": 4,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 7,
-      "clue": "Highways with fee booths",
-      "answer": "TOLLROADS",
-      "direction": "across",
-      "row": 1,
-      "col": 0,
-      "length": 9,
-      "themed": false
-    },
-    {
-      "number": 11,
-      "clue": "Unusual home companion, like a hedgehog or python",
-      "answer": "EXOTICPET",
-      "direction": "across",
-      "row": 2,
-      "col": 0,
-      "length": 9,
-      "themed": false
-    },
-    {
-      "number": 12,
-      "clue": "Sound from an analog wall clock",
-      "answer": "TICK",
-      "direction": "across",
-      "row": 3,
-      "col": 2,
-      "length": 4,
-      "themed": false
-    },
-    {
-      "number": 13,
-      "clue": "Complete circuit around a swimming pool",
-      "answer": "LAP",
-      "direction": "across",
-      "row": 3,
-      "col": 7,
-      "length": 3,
-      "themed": false
-    },
-    {
-      "number": 15,
-      "clue": "Spoken, as opposed to written",
-      "answer": "ORAL",
-      "direction": "across",
-      "row": 4,
-      "col": 0,
-      "length": 4,
-      "themed": false
-    },
-    {
-      "number": 17,
-      "clue": "___ away (work tirelessly and thanklessly)",
-      "answer": "SLAVE",
-      "direction": "across",
-      "row": 4,
-      "col": 5,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 19,
-      "clue": "Dwarf planet located in the asteroid belt",
-      "answer": "CERES",
-      "direction": "across",
-      "row": 5,
       "col": 0,
       "length": 5,
       "themed": false
     },
     {
-      "number": 21,
-      "clue": "Length multiplied by width",
-      "answer": "AREA",
+      "number": 6,
+      "clue": "Lacking structure, like soggy celery",
+      "answer": "LIMP",
       "direction": "across",
-      "row": 5,
+      "row": 0,
       "col": 6,
       "length": 4,
       "themed": false
     },
     {
-      "number": 22,
-      "clue": "Beaver's ambitious civil engineering project",
-      "answer": "DAM",
+      "number": 10,
+      "clue": "Powerful Japanese drumming style",
+      "answer": "TAIKO",
       "direction": "across",
-      "row": 6,
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Dust Bowl migrant of the 1930s",
+      "answer": "OKIE",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Sing like an alpine herder",
+      "answer": "YODEL",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Document that might begin 'I leave...'",
+      "answer": "WILL",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Board, as a city bus",
+      "answer": "GETONTO",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "What you place at a silent auction",
+      "answer": "BID",
+      "direction": "across",
+      "row": 4,
       "col": 0,
       "length": 3,
       "themed": false
     },
     {
+      "number": 19,
+      "clue": "G-rated cry of frustration",
+      "answer": "DANGIT",
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Full of wrath, in poetry",
+      "answer": "IREFUL",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Body of water that can be 'Red' or 'Dead'",
+      "answer": "SEA",
+      "direction": "across",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
       "number": 23,
-      "clue": "\"To ___ and to hold...\"",
-      "answer": "HAVE",
+      "clue": "Handheld controller for a console",
+      "answer": "GAMEPAD",
       "direction": "across",
       "row": 6,
-      "col": 4,
-      "length": 4,
+      "col": 0,
+      "length": 7,
       "themed": false
     },
     {
       "number": 25,
-      "clue": "Media depicting law enforcement in an idealized light, in modern slang",
-      "answer": "COPAGANDA",
+      "clue": "Phnom Penh currency",
+      "answer": "RIEL",
       "direction": "across",
       "row": 7,
-      "col": 1,
-      "length": 9,
+      "col": 0,
+      "length": 4,
       "themed": false
     },
     {
-      "number": 29,
-      "clue": "Three-month pregnancy stage",
-      "answer": "TRIMESTER",
+      "number": 26,
+      "clue": "James who played Shawn Spencer on \"Psych\"",
+      "answer": "RODAY",
       "direction": "across",
-      "row": 8,
-      "col": 1,
-      "length": 9,
+      "row": 7,
+      "col": 5,
+      "length": 5,
       "themed": false
     },
     {
       "number": 30,
-      "clue": "Flanders who lives next door to Homer Simpson",
-      "answer": "NED",
+      "clue": "\"This ___ a drill!\"",
+      "answer": "ISNT",
       "direction": "across",
-      "row": 9,
-      "col": 3,
-      "length": 3,
+      "row": 8,
+      "col": 0,
+      "length": 4,
       "themed": false
     },
     {
       "number": 31,
-      "clue": "Picnic-crashing insect with incredible lifting strength",
-      "answer": "ANT",
+      "clue": "Habituate to something unpleasant",
+      "answer": "INURE",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Catches the drift of, as a joke",
+      "answer": "GETS",
       "direction": "across",
       "row": 9,
-      "col": 7,
-      "length": 3,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "They make up everything, literally",
+      "answer": "ATOMS",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
       "themed": false
     }
   ],
   "down": [
     {
       "number": 1,
-      "clue": "Polished off a plate",
-      "answer": "ATE",
+      "clue": "Room that desperately needs a cleaning, metaphorically",
+      "answer": "STY",
       "direction": "down",
       "row": 0,
       "col": 0,
@@ -490,8 +524,8 @@
     },
     {
       "number": 2,
-      "clue": "\"A ___ on both your houses!\"",
-      "answer": "POX",
+      "clue": "Chairman with a Little Red Book",
+      "answer": "MAO",
       "direction": "down",
       "row": 0,
       "col": 1,
@@ -500,148 +534,148 @@
     },
     {
       "number": 3,
-      "clue": "Fictional trope where the main character impossibly avoids death",
-      "answer": "PLOTARMOR",
+      "clue": "___ and abet",
+      "answer": "AID",
       "direction": "down",
       "row": 0,
       "col": 2,
-      "length": 9,
+      "length": 3,
       "themed": false
     },
     {
       "number": 4,
-      "clue": "___-a-brac (decorative knickknacks)",
-      "answer": "BRIC",
+      "clue": "Fin on the underside of a surfboard",
+      "answer": "SKEG",
       "direction": "down",
       "row": 0,
-      "col": 4,
+      "col": 3,
       "length": 4,
       "themed": false
     },
     {
       "number": 5,
-      "clue": "Features of the Panama Canal and front doors",
-      "answer": "LOCKS",
+      "clue": "Staying out of sight in a hideout",
+      "answer": "HOLEDUP",
       "direction": "down",
       "row": 0,
-      "col": 5,
-      "length": 5,
+      "col": 4,
+      "length": 7,
       "themed": false
     },
     {
       "number": 6,
-      "clue": "Paper unfolded on a classic road trip",
-      "answer": "MAP",
+      "clue": "Running short of, as gas",
+      "answer": "LOWON",
       "direction": "down",
       "row": 0,
       "col": 6,
-      "length": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Old Testament book before II Kings",
+      "answer": "IKINGS",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
       "themed": false
     },
     {
       "number": 8,
-      "clue": "One-point piece in a Scrabble bag",
-      "answer": "LTILE",
+      "clue": "Uncle ___ (Milton Berle's classic TV moniker)",
+      "answer": "MILTIE",
       "direction": "down",
-      "row": 1,
-      "col": 3,
-      "length": 5,
+      "row": 0,
+      "col": 8,
+      "length": 6,
       "themed": false
     },
     {
       "number": 9,
-      "clue": "Oscar ___ (high-fashion designer)",
-      "answer": "DELARENTA",
+      "clue": "Basque ball game that evolved into jai alai",
+      "answer": "PELOTA",
       "direction": "down",
-      "row": 1,
-      "col": 7,
-      "length": 9,
-      "themed": false
-    },
-    {
-      "number": 10,
-      "clue": "Fend (off), as disaster",
-      "answer": "STAVE",
-      "direction": "down",
-      "row": 1,
-      "col": 8,
-      "length": 5,
-      "themed": false
-    },
-    {
-      "number": 14,
-      "clue": "Tiny green sleeper disturber in a fairy tale",
-      "answer": "PEA",
-      "direction": "down",
-      "row": 3,
+      "row": 0,
       "col": 9,
-      "length": 3,
+      "length": 6,
       "themed": false
     },
     {
       "number": 15,
-      "clue": "Condition marked by compulsive routines, for short",
-      "answer": "OCD",
+      "clue": "Hermes's legendary winged footwear",
+      "answer": "TALARIA",
       "direction": "down",
-      "row": 4,
-      "col": 0,
-      "length": 3,
+      "row": 3,
+      "col": 5,
+      "length": 7,
       "themed": false
     },
     {
       "number": 16,
-      "clue": "Respond to a stimulus",
-      "answer": "REACT",
+      "clue": "Highway hauler with eighteen wheels",
+      "answer": "BIGRIG",
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Chips-adding declaration in Texas Hold 'em",
+      "answer": "IRAISE",
       "direction": "down",
       "row": 4,
       "col": 1,
-      "length": 5,
+      "length": 6,
       "themed": false
     },
     {
       "number": 18,
-      "clue": "Molten volcanic rock types",
-      "answer": "LAVAS",
+      "clue": "Drive completely mad",
+      "answer": "DEMENT",
       "direction": "down",
       "row": 4,
-      "col": 6,
-      "length": 5,
+      "col": 2,
+      "length": 6,
       "themed": false
     },
     {
-      "number": 20,
-      "clue": "\"What a pity!\"",
-      "answer": "SHAME",
+      "number": 21,
+      "clue": "Green fabrics found in billiards halls",
+      "answer": "FELTS",
       "direction": "down",
       "row": 5,
-      "col": 4,
+      "col": 3,
       "length": 5,
       "themed": false
     },
     {
       "number": 24,
-      "clue": "Mellowed like fine cheddar or wine",
-      "answer": "AGED",
+      "clue": "\"___ tread on me\"",
+      "answer": "DONT",
       "direction": "down",
       "row": 6,
-      "col": 5,
+      "col": 6,
       "length": 4,
       "themed": false
     },
     {
-      "number": 26,
-      "clue": "Bowling target that's easily toppled",
-      "answer": "PIN",
+      "number": 27,
+      "clue": "Batman and Robin, for one",
+      "answer": "DUO",
       "direction": "down",
       "row": 7,
-      "col": 3,
+      "col": 7,
       "length": 3,
       "themed": false
     },
     {
-      "number": 27,
-      "clue": "Cozy room for relaxing with a book or TV",
-      "answer": "DEN",
+      "number": 28,
+      "clue": "Part of a jacket, a clock, or a chair",
+      "answer": "ARM",
       "direction": "down",
       "row": 7,
       "col": 8,
@@ -649,9 +683,9 @@
       "themed": false
     },
     {
-      "number": 28,
-      "clue": "Gallery display items",
-      "answer": "ART",
+      "number": 29,
+      "clue": "Enthusiastic green light",
+      "answer": "YES",
       "direction": "down",
       "row": 7,
       "col": 9,
@@ -659,5 +693,5 @@
       "themed": false
     }
   ],
-  "wordCount": 34
+  "wordCount": 36
 }

@@ -322,21 +322,17 @@ def main() -> None:
     parser.add_argument(
         "--max-retries",
         type=int,
-        default=3,
-        help="retry up to this many times with randomized seeds on failure (default: 3)",
+        default=5,
+        help="number of generation attempts; the first uses the date seed, subsequent retries use random seeds (default: 5)",
     )
     args = parser.parse_args()
 
     max_retries = args.max_retries
     last_error: Exception | None = None
-    for attempt in range(max_retries):
-        if args.seed is not None:
-            attempt_seed: int | None = args.seed + attempt
-        elif attempt == 0:
-            attempt_seed = None  # first try: use deterministic date seed
-        else:
-            attempt_seed = random.randint(0, 2**31 - 1)
-            print(f"Retry {attempt + 1}/{max_retries} with random seed {attempt_seed} ...")
+
+    def _run(attempt_seed: int | None, label: str) -> bool:
+        """Run one generation; returns True on success, False on failure."""
+        nonlocal last_error
         try:
             result = asyncio.run(
                 generate_puzzle(
@@ -345,24 +341,43 @@ def main() -> None:
                     seed=attempt_seed,
                 )
             )
-            p = result.puzzle
-            if result.fallback:
-                print(
-                    f"Could not generate a new puzzle for {p.date}; recycled an existing "
-                    f"one instead: {p.word_count} words on a {p.width}x{p.height} grid "
-                    f"(difficulty {args.difficulty})"
-                )
-                return
+        except RuntimeError as exc:
+            last_error = exc
+            print(f"{label} failed: {exc}")
+            return False
+        p = result.puzzle
+        if result.fallback:
+            print(
+                f"Could not generate a new puzzle for {p.date}; recycled an existing "
+                f"one instead: {p.word_count} words on a {p.width}x{p.height} grid "
+                f"(difficulty {args.difficulty})"
+            )
+        else:
             print(
                 f"Generated {p.date}: {p.word_count} words "
                 f"on a {p.width}x{p.height} grid "
                 f"(difficulty {args.difficulty})"
             )
-            return
-        except RuntimeError as exc:
-            last_error = exc
-            print(f"Attempt {attempt + 1}/{max_retries} failed: {exc}")
-    raise RuntimeError(f"all {max_retries} attempts failed for {args.date}") from last_error
+        return True
+
+    if args.seed is None:
+        for attempt in range(max_retries):
+            if attempt == 0:
+                seed_val = None
+                label = f"Attempt {attempt + 1}/{max_retries} (date seed)"
+            else:
+                seed_val = random.randint(0, 2**31 - 1)
+                label = f"Attempt {attempt + 1}/{max_retries} (random seed {seed_val})"
+            if _run(seed_val, label):
+                return
+    else:
+        for attempt in range(max_retries):
+            if _run(
+                args.seed + attempt,
+                f"Attempt {attempt + 1}/{max_retries} (seed {args.seed + attempt})",
+            ):
+                return
+    raise RuntimeError(f"all attempts failed for {args.date}") from last_error
 
 
 if __name__ == "__main__":
