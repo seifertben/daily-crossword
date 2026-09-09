@@ -339,6 +339,7 @@ def main() -> None:
                     args.date,
                     difficulty=args.difficulty,
                     seed=attempt_seed,
+                    fallback=False,
                 )
             )
         except RuntimeError as exc:
