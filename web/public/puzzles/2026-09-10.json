@@ -1,0 +1,697 @@
+{
+  "date": "2026-09-10",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "E",
+        "number": 2
+      },
+      {
+        "solution": "E",
+        "number": 3
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 4
+      },
+      {
+        "solution": "A",
+        "number": 5
+      },
+      {
+        "solution": "O",
+        "number": 6
+      },
+      {
+        "solution": "B",
+        "number": 7
+      },
+      {
+        "solution": "A",
+        "number": 8
+      },
+      {
+        "solution": "B",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "H",
+        "number": 10
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 12
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 13
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "G"
+      }
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 14
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T",
+        "number": 15
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 16
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 17
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S",
+        "number": 18
+      },
+      {
+        "solution": "I",
+        "number": 19
+      },
+      {
+        "solution": "S",
+        "number": 20
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 21
+      },
+      {
+        "solution": "F"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T",
+        "number": 22
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 23
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "M",
+        "number": 24
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T",
+        "number": 25
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "J",
+        "number": 26
+      },
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "R",
+        "number": 28
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 29
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 30
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "U",
+        "number": 31
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 32
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 33
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Lay eyes on",
+      "answer": "SEE",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "African 'upside-down tree' with a massive trunk",
+      "answer": "BAOBAB",
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Solo in a spaceship",
+      "answer": "HAN",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Sörenstam who dominated the LPGA Tour",
+      "answer": "ANNIKA",
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Condition characterized by compulsive routines, for short",
+      "answer": "OCD",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Swell treatment from the freezer",
+      "answer": "ICEBAG",
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "___ heck! (polite exclamation of shock)",
+      "answer": "WHATTHE",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Double agent, backyard burrower, or chocolatey Mexican sauce",
+      "answer": "MOLE",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Desert haven, or the band behind 'Wonderwall'",
+      "answer": "OASIS",
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Key of Beethoven's 'Eroica' Symphony",
+      "answer": "EFLAT",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "What a doctor and a meat-smoker both try to do",
+      "answer": "CURE",
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Bob ___, two-time Olympic decathlon champion",
+      "answer": "MATHIAS",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Rapper who was infamously involved with the Fyre Festival",
+      "answer": "JARULE",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Chickadee relative",
+      "answer": "TIT",
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "U.S. state with the most coastline",
+      "answer": "ALASKA",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Put to work, as a tool",
+      "answer": "USE",
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Humongous, in colorful slang",
+      "answer": "BIGASS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Pamper, as a puppy",
+      "answer": "PET",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "___ State (Missouri's nickname)",
+      "answer": "SHOWME",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "___ us (every single one of us)",
+      "answer": "EACHOF",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Ultimate solution, when paired with 'be-all'",
+      "answer": "ENDALL",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Worm on a hook, or a link you shouldn't click",
+      "answer": "BAIT",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Dried version of a poblano pepper",
+      "answer": "ANCHO",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Fair distribution phrase for two cookies",
+      "answer": "ONEEACH",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Chest protector at a lobster boil",
+      "answer": "BIB",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Letters before an alias",
+      "answer": "AKA",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Luggage unit that airlines love to charge extra for",
+      "answer": "BAG",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Squad wearing red, white, and blue at the Olympics",
+      "answer": "TEAMUSA",
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Get dressed for the game, as an athlete",
+      "answer": "SUITUP",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Poker player's aggressive declaration",
+      "answer": "IRAISE",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "The final six lines of a sonnet",
+      "answer": "SESTET",
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Formal diplomatic negotiations",
+      "answer": "TALKS",
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Drinks that are often bagged",
+      "answer": "TEAS",
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Quick lead punch in the boxing ring",
+      "answer": "JAB",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "\"Baby Cobra\" comedian Wong",
+      "answer": "ALI",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Dusting cloth, or a trashy tabloid",
+      "answer": "RAG",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
