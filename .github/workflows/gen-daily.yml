@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
+    inputs:
+      date:
+        description: "Puzzle date (YYYY-MM-DD); defaults to today's date in Eastern Time"
+        type: string
+        required: false
+      seed:
+        description: "Override the date-derived seed. Regenerates even if a puzzle already exists for the date."
+        type: string
+        required: false
 
 permissions:
   contents: write
@@ -28,22 +37,33 @@ jobs:
       - name: Install Python dependencies
         run: uv sync
 
-      # The puzzle is dated for the current Eastern Time day. Using the real
-      # (not tomorrow's) date keeps the date correct even if the job triggers
-      # late and ET has already rolled to a new day.
+      # Use the manually entered date when provided; otherwise the current
+      # Eastern Time day. Using the real (not tomorrow's) date keeps the date
+      # correct even if the job triggers late and ET has already rolled to a
+      # new day.
       - name: Determine puzzle date
         id: date
-        run: echo "date=$(TZ=America/New_York date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+        run: echo "date=${PUZZLE_DATE:-$(TZ=America/New_York date +%Y-%m-%d)}" >> "$GITHUB_OUTPUT"
+        env:
+          PUZZLE_DATE: ${{ inputs.date }}
 
+      # A manual run (with a date and/or custom seed) always (re)generates, so
+      # skip the existence check. Scheduled runs are no-ops if the puzzle for
+      # the day already exists.
       - name: Check if puzzle already exists
         id: check
         run: |
-          if [ -f "web/public/puzzles/${{ steps.date.outputs.date }}.json" ]; then
+          if [ "${MANUAL}" = "true" ]; then
+            echo "Manual run — regenerating regardless of existing puzzle"
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          elif [ -f "web/public/puzzles/${{ steps.date.outputs.date }}.json" ]; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
             echo "Puzzle for ${{ steps.date.outputs.date }} already exists — no-op"
           else
             echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
+        env:
+          MANUAL: ${{ github.event_name == 'workflow_dispatch' }}
 
       - name: Generate puzzle
         if: steps.check.outputs.exists != 'true'
@@ -51,12 +71,18 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          SEED: ${{ inputs.seed }}
         run: |
+          SEED_ARG=""
+          if [ -n "${SEED}" ]; then
+            SEED_ARG="--seed ${SEED}"
+            echo "Using custom seed ${SEED}"
+          fi
           if [ -n "$GEMINI_API_KEY" ]; then
-            GEMINI_MODE=live PUZZLE_STORE=static uv run python -m generator "${{ steps.date.outputs.date }}"
+            GEMINI_MODE=live PUZZLE_STORE=static uv run python -m generator "${{ steps.date.outputs.date }}" $SEED_ARG
           else
             echo "GEMINI_API_KEY not set — generating stub puzzle"
-            GEMINI_MODE=stub PUZZLE_STORE=static uv run python -m generator "${{ steps.date.outputs.date }}"
+            GEMINI_MODE=stub PUZZLE_STORE=static uv run python -m generator "${{ steps.date.outputs.date }}" $SEED_ARG
           fi
 
       - name: Commit and push
