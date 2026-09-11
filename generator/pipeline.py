@@ -28,6 +28,7 @@ from generator.skeleton import extract_slots, generate_skeleton
 from generator.store import PuzzleStore, get_store
 from generator.wordbank import WordBank, get_bank
 
+_ATTEMPT_SECONDS = 180.0  # per-seed time budget before trying the next seed
 _SIZE = 10  # a 10x10 solves comfortably in well under 10 minutes
 _MAX_RUN = 9  # every entry is at most 9 letters, keeping fills short and easy
 _DIFFICULTY = 3  # Standard: balanced, fair clues calibrated for a ~10-minute solve
@@ -325,6 +326,12 @@ def main() -> None:
         default=5,
         help="number of generation attempts; the first uses the date seed, subsequent retries use random seeds (default: 5)",
     )
+    parser.add_argument(
+        "--seconds-per-attempt",
+        type=float,
+        default=_ATTEMPT_SECONDS,
+        help=f"how long a single seed attempt may run before the next seed is tried (default: {_ATTEMPT_SECONDS:g}s)",
+    )
     args = parser.parse_args()
 
     max_retries = args.max_retries
@@ -339,6 +346,7 @@ def main() -> None:
                     args.date,
                     difficulty=args.difficulty,
                     seed=attempt_seed,
+                    total_seconds=args.seconds_per_attempt,
                     fallback=False,
                 )
             )
