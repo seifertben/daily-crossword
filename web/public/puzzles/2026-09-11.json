@@ -1,0 +1,684 @@
+{
+  "date": "2026-09-11",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      null,
+      {
+        "solution": "T",
+        "number": 1
+      },
+      {
+        "solution": "P",
+        "number": 2
+      },
+      {
+        "solution": "S",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "solution": "D",
+        "number": 4
+      },
+      {
+        "solution": "R",
+        "number": 5
+      },
+      {
+        "solution": "O",
+        "number": 6
+      },
+      {
+        "solution": "P",
+        "number": 7
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 8
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "H",
+        "number": 9
+      },
+      null,
+      {
+        "solution": "H",
+        "number": 10
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 11
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 12
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      null,
+      {
+        "solution": "T",
+        "number": 14
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "O",
+        "number": 15
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "D",
+        "number": 16
+      },
+      {
+        "solution": "S",
+        "number": 17
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "F",
+        "number": 18
+      },
+      {
+        "solution": "U",
+        "number": 19
+      },
+      {
+        "solution": "N",
+        "number": 20
+      },
+      {
+        "solution": "F"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 21
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      null,
+      {
+        "solution": "C",
+        "number": 22
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "C",
+        "number": 23
+      },
+      {
+        "solution": "O",
+        "number": 24
+      },
+      {
+        "solution": "A",
+        "number": 25
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 26
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "R",
+        "number": 27
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 29
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 30
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      {
+        "solution": "F",
+        "number": 32
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      null
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Pranks with toilet paper, for short",
+      "answer": "TPS",
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Release, as a highly anticipated album",
+      "answer": "DROP",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Hebrew term for the Holocaust",
+      "answer": "SHOAH",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Texted laugh",
+      "answer": "HAHA",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Commie sympathizer, in Cold War slang",
+      "answer": "PINKO",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Put a favorable slant on a story",
+      "answer": "SPIN",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Heavenly backer of a Broadway play",
+      "answer": "ANGEL",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "The one that 'went to market'",
+      "answer": "TOE",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Young person with vintage tastes and wise ways",
+      "answer": "OLDSOUL",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "'Wombat poop is cube-shaped,' for one",
+      "answer": "FUNFACT",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Texter's 'If you ask me...'",
+      "answer": "IMO",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Winter mugful often topped with mini marshmallows",
+      "answer": "COCOA",
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Playful dinosaur growl in text messages",
+      "answer": "RAWR",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Tagging ___ (accompanying)",
+      "answer": "ALONG",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Austen novel featuring a well-meaning matchmaker",
+      "answer": "EMMA",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Bank, in Barcelona",
+      "answer": "BANCO",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Regimen that might involve counting calories",
+      "answer": "DIET",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Surcharge from an ATM",
+      "answer": "FEE",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Like the crust of a traditional Neapolitan pizza",
+      "answer": "THIN",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Atari classic with two virtual paddles",
+      "answer": "PONG",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "For the ___ argument...",
+      "answer": "SAKEOF",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Designated hitters, for short",
+      "answer": "DHS",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Chat with, in 1970s slang",
+      "answer": "RAPTO",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "School in Athens, for short",
+      "answer": "OHIOU",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Single frame of a comic strip",
+      "answer": "PANEL",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Place for a mud bath and a massage",
+      "answer": "SPA",
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Slangy shout-out often followed by 'back'",
+      "answer": "HOLLA",
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "1983 comedy film starring Mr. T",
+      "answer": "DCCAB",
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Rose Nylund's fictional Minnesota hometown on 'The Golden Girls'",
+      "answer": "STOLAF",
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Let go from a job, or baked in a kiln",
+      "answer": "FIRED",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "The savory 'fifth taste' found in soy sauce",
+      "answer": "UMAMI",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Eager cry from someone waiting their turn to play",
+      "answer": "NOWME",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Waffle-textured ice cream holder",
+      "answer": "CONE",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "___ upon a time...",
+      "answer": "ONCE",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "In the past",
+      "answer": "AGO",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Squeal to the cops, or a maze-running rodent",
+      "answer": "RAT",
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
