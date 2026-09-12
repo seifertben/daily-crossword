@@ -1,0 +1,692 @@
+{
+  "date": "2026-09-12",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "P",
+        "number": 2
+      },
+      {
+        "solution": "E",
+        "number": 3
+      },
+      {
+        "solution": "N",
+        "number": 4
+      },
+      {
+        "solution": "D",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "solution": "S",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      },
+      {
+        "solution": "G",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 9
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 10
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 11
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 12
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "T",
+        "number": 13
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "U",
+        "number": 14
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 15
+      },
+      {
+        "solution": "H",
+        "number": 16
+      },
+      {
+        "solution": "I",
+        "number": 17
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 18
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 19
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 20
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "P",
+        "number": 21
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 22
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "S",
+        "number": 23
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 24
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 25
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I",
+        "number": 26
+      },
+      {
+        "solution": "M",
+        "number": 27
+      },
+      {
+        "solution": "B",
+        "number": 28
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 29
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      {
+        "solution": "K",
+        "number": 30
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 31
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Use up, as energy or allowance",
+      "answer": "SPEND",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Lose tension and droop in the middle",
+      "answer": "SAG",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Raring to go",
+      "answer": "EAGER",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "The police, in street slang",
+      "answer": "POPO",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Three, according to an old proverb",
+      "answer": "CROWD",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Really, really liking, as a new hobby",
+      "answer": "INTO",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Ancient Germanic tribe members",
+      "answer": "TEUTONS",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Native of Cleveland or Columbus",
+      "answer": "OHIOAN",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "One on the opposite side of the battlefield",
+      "answer": "FOE",
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Weasley who is afraid of spiders",
+      "answer": "RON",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Six-point throw, briefly",
+      "answer": "TDPASS",
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Moscow ballet company whose name means \"big\"",
+      "answer": "BOLSHOI",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Tortilla-based sandwich option",
+      "answer": "WRAP",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Work your way up the corporate ladder",
+      "answer": "CLIMB",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Like Sunday morning, in a classic Commodores hit",
+      "answer": "EASY",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Peninsula divided by the 38th parallel",
+      "answer": "KOREA",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Common cereal preservative abbreviation",
+      "answer": "BHT",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Place for a witness or a music book",
+      "answer": "STAND",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Tiny division of a minute, for short",
+      "answer": "SEC",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Expected score on a scorecard",
+      "answer": "PAR",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "The part of the psyche that gets bruised",
+      "answer": "EGO",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Unfamiliar with, as a hobby ('I'm ___ this')",
+      "answer": "NEWTO",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Grim nickname for Jack Kevorkian",
+      "answer": "DRDEATH",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "___ gun! (informal cry of surprise)",
+      "answer": "SONOFA",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Mailbox labels in a high-rise, briefly",
+      "answer": "APTNOS",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Steps on the gas, slangily",
+      "answer": "GOOSES",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "The hard center of a peach",
+      "answer": "PIT",
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Disconnects, as a laptop from its station",
+      "answer": "UNDOCKS",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Classic, wheel-shaped spider creation",
+      "answer": "ORBWEB",
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Spirited shout of celebration",
+      "answer": "HOORAH",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Holding up the bottom of the standings",
+      "answer": "INLAST",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Series episode that serves as a test run",
+      "answer": "PILOT",
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Bond or Bourne, for one",
+      "answer": "SPY",
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Nest egg option with \"Roth\" and \"Traditional\" varieties",
+      "answer": "IRA",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Rain shower subjects in a 1982 Weather Girls hit",
+      "answer": "MEN",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "In need of a time-out, say",
+      "answer": "BAD",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
