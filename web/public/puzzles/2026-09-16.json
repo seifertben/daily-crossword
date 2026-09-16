@@ -1,0 +1,695 @@
+{
+  "date": "2026-09-16",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "O",
+        "number": 2
+      },
+      {
+        "solution": "F",
+        "number": 3
+      },
+      {
+        "solution": "T",
+        "number": 4
+      },
+      {
+        "solution": "C",
+        "number": 5
+      },
+      null,
+      {
+        "solution": "H",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      },
+      {
+        "solution": "T",
+        "number": 8
+      },
+      {
+        "solution": "S",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 10
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "W"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 12
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "Y",
+        "number": 13
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "G"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 15
+      },
+      {
+        "solution": "E",
+        "number": 16
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "S",
+        "number": 17
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 18
+      },
+      {
+        "solution": "R",
+        "number": 19
+      },
+      {
+        "solution": "O",
+        "number": 20
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 21
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 22
+      },
+      {
+        "solution": "P",
+        "number": 23
+      },
+      {
+        "solution": "S",
+        "number": 24
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 25
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 26
+      },
+      {
+        "solution": "Z",
+        "number": 27
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 28
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "K"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 29
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 30
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 31
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Pronunciation of the first letter in \"ceiling\"",
+      "answer": "SOFTC",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Fedora, derby, and trilby, for three",
+      "answer": "HATS",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "See eye to eye",
+      "answer": "AGREE",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "\"There ought to be ___!\"",
+      "answer": "ALAW",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "They can be found in both laundry rooms and golf bags",
+      "answer": "IRONS",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Legendary Himalayan creature",
+      "answer": "YETI",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Segment of a relay race, or part of a table",
+      "answer": "LEG",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Welcomes, as the new year",
+      "answer": "SEESIN",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Undercover group working in the shadows",
+      "answer": "SPYRING",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Adult fans of \"My Little Pony,\" portmanteau-style",
+      "answer": "BRONIES",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "\"Cool for the Summer\" singer Demi",
+      "answer": "LOVATO",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Blankets with toilet paper, briefly",
+      "answer": "TPS",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Radio sign-off word before \"and out\"",
+      "answer": "OVER",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Classic Nintendo racing game featuring Captain Falcon",
+      "answer": "FZERO",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "A silent \"just kidding\" signal with one eye",
+      "answer": "WINK",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Broadcast a rerun of",
+      "answer": "REAIR",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Far too curious about other people's business",
+      "answer": "NOSY",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Own up to",
+      "answer": "ADMIT",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Catch the wind to move across the water",
+      "answer": "SAIL",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Fairy tale bully like Shrek",
+      "answer": "OGRE",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Lily pad occupant that starts as a tadpole",
+      "answer": "FROG",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Perfect score for a flawless gymnastic routine",
+      "answer": "TEN",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Disgusting place, or a sewage holding hole",
+      "answer": "CESSPIT",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Farm workers who harvest feed for horses",
+      "answer": "HAYERS",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Formula One racer Jean",
+      "answer": "ALESI",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Tarte ___ (French upside-down pastry)",
+      "answer": "TATIN",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Playground seat that hangs by chains",
+      "answer": "SWING",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Ancient Egyptian symbol of protection and royal power",
+      "answer": "EYEOFRA",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Sharply sarcastic or sassy",
+      "answer": "SNARKY",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Like a whistle, a gasket, or a mind",
+      "answer": "BLOWN",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "The Finnish gaming company behind \"Angry Birds\"",
+      "answer": "ROVIO",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Appliances that might have \"convection\" settings",
+      "answer": "OVENS",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "It famously has no \"I,\" according to a sports cliché",
+      "answer": "TEAM",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Toyota hybrids, in a controversial plural form",
+      "answer": "PRII",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Arrange by category",
+      "answer": "SORT",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "The last letter in Leicester",
+      "answer": "ZED",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
