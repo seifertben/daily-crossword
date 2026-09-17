@@ -1,0 +1,696 @@
+{
+  "date": "2026-09-17",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "R",
+        "number": 1
+      },
+      {
+        "solution": "E",
+        "number": 2
+      },
+      {
+        "solution": "D",
+        "number": 3
+      },
+      {
+        "solution": "B",
+        "number": 4
+      },
+      {
+        "solution": "A",
+        "number": 5
+      },
+      {
+        "solution": "T",
+        "number": 6
+      },
+      null,
+      {
+        "solution": "J",
+        "number": 7
+      },
+      {
+        "solution": "A",
+        "number": 8
+      },
+      {
+        "solution": "M",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 10
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 12
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 13
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "T",
+        "number": 14
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "N",
+        "number": 15
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 16
+      },
+      {
+        "solution": "E",
+        "number": 17
+      },
+      {
+        "solution": "A",
+        "number": 18
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 19
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 20
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 21
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "K",
+        "number": 22
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "O",
+        "number": 23
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 24
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 25
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "M",
+        "number": 26
+      },
+      {
+        "solution": "B",
+        "number": 27
+      },
+      {
+        "solution": "A",
+        "number": 28
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 29
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 30
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 31
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 32
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Rusty-furred mammal that flies",
+      "answer": "REDBAT",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Improvise with some fellow musicians",
+      "answer": "JAM",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Old-fashioned biblical verb before \"the Lord\"",
+      "answer": "SAYETH",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Hole-in-one, to a golfer",
+      "answer": "ACE",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "TV's Remington played by Pierce Brosnan",
+      "answer": "STEELE",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Smartphone status bar letters near the signal bars",
+      "answer": "LTE",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Having spent the most time in the sun",
+      "answer": "TANNEST",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "They might run down your face, or ruin a piece of paper",
+      "answer": "TEARS",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Gymnastics apparatus that's only four inches wide",
+      "answer": "BEAM",
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Fairy-tale bully who loves a swamp",
+      "answer": "OGRE",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Like teeth, alarms, or advertising",
+      "answer": "FALSE",
+      "direction": "across",
+      "row": 5,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Plastic guy whose job is just 'beach'",
+      "answer": "KENDOLL",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "What a slow internet connection might provoke",
+      "answer": "IRE",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Dust-busting robot that double-jobs as a cat taxi",
+      "answer": "ROOMBA",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "A minor detail to pick",
+      "answer": "NIT",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "90s hip-hop group who wanted to know if you were 'Ready or Not'",
+      "answer": "FUGEES",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Old-school gangster's pistol",
+      "answer": "GAT",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "They can be cold, warm, or just fake appearances",
+      "answer": "FRONTS",
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Web feed format, for short",
+      "answer": "RSS",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Polish off a plate",
+      "answer": "EAT",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Give a new hue to",
+      "answer": "DYE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "How one might look after a major blunder",
+      "answer": "BEETRED",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Book that's full of coordinates",
+      "answer": "ATLAS",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "At that point in time",
+      "answer": "THEN",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Actor White who famously asked, 'Did I do that?'",
+      "answer": "JALEEL",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Serves the function of",
+      "answer": "ACTSAS",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "___ halfway (compromise)",
+      "answer": "MEETME",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Silhouetted sports symbol featuring Jerry West",
+      "answer": "NBALOGO",
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Puffing on a joint, slangily",
+      "answer": "TOKING",
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Female adviser, named for a Roman nymph",
+      "answer": "EGERIA",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Will who voiced Lego Batman",
+      "answer": "ARNETT",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Groundwork for a cake?",
+      "answer": "FLOUR",
+      "direction": "down",
+      "row": 5,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "'Carmina Burana' composer Carl",
+      "answer": "ORFF",
+      "direction": "down",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "The king and his knights, on a chessboard",
+      "answer": "MEN",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Put your money where your mouth is",
+      "answer": "BET",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Stubborn beast of burden",
+      "answer": "ASS",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
