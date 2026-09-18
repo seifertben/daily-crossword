@@ -1,0 +1,704 @@
+{
+  "date": "2026-09-18",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "E",
+        "number": 1
+      },
+      {
+        "solution": "L",
+        "number": 2
+      },
+      {
+        "solution": "B",
+        "number": 3
+      },
+      {
+        "solution": "A",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 5
+      },
+      {
+        "solution": "A",
+        "number": 6
+      },
+      {
+        "solution": "N",
+        "number": 7
+      },
+      {
+        "solution": "S",
+        "number": 8
+      },
+      null
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 9
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 10
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "I",
+        "number": 12
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "Y"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 14
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "F",
+        "number": 15
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 16
+      },
+      {
+        "solution": "R",
+        "number": 17
+      },
+      {
+        "solution": "O",
+        "number": 18
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 19
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 20
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 21
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "Q"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 22
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 23
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "solution": "L",
+        "number": 24
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L",
+        "number": 25
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "G",
+        "number": 27
+      },
+      {
+        "solution": "S",
+        "number": 28
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "I",
+        "number": 29
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 30
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "E",
+        "number": 31
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 32
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Exile island for Napoleon",
+      "answer": "ELBA",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Runs, as a station",
+      "answer": "MANS",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Consume a book",
+      "answer": "READ",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "It may be fired, poured, or injected",
+      "answer": "SHOT",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Aircraft hijacking, legally speaking",
+      "answer": "AIRPIRACY",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Stage box for an electric guitarist",
+      "answer": "AMP",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "80s sitcom alien who wanted to eat Lucky the cat",
+      "answer": "ALF",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Khal ___ (Daenerys's first husband in 'Game of Thrones')",
+      "answer": "DROGO",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Width times length, in geometry",
+      "answer": "AREA",
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Common multiple-choice option, with \"of the above\"",
+      "answer": "NONE",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Community represented by a rainbow flag",
+      "answer": "LGBTQ",
+      "direction": "across",
+      "row": 5,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Pub pint that might be pale",
+      "answer": "ALE",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Sweetheart, in modern slang",
+      "answer": "BAE",
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Dawdles and wastes time",
+      "answer": "LALLYGAGS",
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "\"Ah, gotcha!\"",
+      "answer": "ISEE",
+      "direction": "across",
+      "row": 8,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "\"To God,\" in Turin",
+      "answer": "ADIO",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Checked out closely",
+      "answer": "EYED",
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Animals rumored to fly when the impossible happens",
+      "answer": "PIGS",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Distinct period in history",
+      "answer": "ERA",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Floral welcome in Waikiki",
+      "answer": "LEI",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Pub, or the exam a lawyer must pass",
+      "answer": "BAR",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Magazine sheet containing a sponsor's message",
+      "answer": "ADPAGE",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Sticker price abbreviation",
+      "answer": "MSRP",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Cry of sudden realization",
+      "answer": "AHA",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Like a diet that strictly avoids bread and pasta",
+      "answer": "NOCARB",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Slender, pointed instrument used by a surgeon",
+      "answer": "STYLET",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Texter's 'If you ask me'",
+      "answer": "IMO",
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Web page with answers to common queries",
+      "answer": "FAQ",
+      "direction": "down",
+      "row": 3,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Double-helix material",
+      "answer": "DNA",
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Baseball's Fingers with a legendary handlebar mustache",
+      "answer": "ROLLIE",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "___ Street (living comfortably)",
+      "answer": "ONEASY",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Difference in years between spouses",
+      "answer": "AGEGAP",
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Put down, as carpet",
+      "answer": "LAY",
+      "direction": "down",
+      "row": 5,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Ran in the wash, like bright red socks",
+      "answer": "BLED",
+      "direction": "down",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Director Ang or Spike",
+      "answer": "LEE",
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Dassler who co-founded Adidas",
+      "answer": "ADI",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "One-night job for a jazz band",
+      "answer": "GIG",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Universal cry for help",
+      "answer": "SOS",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 38
+}
