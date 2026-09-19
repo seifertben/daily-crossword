@@ -1,0 +1,693 @@
+{
+  "date": "2026-09-19",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "D",
+        "number": 1
+      },
+      {
+        "solution": "E",
+        "number": 2
+      },
+      {
+        "solution": "A",
+        "number": 3
+      },
+      {
+        "solution": "R",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 5
+      },
+      {
+        "solution": "L",
+        "number": 6
+      },
+      {
+        "solution": "I",
+        "number": 7
+      },
+      {
+        "solution": "F",
+        "number": 8
+      },
+      {
+        "solution": "F",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 10
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "H",
+        "number": 11
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      {
+        "solution": "U",
+        "number": 12
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 14
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O",
+        "number": 15
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 17
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I",
+        "number": 18
+      },
+      {
+        "solution": "S",
+        "number": 19
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "solution": "A",
+        "number": 20
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "C",
+        "number": 21
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 22
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T",
+        "number": 23
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "H",
+        "number": 24
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L",
+        "number": 25
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 26
+      },
+      {
+        "solution": "P",
+        "number": 27
+      },
+      {
+        "solution": "E",
+        "number": 28
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 29
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "K"
+      }
+    ],
+    [
+      {
+        "solution": "K",
+        "number": 30
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 31
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "F"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 32
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 33
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Standard word to start a letter",
+      "answer": "DEAR",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Feature with a dramatic drop-off",
+      "answer": "CLIFF",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "What a rebel loves to break",
+      "answer": "RULE",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Ancient and overused, like a bad pun",
+      "answer": "HOARY",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Addresses that often start with 'www.'",
+      "answer": "URLS",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "'Same here!' grammatically",
+      "answer": "ASDOI",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Guest of honor at a baby shower",
+      "answer": "MOMTOBE",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Place where you pay to get wrapped in seaweed",
+      "answer": "SPA",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Fragrant iris root used in perfume-making",
+      "answer": "ORRIS",
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Mild pepper that is actually a dried poblano",
+      "answer": "ANCHO",
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Bite-sized potato treat, or a tiny human",
+      "answer": "TOT",
+      "direction": "across",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Extremely emphatic 'Absolutely not!'",
+      "answer": "HELLSNO",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "What a radar gun measures",
+      "answer": "SPEED",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Texted acknowledgment of mild agreement",
+      "answer": "OHOK",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Peninsula divided by the 38th parallel",
+      "answer": "KOREA",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Living room centerpiece that swallows loose change",
+      "answer": "SOFA",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Adjust to a changing environment",
+      "answer": "ADAPT",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Command that might be accompanied by a flat hand gesture",
+      "answer": "STAY",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Instruments that require a lot of sticks",
+      "answer": "DRUMS",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Icy moon of Jupiter",
+      "answer": "EUROPA",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Southern rock brother Gregg or Duane",
+      "answer": "ALLMAN",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "What a tired traveler seeks",
+      "answer": "REST",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "French New Wave director Claude",
+      "answer": "CHABROL",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "The one left holding the 'L' in a matchup",
+      "answer": "LOSER",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Dulles Airport code",
+      "answer": "IAD",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Partner of 'to' on a pendulum's path",
+      "answer": "FRO",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Subject line shorthand for 'just so you know'",
+      "answer": "FYI",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Reacted with awe toward, like a fireworks finale",
+      "answer": "OOHEDAT",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Observation made while fanning oneself",
+      "answer": "ITSHOT",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "___ gun! (frustrated cry)",
+      "answer": "SONOFA",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "High-pitched sound from a nest",
+      "answer": "CHEEP",
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Sweet dessert wine from Hungary",
+      "answer": "TOKAY",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "The 'L' of a win-___ record",
+      "answer": "LOSS",
+      "direction": "down",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Brass-heavy music genre that preceded reggae",
+      "answer": "SKA",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Cozy home for peas or whales",
+      "answer": "POD",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "A significant chunk of history",
+      "answer": "ERA",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
