@@ -1,0 +1,661 @@
+{
+  "date": "2026-09-21",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "G",
+        "number": 1
+      },
+      {
+        "solution": "A",
+        "number": 2
+      },
+      {
+        "solution": "S",
+        "number": 3
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 4
+      },
+      {
+        "solution": "A",
+        "number": 5
+      },
+      {
+        "solution": "B",
+        "number": 6
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "S",
+        "number": 7
+      },
+      {
+        "solution": "H",
+        "number": 8
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "K"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 9
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "P",
+        "number": 10
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "R",
+        "number": 11
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 12
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 13
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 14
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 15
+      },
+      {
+        "solution": "U",
+        "number": 16
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "M",
+        "number": 17
+      }
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 18
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "O",
+        "number": 19
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 20
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "R",
+        "number": 21
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "U",
+        "number": 22
+      },
+      {
+        "solution": "S",
+        "number": 23
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "X"
+      }
+    ],
+    [
+      {
+        "solution": "H",
+        "number": 24
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "D",
+        "number": 25
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "Y",
+        "number": 28
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 29
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      null,
+      null
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "It can be stepped on in a car",
+      "answer": "GAS",
+      "direction": "across",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Apprehend, as a crook",
+      "answer": "NAB",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "What static electricity can give you",
+      "answer": "SHOCK",
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "TV franchise with lots of blue lighting and DNA swabs",
+      "answer": "CSI",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Vintage college dorm prank",
+      "answer": "PANTYRAID",
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Gives a hoot",
+      "answer": "CARES",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Rowing machine part, or its real-world inspiration",
+      "answer": "OAR",
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Condition that might involve checking the stove repeatedly (Abbr.)",
+      "answer": "OCD",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Dorothy's Kansas guardian",
+      "answer": "AUNTEM",
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Dejected locker room admission",
+      "answer": "WELOST",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "It gets crushed at a tiki bar",
+      "answer": "ICE",
+      "direction": "across",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Free (of) something unwanted",
+      "answer": "RID",
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "April 15 payment to Uncle Sam",
+      "answer": "USTAX",
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Manual tool for making holes",
+      "answer": "HANDDRILL",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Hole-in-one on the golf course",
+      "answer": "ACE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Broadway backer or heavenly being",
+      "answer": "ANGEL",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Enthusiastic agreement",
+      "answer": "YES",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Early internet portal with a colorful butterfly logo",
+      "answer": "MSN",
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "No longer in the building",
+      "answer": "GONE",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Functions as",
+      "answer": "ACTSAS",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "The limit, metaphorically",
+      "answer": "SKY",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "March Madness victory prize",
+      "answer": "NCAATITLE",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "\"If memory serves...\"",
+      "answer": "ASIRECALL",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Paddle raiser's offer",
+      "answer": "BID",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Cold War contest to reach the moon",
+      "answer": "SPACERACE",
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Strict, unyielding positions in negotiations",
+      "answer": "HARDLINES",
+      "direction": "down",
+      "row": 1,
+      "col": 2,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Hermione's red-haired husband",
+      "answer": "RON",
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Critter that is outstanding in her field?",
+      "answer": "COW",
+      "direction": "down",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "180-degree maneuvers on the road",
+      "answer": "UTURNS",
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Tex-___ (spicy food style)",
+      "answer": "MEX",
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Like every other integer",
+      "answer": "ODD",
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Put your signature on, as a contract",
+      "answer": "SIGN",
+      "direction": "down",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "What's rolled into big bales in a field",
+      "answer": "HAY",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Beaver's construction project",
+      "answer": "DAM",
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 34
+}
