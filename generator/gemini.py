@@ -278,13 +278,18 @@ class GeminiClient:
                 "theme or forced wordplay gimmick.\n"
                 "- Vary clue types: clever definitions, offbeat trivia, "
                 "fill-in-the-blank, and light wordplay.\n"
-                "- Do NOT include the answer in the clue.\n"
+                "- NEVER include the answer, or any part of it, in the clue. No "
+                "component word, prefix, suffix, root, or inflected form of the "
+                "answer may appear anywhere in the clue. This applies to phrases "
+                "too: when the answer is a flattened phrase (e.g. ICECREAM is "
+                '"ice cream"), none of its component words ("ice", "cream") or '
+                "the phrase itself may appear in the clue.\n"
                 "- Some answers are flattened phrases with spaces and punctuation "
                 'removed, e.g. ONCEA is "once a" and CUFFEM is "cuff \'em". When '
                 "an answer is a recognizable phrase, split it apart at the word "
-                "boundaries and write a clue for that phrase; fill-in-the-blank "
-                'partial clues such as "Once a ___" or "___ \'em" are welcome '
-                "for these.\n"
+                "boundaries and write a clue for the phrase as a whole, obeying "
+                "the no-answer-parts rule above: never reuse any word from the "
+                "phrase in the clue.\n"
                 "- Only if an answer is neither a real word nor a recognizable "
                 "phrase (pure gibberish or a misspelling) do NOT invent a clue: "
                 f"set the clue to the literal value {_INVALID_MARKER}.\n"
