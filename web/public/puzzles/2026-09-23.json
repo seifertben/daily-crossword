@@ -1,0 +1,709 @@
+{
+  "date": "2026-09-23",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "M",
+        "number": 2
+      },
+      {
+        "solution": "A",
+        "number": 3
+      },
+      {
+        "solution": "S",
+        "number": 4
+      },
+      {
+        "solution": "H",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "solution": "M",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      },
+      {
+        "solution": "T",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 9
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "F",
+        "number": 10
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 12
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "G",
+        "number": 13
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "M"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      {
+        "solution": "I",
+        "number": 15
+      },
+      {
+        "solution": "A",
+        "number": 16
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "U"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 17
+      },
+      {
+        "solution": "E",
+        "number": 18
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 19
+      },
+      {
+        "solution": "W",
+        "number": 20
+      },
+      {
+        "solution": "A",
+        "number": 21
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 22
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 23
+      },
+      {
+        "solution": "O",
+        "number": 24
+      },
+      {
+        "solution": "P",
+        "number": 25
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 26
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "G"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 27
+      },
+      {
+        "solution": "L",
+        "number": 28
+      },
+      {
+        "solution": "T",
+        "number": 29
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 30
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 31
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      null,
+      {
+        "solution": "L",
+        "number": 33
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Like a big box-office success",
+      "answer": "SMASH",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Gymnastics pad",
+      "answer": "MAT",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "___ these items",
+      "answer": "EACHOF",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Muhammad who could \"sting like a bee\"",
+      "answer": "ALI",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Wisdom goddess of Greek myth",
+      "answer": "ATHENA",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Real find or precious stone",
+      "answer": "GEM",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Jeans brand that rivals Levi's",
+      "answer": "LEE",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Bay Area rapper who founded the HBK Gang",
+      "answer": "IAMSU",
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Lint roller's target",
+      "answer": "PETHAIR",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Classic villainous laugh",
+      "answer": "MWAHAHA",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Dispatches, as a text",
+      "answer": "SENDS",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Fizzy beverage or the sound of a balloon bursting",
+      "answer": "POP",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Pet that might be a Golden Retriever or a hot ___",
+      "answer": "DOG",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "1970 cult western film by Alejandro Jodorowsky",
+      "answer": "ELTOPO",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Possessive for the group",
+      "answer": "OUR",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "2012 sci-fi film featuring hitmen from the future",
+      "answer": "LOOPER",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Messy room fit for a pig",
+      "answer": "STY",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "The traditional Chinese dragon",
+      "answer": "LOONG",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Zodiac or Navy member",
+      "answer": "SEAL",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "A chess player's goal",
+      "answer": "MATE",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Target of an aspirin",
+      "answer": "ACHE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "First word of a sea-shell tongue twister",
+      "answer": "SHE",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Short for \"honey\"",
+      "answer": "HON",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Lava, before it erupts",
+      "answer": "MAGMA",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "French F1 racer Jean",
+      "answer": "ALESI",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Conqueror also known as Tamerlane",
+      "answer": "TIMUR",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Belief without proof",
+      "answer": "FAITH",
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Sudden realization cry",
+      "answer": "AHA",
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Academic title for a non-medical doctor",
+      "answer": "PHD",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Painter's support",
+      "answer": "EASEL",
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Pre-Windows Microsoft OS",
+      "answer": "MSDOS",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Slangy way to announce the group is leaving",
+      "answer": "WEOUT",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Like some very \"birds\" in a mobile game",
+      "answer": "ANGRY",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Slang term for the police",
+      "answer": "POPO",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Like a shop that is ready for customers",
+      "answer": "OPEN",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Puffin-like bird found in the 'Star Wars' sequels",
+      "answer": "PORG",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Quick reaction to a funny meme",
+      "answer": "LOL",
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "___ many cooks spoil the broth",
+      "answer": "TOO",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 38
+}
