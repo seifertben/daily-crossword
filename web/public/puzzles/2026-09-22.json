@@ -1,0 +1,697 @@
+{
+  "date": "2026-09-22",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "G",
+        "number": 1
+      },
+      {
+        "solution": "I",
+        "number": 2
+      },
+      {
+        "solution": "R",
+        "number": 3
+      },
+      {
+        "solution": "O",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 5
+      },
+      {
+        "solution": "O",
+        "number": 6
+      },
+      {
+        "solution": "P",
+        "number": 7
+      },
+      {
+        "solution": "E",
+        "number": 8
+      },
+      {
+        "solution": "S",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 10
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "F"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 11
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "K",
+        "number": 12
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "F"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 13
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "U",
+        "number": 14
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "C",
+        "number": 15
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "V",
+        "number": 16
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "W"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "E",
+        "number": 17
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "N",
+        "number": 18
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 19
+      },
+      {
+        "solution": "E",
+        "number": 20
+      },
+      {
+        "solution": "S",
+        "number": 21
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 22
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 23
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R",
+        "number": 24
+      },
+      {
+        "solution": "K",
+        "number": 25
+      },
+      {
+        "solution": "Y",
+        "number": 26
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "B",
+        "number": 28
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 29
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 30
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "D",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 33
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "The ___ d'Italia (famous cycling race)",
+      "answer": "GIRO",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Ring boundaries for a prize fight",
+      "answer": "ROPES",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "\"___ at first you don't succeed...\"",
+      "answer": "ORIF",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Traditional response to 'Do you take this person...?'",
+      "answer": "IWILL",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "German's head",
+      "answer": "KOPF",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Singer Bryson who sang 'A Whole New World'",
+      "answer": "PEABO",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Paris-based agency that designates World Heritage Sites",
+      "answer": "UNESCO",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Solemn promise made at an altar",
+      "answer": "VOW",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Cable channel dedicated to sports highlights and scores",
+      "answer": "ESPNEWS",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Modern term for inseparable companions",
+      "answer": "BESTIES",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Cheerleader's syllable often repeated in a chant",
+      "answer": "RAH",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Sarcastic and biting in a witty way",
+      "answer": "SNARKY",
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Horses known for their endurance and high tail carriage",
+      "answer": "ARABS",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "The lightbulb above a cartoon character's head",
+      "answer": "IDEA",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Remove the paint or a piece of land for an aircraft",
+      "answer": "STRIP",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Stops running, as an engine might",
+      "answer": "DIES",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Like a new penny or a polished chrome bumper",
+      "answer": "SHINY",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Mothers and ___ (family relationship)",
+      "answer": "SONS",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Spiky-haired Saiyan hero of \"Dragon Ball\"",
+      "answer": "GOKU",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Appliance that's full of hot air and steam",
+      "answer": "IRON",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Ready for the fruit bowl",
+      "answer": "RIPE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Balance the scales by compensating",
+      "answer": "OFFSET",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Tear into a package with excitement",
+      "answer": "RIPOPEN",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Be in the red to a friend",
+      "answer": "OWE",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "River in northern Italy or a type of hard cheese",
+      "answer": "PIAVE",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Macaroni shape or a nudge to the ribs",
+      "answer": "ELBOW",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Taps the brake, perhaps",
+      "answer": "SLOWS",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Undercover operative for Canada’s intelligence service",
+      "answer": "CSISSPY",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Group of drugs including ibuprofen and aspirin",
+      "answer": "NSAIDS",
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Trombone and trumpet section, collectively",
+      "answer": "BRASS",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "The third rock from the sun",
+      "answer": "EARTH",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Puppeteer Lewis who gave voice to Lamb Chop",
+      "answer": "SHARI",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Defunct music streaming service that competed with Spotify",
+      "answer": "RDIO",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Sharp, like a sense of smell or a blade",
+      "answer": "KEEN",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Enthusiastic slang for 'Yes!' often followed by 'queen'",
+      "answer": "YASS",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Large container for recyclables or bulk grain",
+      "answer": "BIN",
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
