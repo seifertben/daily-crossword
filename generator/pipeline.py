@@ -13,6 +13,7 @@ from __future__ import annotations
 import asyncio
 import datetime as dt
 import json
+import logging
 import random
 import time
 from dataclasses import dataclass
@@ -49,6 +50,8 @@ def _default_name_cap() -> int:
 
 
 _VOICE = "neutral, simple, friendly"  # plain-fill clue voice (no theme)
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -96,9 +99,15 @@ async def _clue_pass(
                 difficulty=difficulty,
             )
             break
-        except gemini.GeminiError:
+        except gemini.GeminiError as exc:
             provider_error = True
             got = {}
+            logger.warning(
+                "clue provider error (attempt %d/%d): %s",
+                backoff + 1,
+                _CLUE_RETRIES,
+                exc,
+            )
             await asyncio.sleep(_CLUE_BACKOFF * (2**backoff))
     return got, provider_error
 
