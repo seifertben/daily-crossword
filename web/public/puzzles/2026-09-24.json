@@ -1,0 +1,727 @@
+{
+  "date": "2026-09-24",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "A",
+        "number": 1
+      },
+      {
+        "solution": "M",
+        "number": 2
+      },
+      {
+        "solution": "O",
+        "number": 3
+      },
+      {
+        "solution": "C",
+        "number": 4
+      },
+      {
+        "solution": "O",
+        "number": 5
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 6
+      },
+      {
+        "solution": "R",
+        "number": 7
+      },
+      {
+        "solution": "K",
+        "number": 8
+      },
+      null
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 9
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 10
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 11
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 12
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A",
+        "number": 13
+      }
+    ],
+    [
+      {
+        "solution": "H",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 15
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "A",
+        "number": 16
+      },
+      {
+        "solution": "A",
+        "number": 17
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "Y",
+        "number": 18
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "K"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 19
+      },
+      {
+        "solution": "C",
+        "number": 20
+      },
+      {
+        "solution": "R",
+        "number": 21
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 22
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C",
+        "number": 23
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 24
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R",
+        "number": 25
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "K",
+        "number": 26
+      },
+      {
+        "solution": "I",
+        "number": 27
+      },
+      {
+        "solution": "D",
+        "number": 28
+      },
+      {
+        "solution": "A",
+        "number": 29
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 30
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 31
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "I",
+        "number": 32
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "U",
+        "number": 33
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "R",
+        "number": 34
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "Z",
+        "number": 35
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Gas brand with a torch in its logo",
+      "answer": "AMOCO",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Rub the wrong way",
+      "answer": "IRK",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Symbolist painter Odilon",
+      "answer": "REDON",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Low sound from a pasture",
+      "answer": "MOO",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Jim who sang 'Time in a Bottle'",
+      "answer": "CROCE",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Director Nair of \"Monsoon Wedding\"",
+      "answer": "MIRA",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Submarine sandwich, in some regions",
+      "answer": "HERO",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Land of the red dragon flag",
+      "answer": "WALES",
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Sigh heard after a long soak in the tub",
+      "answer": "AAH",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Gab on and on",
+      "answer": "YAK",
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "\"Fortunate Son\" band, for short",
+      "answer": "CCR",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Super ___ (political fundraising group)",
+      "answer": "PAC",
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Unfortunate flatulence mishap, in modern slang",
+      "answer": "SHART",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Radiohead's turn-of-the-century electronic masterpiece",
+      "answer": "KIDA",
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Words before \"the whole thing!\" in a classic Alka-Seltzer ad",
+      "answer": "IATE",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Up-and-___ (rising star)",
+      "answer": "COMER",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Improvised roadside hazard, in military slang",
+      "answer": "IED",
+      "direction": "across",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Annual global peace org. commemoration, briefly",
+      "answer": "UNDAY",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 34,
+      "clue": "Tech format for podcast and blog feeds, for short",
+      "answer": "RSS",
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 35,
+      "clue": "African beast with built-in bar codes",
+      "answer": "ZEBRA",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "St. Louis landmark that spans the skyline",
+      "answer": "ARCH",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Nothing more than",
+      "answer": "MERE",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Telltale sign of trash left out too long",
+      "answer": "ODOR",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Hot drink topped with marshmallows",
+      "answer": "COCOA",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Sole digit that is neither prime nor composite",
+      "answer": "ONE",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "\"___ Be\" (2009 hit for the Black Eyed Peas)",
+      "answer": "IMMA",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Muddy and disturbed, as river water",
+      "answer": "ROILY",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Peninsula divided by the 38th parallel",
+      "answer": "KOREA",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Pop the question",
+      "answer": "ASK",
+      "direction": "down",
+      "row": 2,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Slangy 'Excuse me?'",
+      "answer": "WHA",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Suitable, or short for a flat",
+      "answer": "APT",
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Long-running CBS forensic franchise",
+      "answer": "CSI",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Lead a committee, or the seat of power itself",
+      "answer": "CHAIR",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Hotel room pricing",
+      "answer": "RATES",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Calvin Klein's landmark unisex fragrance",
+      "answer": "CKONE",
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Cabernets and Merlots, colloquially",
+      "answer": "REDS",
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Web destination for movie credits and trivia",
+      "answer": "IMDB",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Traditional opening of a love letter",
+      "answer": "DEAR",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Ned Stark's needle-wielding daughter",
+      "answer": "ARYA",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Casual family moniker",
+      "answer": "CUZ",
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 40
+}
