@@ -1,0 +1,688 @@
+{
+  "date": "2026-09-26",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      null,
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "L",
+        "number": 2
+      },
+      {
+        "solution": "A",
+        "number": 3
+      },
+      {
+        "solution": "P",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 5
+      },
+      {
+        "solution": "A",
+        "number": 6
+      },
+      {
+        "solution": "L",
+        "number": 7
+      },
+      {
+        "solution": "E",
+        "number": 8
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "L",
+        "number": 9
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L",
+        "number": 10
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 12
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 13
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T",
+        "number": 15
+      },
+      null,
+      {
+        "solution": "K",
+        "number": 16
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E",
+        "number": 17
+      },
+      {
+        "solution": "B",
+        "number": 18
+      },
+      {
+        "solution": "S",
+        "number": 19
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 20
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T",
+        "number": 21
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 22
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "B",
+        "number": 23
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M",
+        "number": 24
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 25
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 26
+      },
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "I",
+        "number": 28
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "A",
+        "number": 29
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "H"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 30
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 31
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 32
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      null
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Quick strike with an open hand",
+      "answer": "SLAP",
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Fanciful story",
+      "answer": "TALE",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "The immediate neighborhood, or the 'LA' in 'LAN'",
+      "answer": "LOCALAREA",
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Hub for creative workshops and exhibitions",
+      "answer": "ARTCENTER",
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Organ with an iris",
+      "answer": "EYE",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Put away some food",
+      "answer": "EAT",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Well-mannered fellow, briefly",
+      "answer": "GENT",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Biochemist Hans who cycle-analyzed cellular respiration",
+      "answer": "KREBS",
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Exemplary, or Alexander's title",
+      "answer": "GREAT",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "What length times width calculates",
+      "answer": "AREA",
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Chef Emeril's signature exclamation",
+      "answer": "BAM",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Like a very frosty reception",
+      "answer": "ICY",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Historic horse-drawn carriage that delivered post",
+      "answer": "MAILCOACH",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Extremely loyal partner, in modern slang",
+      "answer": "RIDEORDIE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Where the coin goes in a vending machine",
+      "answer": "SLOT",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Tweak a draft",
+      "answer": "EDIT",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Classic thrash metal band behind 'Raining Blood'",
+      "answer": "SLAYER",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Director Scafaria of the film 'Hustlers'",
+      "answer": "LORENE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Pretend to be someone else, or a division of a play",
+      "answer": "ACT",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Walk back and forth anxiously, or the speed of a runner",
+      "answer": "PACE",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Esoteric spiritual tradition associated with yoga",
+      "answer": "TANTRA",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Creative expression found in galleries",
+      "answer": "ART",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Jeans brand or shelter from the wind",
+      "answer": "LEE",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Organ that can be 'lent' to a speaker",
+      "answer": "EAR",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Information slip, or a plumbing headache",
+      "answer": "LEAK",
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Omelet ingredient",
+      "answer": "EGG",
+      "direction": "down",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Modern device used for reading or drawing",
+      "answer": "TABLET",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Danish king surnamed 'the Memorable'",
+      "answer": "ERICII",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Jazz clarinet pioneer Sidney",
+      "answer": "BECHET",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Express in words",
+      "answer": "SAY",
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Mexican treat often served on Tuesdays",
+      "answer": "TACO",
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "What Oliver Twist famously asked for",
+      "answer": "MORE",
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Abbreviated title for a spouse, traditionally",
+      "answer": "MRS",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Be under the weather",
+      "answer": "AIL",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Altar vow",
+      "answer": "IDO",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Put two and two together",
+      "answer": "ADD",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
