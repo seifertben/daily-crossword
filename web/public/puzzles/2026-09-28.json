@@ -1,0 +1,693 @@
+{
+  "date": "2026-09-28",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "A",
+        "number": 1
+      },
+      {
+        "solution": "S",
+        "number": 2
+      },
+      {
+        "solution": "P",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "solution": "L",
+        "number": 4
+      },
+      {
+        "solution": "O",
+        "number": 5
+      },
+      {
+        "solution": "L",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      },
+      {
+        "solution": "T",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "F",
+        "number": 9
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T",
+        "number": 10
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 11
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 12
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 14
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R",
+        "number": 15
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 16
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 17
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T",
+        "number": 18
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 19
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "D",
+        "number": 20
+      },
+      {
+        "solution": "D",
+        "number": 21
+      },
+      {
+        "solution": "S",
+        "number": 22
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 23
+      },
+      {
+        "solution": "T",
+        "number": 24
+      },
+      {
+        "solution": "M",
+        "number": 25
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 26
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 27
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 29
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "W"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 30
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "U"
+      },
+      null,
+      {
+        "solution": "H",
+        "number": 31
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 32
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      null,
+      {
+        "solution": "B",
+        "number": 33
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Venomous Nile slitherer",
+      "answer": "ASP",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Crack up over, in internet slang",
+      "answer": "LOLAT",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Like soda that has lost its fizz",
+      "answer": "FLAT",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Impressive golf score of two under par",
+      "answer": "EAGLE",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Dragon's cave or villain's hideout",
+      "answer": "LAIR",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Diane who photographed unconventional portraits",
+      "answer": "ARBUS",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Realm of Odin and Thor in Norse myth",
+      "answer": "ASGARD",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "This for that trade-off",
+      "answer": "TIT",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Stephen King novella about monsters lurking in a mysterious fog",
+      "answer": "THEMIST",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Poker calculation comparing current wager size to the total kitty",
+      "answer": "POTODDS",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Corner-store device for quick cash withdrawals",
+      "answer": "ATM",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Female bullfighter",
+      "answer": "TORERA",
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Astronaut Leroy who commanded Expedition 10",
+      "answer": "CHIAO",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Lobster's pincher",
+      "answer": "CLAW",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Rapper with the 2014 hit \"Only That Real\"",
+      "answer": "IAMSU",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Filter type that captures microscopic allergens",
+      "answer": "HEPA",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Spinal cushions, or floppy storage units",
+      "answer": "DISKS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "\"You can ___ your bottom dollar!\"",
+      "answer": "BET",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Key with four flats, in musical notation",
+      "answer": "AFLAT",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Top-hatted Guns N' Roses guitarist",
+      "answer": "SLASH",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Baseball legend Satchel who made his MLB debut at 42",
+      "answer": "PAIGE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Results in, as a chain of events",
+      "answer": "LEADSTO",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Implement dipped in a lake",
+      "answer": "OAR",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Pride-related initialism",
+      "answer": "LGBT",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "\"C'est ___\" (French for \"It's his\")",
+      "answer": "ALUI",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Driver's license hurdle",
+      "answer": "TEST",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Charlie Chaplin's iconic \"Little\" character",
+      "answer": "TRAMP",
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Hilariously wild and disorderly",
+      "answer": "RIOTOUS",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Flaming stick carried in an Olympic relay",
+      "answer": "TORCH",
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "African fan palm",
+      "answer": "DELEB",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Window covering that hangs in folds",
+      "answer": "DRAPE",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Sawat (Pakistani river or district)",
+      "answer": "SAWAT",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Liquid with a pH less than 7",
+      "answer": "ACID",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Cuisine known for pad see ew and tom yum",
+      "answer": "THAI",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "\"This Is Why I'm Hot\" rapper",
+      "answer": "MIMS",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "\"Don't ___ silly questions\"",
+      "answer": "ASK",
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
