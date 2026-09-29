@@ -1,0 +1,692 @@
+{
+  "date": "2026-09-29",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "P",
+        "number": 1
+      },
+      {
+        "solution": "A",
+        "number": 2
+      },
+      {
+        "solution": "N",
+        "number": 3
+      },
+      {
+        "solution": "I",
+        "number": 4
+      },
+      {
+        "solution": "C",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "solution": "G",
+        "number": 6
+      },
+      {
+        "solution": "P",
+        "number": 7
+      },
+      {
+        "solution": "S",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 9
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "G",
+        "number": 10
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 11
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "H"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 12
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 13
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 14
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "S",
+        "number": 15
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 16
+      },
+      {
+        "solution": "R",
+        "number": 17
+      },
+      {
+        "solution": "S",
+        "number": 18
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 19
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 20
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 21
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "H"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 22
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "U",
+        "number": 23
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 24
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 25
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "M",
+        "number": 26
+      },
+      {
+        "solution": "B",
+        "number": 27
+      },
+      {
+        "solution": "A",
+        "number": 28
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 29
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 30
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "F",
+        "number": 31
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      {
+        "solution": "K",
+        "number": 32
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "E"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Sudden, overwhelming alarm that might lead to a grocery store run.",
+      "answer": "PANIC",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Dashboard tool that calculates your ETA",
+      "answer": "GPS",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Brief, friendly embrace between guys",
+      "answer": "BROHUG",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Sound of wonder during a fireworks display",
+      "answer": "OOH",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Like an outfit pulled from the hamper for a second day",
+      "answer": "REWORN",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Result of a game where neither side wins",
+      "answer": "TIE",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Wedding guest's extra companion",
+      "answer": "PLUSONE",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Backsides in a British pub.",
+      "answer": "ARSES",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Tiny marchers at a picnic",
+      "answer": "ANTS",
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Noisy complaints from a flock of ewes.",
+      "answer": "BAAS",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Exclamation of pure disgust",
+      "answer": "BLECH",
+      "direction": "across",
+      "row": 5,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Jason Mraz hit with the lyric \"I won't hesitate no more\"",
+      "answer": "IMYOURS",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Billy Blanks's cardio program, ___ Bo.",
+      "answer": "TAE",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Autonomous vacuum that might scare the cat",
+      "answer": "ROOMBA",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "ER cases involving excessive ingestion, for short.",
+      "answer": "ODS",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Howie Mandel's signature rejection phrase",
+      "answer": "NODEAL",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "The 'marbling' found on a high-quality ribeye steak.",
+      "answer": "FAT",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Rapper who once famously interrupted Taylor Swift's speech",
+      "answer": "KANYE",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Classic blue-ribbon beer brand, for short",
+      "answer": "PBR",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Exist in the present, as a group.",
+      "answer": "ARE",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "The exact second you are reading this.",
+      "answer": "NOW",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "\"With any luck, that's the case\"",
+      "answer": "IHOPESO",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Weightlifting reps that target the biceps",
+      "answer": "CURLS",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Angler's excited cry after a tug on the line",
+      "answer": "GOTONE",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Hypothetical third destination in a simple journey",
+      "answer": "POINTC",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "\"Give me a break!\"",
+      "answer": "SHEESH",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Bearded antelope of the African plains",
+      "answer": "GNU",
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Common name for sodium carbonate used in washing",
+      "answer": "SALSODA",
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "A small portion, as in '___ luck'.",
+      "answer": "ABITOF",
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Inn chain whose name refers to a Spanish shaded structure.",
+      "answer": "RAMADA",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Old-fashioned version of 'dost speak'.",
+      "answer": "SAYEST",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Small, babbling stream",
+      "answer": "BROOK",
+      "direction": "down",
+      "row": 5,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Large vessel for serving coffee at a meeting",
+      "answer": "URN",
+      "direction": "down",
+      "row": 6,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Common sign on a restroom door",
+      "answer": "MEN",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "An indentation in the shoreline",
+      "answer": "BAY",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Pub order that isn't a lager",
+      "answer": "ALE",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
