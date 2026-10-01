@@ -1,0 +1,710 @@
+{
+  "date": "2026-10-01",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "T",
+        "number": 1
+      },
+      {
+        "solution": "V",
+        "number": 2
+      },
+      {
+        "solution": "T",
+        "number": 3
+      },
+      {
+        "solution": "R",
+        "number": 4
+      },
+      {
+        "solution": "A",
+        "number": 5
+      },
+      {
+        "solution": "Y",
+        "number": 6
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 7
+      },
+      {
+        "solution": "G",
+        "number": 8
+      },
+      {
+        "solution": "E",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 10
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 11
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 12
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "W"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 13
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "T",
+        "number": 14
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "Z"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 15
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "A",
+        "number": 16
+      },
+      {
+        "solution": "R",
+        "number": 17
+      },
+      {
+        "solution": "M"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 18
+      },
+      {
+        "solution": "S",
+        "number": 19
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 20
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R",
+        "number": 21
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 22
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 23
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 24
+      },
+      {
+        "solution": "L",
+        "number": 25
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 26
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "S",
+        "number": 28
+      },
+      {
+        "solution": "A",
+        "number": 29
+      },
+      {
+        "solution": "T",
+        "number": 30
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 31
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "D",
+        "number": 32
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 33
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      {
+        "solution": "D",
+        "number": 34
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "E"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Foldable stand for a living room dinner",
+      "answer": "TVTRAY",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "It goes up every birthday, like it or not",
+      "answer": "AGE",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Survive until, as a ripe old age",
+      "answer": "LIVETO",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Where a car dealer keeps their stock",
+      "answer": "LOT",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "English physicist and \"The Two Cultures\" novelist",
+      "answer": "CPSNOW",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Automated social media account",
+      "answer": "BOT",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Gossip site with a tour bus in L.A.",
+      "answer": "TMZ",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Freudian self-importance",
+      "answer": "EGO",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Sleeve filler",
+      "answer": "ARM",
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Concurring words meaning \"same here\"",
+      "answer": "ASDOI",
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Creative type, or the 'M' of a DIY '___ space'",
+      "answer": "MAKER",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Modern chuckle in a chat window",
+      "answer": "LOL",
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "What diamonds are slangily called",
+      "answer": "ICE",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Yale student, informally",
+      "answer": "ELI",
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Director Brooks or actor Gibson",
+      "answer": "MEL",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Directs a weapon or criticism toward",
+      "answer": "AIMSAT",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Under the weather",
+      "answer": "ILL",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Coeur ___ (scenic city in northern Idaho)",
+      "answer": "DALENE",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Clever and conniving, like a fox",
+      "answer": "SLY",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 34,
+      "clue": "Symptom relieved by artificial tears",
+      "answer": "DRYEYE",
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "What a run-down house needs, in real estate ads",
+      "answer": "TLC",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Big shot getting past the velvet rope",
+      "answer": "VIP",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Flatscreens in a sports bar, briefly",
+      "answer": "TVS",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Message on a vacant property or moving truck",
+      "answer": "RENTME",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Particle with protons and neutrons",
+      "answer": "ATOM",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Old-school exclamation of astonishment",
+      "answer": "YOWZA",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Measure of a celestial body's reflectivity",
+      "answer": "ALBEDO",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Ten to the hundredth power",
+      "answer": "GOOGOL",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "\"And you?,\" to Henri",
+      "answer": "ETTOI",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Common remote control power source",
+      "answer": "AACELL",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Disgraced R&B singer of 'I Believe I Can Fly'",
+      "answer": "RKELLY",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "By a wafer-thin margin",
+      "answer": "SLIMLY",
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Rogers and Mariah Carey, familiarly",
+      "answer": "MIMIS",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Put back on the list, as a deleted item",
+      "answer": "READD",
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Teller of tall tales",
+      "answer": "LIAR",
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Lay eyes on",
+      "answer": "SEE",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Take ___ card, it doesn't matter which",
+      "answer": "ANY",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Little peg for a driver",
+      "answer": "TEE",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 38
+}
