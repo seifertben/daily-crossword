@@ -1,0 +1,710 @@
+{
+  "date": "2026-10-02",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "G",
+        "number": 1
+      },
+      {
+        "solution": "A",
+        "number": 2
+      },
+      {
+        "solution": "W",
+        "number": 3
+      },
+      {
+        "solution": "P",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 5
+      },
+      {
+        "solution": "A",
+        "number": 6
+      },
+      {
+        "solution": "N",
+        "number": 7
+      },
+      {
+        "solution": "D",
+        "number": 8
+      },
+      {
+        "solution": "I",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 10
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "M"
+      }
+    ],
+    [
+      {
+        "solution": "F",
+        "number": 12
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 13
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "M"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 14
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E",
+        "number": 15
+      },
+      null,
+      null,
+      {
+        "solution": "T",
+        "number": 16
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 17
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "U",
+        "number": 18
+      },
+      {
+        "solution": "L",
+        "number": 19
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "D"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "solution": "H",
+        "number": 20
+      },
+      {
+        "solution": "E",
+        "number": 21
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 22
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 23
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C",
+        "number": 24
+      },
+      {
+        "solution": "K",
+        "number": 25
+      },
+      {
+        "solution": "S",
+        "number": 26
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 27
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "H",
+        "number": 28
+      },
+      {
+        "solution": "T",
+        "number": 29
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 30
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 31
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 32
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 33
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 34
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Stare open-mouthed",
+      "answer": "GAWP",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Rastafarian pronoun of oneness",
+      "answer": "IANDI",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Banyan or baobab, for example",
+      "answer": "TREE",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "It might scream at you to get out of bed",
+      "answer": "ALARM",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Whoopee cushion sound effect",
+      "answer": "FART",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Comedian Pedrad of \"New Girl\" and \"SNL\"",
+      "answer": "NASIM",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Having a very high BMI",
+      "answer": "OBESE",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Drink that is also slang for gossip",
+      "answer": "TEA",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Spiky-haired DJ of \"Jersey Shore\" fame",
+      "answer": "PAULYD",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "\"___ out\" (precursor to a pitch)",
+      "answer": "HEARME",
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Coco Gauff's pro tour org.",
+      "answer": "WTA",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Fills a suitcase for a trip",
+      "answer": "PACKS",
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Number of legs on a black widow",
+      "answer": "EIGHT",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "How much of \"the above\" is correct, sometimes",
+      "answer": "NONE",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "What you count sheep to catch",
+      "answer": "SLEEP",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Skip or leave out",
+      "answer": "OMIT",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Agreement details often paired with 'conditions'",
+      "answer": "TERMS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 34,
+      "clue": "Brooklyn squad with a herringbone court",
+      "answer": "NETS",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Texter's blunt 'Beat it!'",
+      "answer": "GTFO",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Spirited horse breed originally from the Middle East",
+      "answer": "ARAB",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "'___ you there when it happened?'",
+      "answer": "WERE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Where a pampered pup gets a blueberry facial",
+      "answer": "PETSPA",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Sir McKellen who played Gandalf",
+      "answer": "IAN",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Pie ___ mode",
+      "answer": "ALA",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Highly unpleasant, like a winter cold",
+      "answer": "NASTY",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Like prunes or beef jerky",
+      "answer": "DRIED",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "\"___ let you finish, but...\"",
+      "answer": "IMMA",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Where to find a lobe or a drum",
+      "answer": "EAR",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "The guy behind the plate, briefly",
+      "answer": "UMP",
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Depend on, as a shoulder to cry on",
+      "answer": "LEANON",
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Scrabble piece worth four points",
+      "answer": "HTILE",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Chomping at the bit to start",
+      "answer": "EAGER",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Direction to head for a Pacific sunset",
+      "answer": "WEST",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "\"___ close\" (almost succeed)",
+      "answer": "COME",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Make a scarf from scratch",
+      "answer": "KNIT",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Matches have them in tennis",
+      "answer": "SETS",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Sewing border that shortens a skirt",
+      "answer": "HEM",
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "___ reports (dreaded paperwork in 'Office Space')",
+      "answer": "TPS",
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 38
+}
