@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-05",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "A",
+        "number": 1
+      },
+      {
+        "solution": "T",
+        "number": 2
+      },
+      {
+        "solution": "A",
+        "number": 3
+      },
+      {
+        "solution": "R",
+        "number": 4
+      },
+      {
+        "solution": "U",
+        "number": 5
+      },
+      {
+        "solution": "N",
+        "number": 6
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 7
+      },
+      {
+        "solution": "K",
+        "number": 8
+      },
+      {
+        "solution": "I",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 10
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "H",
+        "number": 11
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 12
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "E",
+        "number": 14
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 15
+      },
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "D",
+        "number": 17
+      },
+      {
+        "solution": "U",
+        "number": 18
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 19
+      },
+      {
+        "solution": "A",
+        "number": 20
+      },
+      {
+        "solution": "R",
+        "number": 21
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 22
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 23
+      },
+      {
+        "solution": "O",
+        "number": 24
+      },
+      {
+        "solution": "W",
+        "number": 25
+      },
+      null
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "C"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 27
+      },
+      {
+        "solution": "G",
+        "number": 28
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "A",
+        "number": 29
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 30
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 31
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "P"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 33
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Moving very quickly on foot, as if in a great hurry",
+      "answer": "ATARUN",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Glide down a snowy mountain on two narrow boards",
+      "answer": "SKI",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Sassy, defiant retort to an annoying person",
+      "answer": "BITEME",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Pronoun for that guy's belongings",
+      "answer": "HIS",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "1970 Jodorowsky cult film whose Spanish title translates to 'The Mole'",
+      "answer": "ELTOPO",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Michigan's ___ Arbor",
+      "answer": "ANN",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Corn on the cob unit",
+      "answer": "EAR",
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Sliding-screen Sony handheld console released in 2009",
+      "answer": "PSPGO",
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Heading straight toward the sunset",
+      "answer": "DUEWEST",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Is willing to, as in \"if one ___\"",
+      "answer": "CARESTO",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Acquire knowledge or master a skill",
+      "answer": "LEARN",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Noisy squabble, in British slang",
+      "answer": "ROW",
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Curved path of a thrown basketball",
+      "answer": "ARC",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Female adviser or counselor",
+      "answer": "EGERIA",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Lay eyes on",
+      "answer": "SEE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Gmail or Google Docs, functionally",
+      "answer": "WEBAPP",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Square of grass used to start a lawn",
+      "answer": "SOD",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Slender dagger or medical probe",
+      "answer": "STYLET",
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Presidential face on the penny, familiarly",
+      "answer": "ABE",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Square piece on a bathroom wall or a Scrabble board",
+      "answer": "TILE",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Supportive prefix for 'boy' or 'girl'",
+      "answer": "ATTA",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Request a fresh shipment of",
+      "answer": "REORDER",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "The official who might dust off home plate",
+      "answer": "UMP",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Virtual animal on a popular early 2000s website",
+      "answer": "NEOPET",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Circle, square, or triangle",
+      "answer": "SHAPE",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Royal chess pieces that can only move one square at a time",
+      "answer": "KINGS",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "\"That ___ my problem!\"",
+      "answer": "ISNOT",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Expressed absolute confidence in, as a trusted brand",
+      "answer": "SWOREBY",
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Media outlet famous for its annual college rankings",
+      "answer": "USNEWS",
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Elegant style, or a schoolroom group",
+      "answer": "CLASS",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Defunct TV-streaming startup of the 2010s",
+      "answer": "AEREO",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Sped along the track",
+      "answer": "RACED",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Spoken rather than written",
+      "answer": "ORAL",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Clean up a spill with a sponge",
+      "answer": "WIPE",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Comprehend, as a joke",
+      "answer": "GET",
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Quick on the uptake, or highly fitting",
+      "answer": "APT",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
