@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-06",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "D",
+        "number": 1
+      },
+      {
+        "solution": "E",
+        "number": 2
+      },
+      {
+        "solution": "A",
+        "number": 3
+      },
+      {
+        "solution": "T",
+        "number": 4
+      },
+      {
+        "solution": "H",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 6
+      },
+      {
+        "solution": "I",
+        "number": 7
+      },
+      {
+        "solution": "C",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "H",
+        "number": 9
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "H",
+        "number": 10
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 12
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 13
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "S",
+        "number": 14
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "B",
+        "number": 15
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "O",
+        "number": 17
+      },
+      {
+        "solution": "B",
+        "number": 18
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 19
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 20
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "F",
+        "number": 21
+      },
+      null,
+      {
+        "solution": "U",
+        "number": 22
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 23
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N",
+        "number": 24
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 25
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 26
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "T",
+        "number": 28
+      },
+      {
+        "solution": "O",
+        "number": 29
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 30
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "K"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 31
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "W"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 32
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      {
+        "solution": "N",
+        "number": 33
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "The grim reaper's specialty",
+      "answer": "DEATH",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Snapshot, informally",
+      "answer": "PIC",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Founder of a famous casino chain",
+      "answer": "HARRAH",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Highly suitable for the occasion",
+      "answer": "APT",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Detective Remington of 1980s TV",
+      "answer": "STEELE",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Slow to warm up at a party",
+      "answer": "SHY",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Counter made from a single thick piece of stone or wood",
+      "answer": "SLABTOP",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Cries uncontrollably",
+      "answer": "SOBS",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Flat surface, or a high-flying transport",
+      "answer": "PLANE",
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "One who takes without asking",
+      "answer": "THIEF",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Puts to work",
+      "answer": "USES",
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Like a narrow bridge that requires drivers to take turns",
+      "answer": "ONELANE",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Texter's 'that's hilarious!'",
+      "answer": "LOL",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Stiff collar worn in the Elizabethan era",
+      "answer": "REBATO",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Squid defense mechanism, or tattooist's supply",
+      "answer": "INK",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Bovine, to a toddler",
+      "answer": "MOOCOW",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Forest matriarch, perhaps",
+      "answer": "DOE",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Over-the-counter sleep aid brand",
+      "answer": "NYTOL",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "TSA's parent agency (Abbr.)",
+      "answer": "DHS",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Clean your plate, so to speak",
+      "answer": "EAT",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "'What ___ the odds?'",
+      "answer": "ARE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Former Ohio State football coach Jim",
+      "answer": "TRESSEL",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Passage with many lockers, maybe",
+      "answer": "HALL",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Penne, rigatoni, and linguine, for example",
+      "answer": "PASTAS",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Device that might receive a FaceTime call",
+      "answer": "IPHONE",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Python library for calling functions in C libraries",
+      "answer": "CTYPES",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Messy pile of laundry, say",
+      "answer": "HEAP",
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Gainsborough's famous portrait of a youth in azure",
+      "answer": "BLUEBOY",
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Showing little emotion or excitement",
+      "answer": "STOLID",
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Exclamation of dramatic refusal or dismay",
+      "answer": "OHNONO",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Swedish noble family name of historical note",
+      "answer": "BIELKE",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Grow crops on a plot of land",
+      "answer": "FARM",
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Gas that makes Times Square glow",
+      "answer": "NEON",
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Take steps to get things done",
+      "answer": "ACT",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Extremely, or additionally",
+      "answer": "TOO",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Bird that doesn't give a hoot about daytime",
+      "answer": "OWL",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
