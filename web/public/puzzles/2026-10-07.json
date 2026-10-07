@@ -1,0 +1,735 @@
+{
+  "date": "2026-10-07",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "R",
+        "number": 1
+      },
+      {
+        "solution": "O",
+        "number": 2
+      },
+      {
+        "solution": "Y",
+        "number": 3
+      },
+      {
+        "solution": "A",
+        "number": 4
+      },
+      {
+        "solution": "L",
+        "number": 5
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 6
+      },
+      {
+        "solution": "D",
+        "number": 7
+      },
+      {
+        "solution": "D",
+        "number": 8
+      },
+      {
+        "solution": "S",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 10
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 11
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 12
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 13
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 14
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 15
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "E",
+        "number": 16
+      },
+      {
+        "solution": "M",
+        "number": 17
+      },
+      {
+        "solution": "U"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 18
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 19
+      },
+      {
+        "solution": "A",
+        "number": 20
+      },
+      {
+        "solution": "C",
+        "number": 21
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 22
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "G",
+        "number": 23
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 24
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E",
+        "number": 25
+      },
+      {
+        "solution": "B"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "R",
+        "number": 27
+      },
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "B",
+        "number": 29
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 30
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 31
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 32
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 33
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 34
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 35
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Like blue, flush, or family",
+      "answer": "ROYAL",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Finds the total of two numbers",
+      "answer": "ADDS",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Like microtransactions made during smartphone gameplay",
+      "answer": "INAPP",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "\"We're gonna need a bigger ___\"",
+      "answer": "BOAT",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Fitbit milestones",
+      "answer": "STEPS",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Hide in the sand, like pirate gold",
+      "answer": "BURY",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Toy like Ken or Barbie",
+      "answer": "DOLL",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Biblical tower of linguistic confusion",
+      "answer": "BABEL",
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Large bird featured in Liberty Mutual commercials",
+      "answer": "EMU",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Result of a 0-0 soccer match",
+      "answer": "TIE",
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Anatomical pouch",
+      "answer": "SAC",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Text message of disbelief",
+      "answer": "OMG",
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Star hounded by the paparazzi",
+      "answer": "CELEB",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Spirited breed of desert horse",
+      "answer": "ARAB",
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Length multiplied by width, for a rectangle",
+      "answer": "AREA",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Gas station chain with a red, white, and blue torch logo",
+      "answer": "AMOCO",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Salty drop from a crying eye",
+      "answer": "TEAR",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Lets someone borrow, as a book",
+      "answer": "LENDS",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 34,
+      "clue": "Freddie, Robbie, and Chip, on an old sitcom",
+      "answer": "SONS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 35,
+      "clue": "Japanese athletic shoe brand whose name is an acronym involving a sound mind",
+      "answer": "ASICS",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Providence art school, for short",
+      "answer": "RISD",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Wise to, as a scheme",
+      "answer": "ONTO",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Actress Grobglas of \"Jane the Virgin\"",
+      "answer": "YAEL",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Gala or Fuji, but not a festival or mountain",
+      "answer": "APPLE",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Retro 12-inch records",
+      "answer": "LPS",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "\"Waterloo\" group with a museum in Stockholm",
+      "answer": "ABBA",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Lack of conviction or certainty",
+      "answer": "DOUBT",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "\"___ say...\" (words of hesitation before an opinion)",
+      "answer": "DAREI",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "\"___ over substance\"",
+      "answer": "STYLE",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Borrow without intending to return, as a pencil",
+      "answer": "BUM",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Angry crowd in a classic monster movie",
+      "answer": "MOB",
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Improvises vocally, Ella Fitzgerald-style",
+      "answer": "SCATS",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Defunct TV streaming service that lost a landmark 2014 Supreme Court case",
+      "answer": "AEREO",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Squeaky-___ (completely spotless)",
+      "answer": "CLEAN",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "What players play in a stadium",
+      "answer": "GAMES",
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "They might perk up when a treat bag rustles",
+      "answer": "EARS",
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Rice-A-___ (the San Francisco treat)",
+      "answer": "RONI",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Australian rock band with a lightning bolt in their logo",
+      "answer": "ACDC",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "The person you report to at work",
+      "answer": "BOSS",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "___ mode (served with ice cream)",
+      "answer": "ALA",
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 40
+}
