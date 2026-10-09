@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-09",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "T",
+        "number": 1
+      },
+      {
+        "solution": "O",
+        "number": 2
+      },
+      {
+        "solution": "U",
+        "number": 3
+      },
+      {
+        "solution": "G",
+        "number": 4
+      },
+      {
+        "solution": "H",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "solution": "M",
+        "number": 6
+      },
+      {
+        "solution": "E",
+        "number": 7
+      },
+      {
+        "solution": "H",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 9
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Z"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R",
+        "number": 10
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 11
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 12
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 13
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "M",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N",
+        "number": 15
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 16
+      },
+      {
+        "solution": "M",
+        "number": 17
+      },
+      {
+        "solution": "C",
+        "number": 18
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 19
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 20
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "C",
+        "number": 21
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 22
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 23
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M",
+        "number": 24
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 25
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 26
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "B",
+        "number": 27
+      },
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "B",
+        "number": 29
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 30
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "K"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 32
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      null,
+      {
+        "solution": "L",
+        "number": 33
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Difficult to bend, break, or convince",
+      "answer": "TOUGH",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Verbal shrug",
+      "answer": "MEH",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Middle Eastern market filled with colorful stalls",
+      "answer": "BAZAAR",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Texter's \"If you ask me...\"",
+      "answer": "IMO",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Sad, in Spanish or French",
+      "answer": "TRISTE",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Boy in a family tree",
+      "answer": "SON",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Intends to, as in 'he ___ do it'",
+      "answer": "MEANSTO",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Copyright act that prompts takedown notices on YouTube (abbr.)",
+      "answer": "DMCA",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Even more disappointing, as an excuse",
+      "answer": "LAMER",
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "An ancient artifact prized by archaeologists",
+      "answer": "RELIC",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Nothing more than",
+      "answer": "MERE",
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Like mononymous stars like Cher or Madonna",
+      "answer": "ONENAME",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Golf score standard for a hole",
+      "answer": "PAR",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "African tree with a trunk that looks like a giant bottle",
+      "answer": "BAOBAB",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "An informal reaction to something gross",
+      "answer": "ICK",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Gary who played Lieutenant Dan in 'Forrest Gump'",
+      "answer": "SINISE",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Classic 8-bit Nintendo console, for short",
+      "answer": "NES",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Underworld river of forgetfulness in Greek myth",
+      "answer": "LETHE",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Throwback Thursday hashtag on social media",
+      "answer": "TBT",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Blade that moves a boat",
+      "answer": "OAR",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Submachine gun of Israeli origin",
+      "answer": "UZI",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Underground pipe supplying fuel to a neighborhood",
+      "answer": "GASMAIN",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Give a zero-star review to, in one's heart",
+      "answer": "HATE",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "\"Did you even notice I was gone?\"",
+      "answer": "MISSME",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Scenery-chewing actor",
+      "answer": "EMOTER",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Writer de Balzac",
+      "answer": "HONORE",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Opposite of virtual",
+      "answer": "REAL",
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Challenge to provide a single example: '___!'",
+      "answer": "NAMEONE",
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Visit unannounced, with 'on'",
+      "answer": "DROPIN",
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Dennis the ___, classic comic strip kid",
+      "answer": "MENACE",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Store employees, or a classic 1994 Kevin Smith film",
+      "answer": "CLERKS",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Yellow vehicles hailed on a busy city street",
+      "answer": "CABS",
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Envelopes and packages delivered to your slot",
+      "answer": "MAIL",
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "A tiny piece, or a comedian's routine",
+      "answer": "BIT",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Residue left behind in a fireplace",
+      "answer": "ASH",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Buzzing worker in a colony",
+      "answer": "BEE",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
