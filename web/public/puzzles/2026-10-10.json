@@ -1,0 +1,713 @@
+{
+  "date": "2026-10-10",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "A",
+        "number": 2
+      },
+      {
+        "solution": "N",
+        "number": 3
+      },
+      {
+        "solution": "D",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 5
+      },
+      {
+        "solution": "A",
+        "number": 6
+      },
+      {
+        "solution": "I",
+        "number": 7
+      },
+      {
+        "solution": "L",
+        "number": 8
+      },
+      {
+        "solution": "S",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 10
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 12
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 13
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 14
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 15
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 16
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 17
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "O",
+        "number": 18
+      },
+      {
+        "solution": "L",
+        "number": 19
+      },
+      {
+        "solution": "D",
+        "number": 20
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 21
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "P",
+        "number": 22
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "H",
+        "number": 23
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "I",
+        "number": 24
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 25
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 26
+      },
+      {
+        "solution": "B",
+        "number": 27
+      },
+      {
+        "solution": "E",
+        "number": 28
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "J",
+        "number": 29
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 30
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 31
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 32
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 33
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Beach floor material",
+      "answer": "SAND",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Coin flip choice that isn't heads",
+      "answer": "TAILS",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Genesis figure who gave his name to the Hebrews",
+      "answer": "EBER",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "See eye to eye",
+      "answer": "AGREE",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Site where one person's trash becomes another's bid",
+      "answer": "EBAY",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Control-V command function",
+      "answer": "PASTE",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Buddy you can count on",
+      "answer": "PAL",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Hit CBS procedural franchise set in Vegas and Miami",
+      "answer": "CSI",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Words spoken before a wedding kiss",
+      "answer": "IDO",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Nickname for the \"Terminator\" star",
+      "answer": "AHNOLD",
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Amateur",
+      "answer": "NONPRO",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Garden tool that takes a lot of weeds out of the picture",
+      "answer": "HOE",
+      "direction": "across",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "High state of anger",
+      "answer": "IRE",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Neither's partner",
+      "answer": "NOR",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Extremely overweight",
+      "answer": "OBESE",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "It usually comes with a punch line",
+      "answer": "JOKE",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Tango or waltz, for instance",
+      "answer": "DANCE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Really enthusiastic about, as a new hobby",
+      "answer": "INTO",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Oriented towards a collision, as a crash",
+      "answer": "ENDON",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Nightlight for the entire planet",
+      "answer": "MOON",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Infiltrate very slowly, as water through a basement wall",
+      "answer": "SEEPIN",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Claudio who conducted the Berlin Philharmonic",
+      "answer": "ABBADO",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Comedian Kevin of \"Weekend Update\" fame",
+      "answer": "NEALON",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Like humor that doesn't crack a smile",
+      "answer": "DRY",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Footwear with metal plates on the sole",
+      "answer": "TAPSHOE",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "\"One more time!\"",
+      "answer": "AGAIN",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Tax-collecting agency",
+      "answer": "IRS",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Replayed serve in tennis",
+      "answer": "LET",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "\"I ___ what you did there!\"",
+      "answer": "SEE",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Sway wildly from side to side",
+      "answer": "CARREEN",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Exclamation when bad news keeps piling up",
+      "answer": "OHNONO",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Depend on for guidance",
+      "answer": "LOOKTO",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "House of ___ (fashion line co-founded by Beyoncé)",
+      "answer": "DEREON",
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Grape brandy used in a Peruvian sour",
+      "answer": "PISCO",
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Poem full of high praise",
+      "answer": "ODE",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Put an official kibosh on",
+      "answer": "BAN",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Final frame of a film",
+      "answer": "END",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Pam's pranking partner on \"The Office\"",
+      "answer": "JIM",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 38
+}
