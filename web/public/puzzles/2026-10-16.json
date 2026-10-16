@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-16",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "M",
+        "number": 1
+      },
+      {
+        "solution": "U",
+        "number": 2
+      },
+      {
+        "solution": "G",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "solution": "B",
+        "number": 4
+      },
+      {
+        "solution": "E",
+        "number": 5
+      },
+      {
+        "solution": "L",
+        "number": 6
+      },
+      {
+        "solution": "O",
+        "number": 7
+      },
+      {
+        "solution": "W",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 9
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "Y",
+        "number": 10
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 12
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 13
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "F"
+      },
+      {
+        "solution": "F"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 14
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "E",
+        "number": 15
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 16
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 17
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L",
+        "number": 18
+      },
+      {
+        "solution": "E",
+        "number": 19
+      },
+      {
+        "solution": "R",
+        "number": 20
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 21
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E",
+        "number": 22
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 23
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "V",
+        "number": 24
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "S",
+        "number": 25
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "R",
+        "number": 27
+      },
+      {
+        "solution": "I",
+        "number": 28
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 29
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 30
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 31
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 32
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      null,
+      {
+        "solution": "N",
+        "number": 33
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Warm vessel for hot cocoa",
+      "answer": "MUG",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Underneath the surface",
+      "answer": "BELOW",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Online marketplace for handmade crafts",
+      "answer": "ETSY",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Bothered persistently, like a nagging thought",
+      "answer": "ATEAT",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Sticky dispenser roll",
+      "answer": "TAPE",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Rigid or unyielding",
+      "answer": "STIFF",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "\"Fingers crossed!\"",
+      "answer": "IHOPESO",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Padded floor cover for yoga",
+      "answer": "MAT",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Author Norman who wrote \"The Naked and the Dead\"",
+      "answer": "MAILER",
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Trouser leg measurement",
+      "answer": "ENSEAM",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Barnyard mother with a fleece coat",
+      "answer": "EWE",
+      "direction": "across",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Prime spot at a concert hall",
+      "answer": "VIPSEAT",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Mermaid princess in a Disney classic",
+      "answer": "ARIEL",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Lessen or lighten, as pain",
+      "answer": "EASE",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Author John le ___, known for espionage novels",
+      "answer": "CARRE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Uninvited guests at a summer picnic",
+      "answer": "ANTS",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "\"___ better watch out...\"",
+      "answer": "THEYD",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Court divider in tennis or volleyball",
+      "answer": "NET",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Solitary relaxation for self-care",
+      "answer": "METIME",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Salt Lake City resident",
+      "answer": "UTAHAN",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Erogenous zones",
+      "answer": "GSPOTS",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Heavy-duty gear for a low-end musician",
+      "answer": "BASSAMP",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "\"And you?\", to a Parisian",
+      "answer": "ETTOI",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Floral neckwear in Honolulu",
+      "answer": "LEI",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Clumsy, loutish fellow",
+      "answer": "OAF",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Modern expression of complete bewilderment, for short",
+      "answer": "WTF",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Casual affirmative",
+      "answer": "YEP",
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Sent via an inbox",
+      "answer": "EMAILED",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Country singer Rimes",
+      "answer": "LEEANN",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Discarded electronics, collectively",
+      "answer": "EWASTE",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Give another exam to",
+      "answer": "RETEST",
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Without exception",
+      "answer": "EVERY",
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Vast body of salty water",
+      "answer": "SEA",
+      "direction": "down",
+      "row": 6,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Perform on stage or camera",
+      "answer": "ACT",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Cheerleader's shout",
+      "answer": "RAH",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Strong anger or fury",
+      "answer": "IRE",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
