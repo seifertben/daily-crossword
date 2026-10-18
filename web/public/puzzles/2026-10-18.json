@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-18",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "B",
+        "number": 1
+      },
+      {
+        "solution": "F",
+        "number": 2
+      },
+      {
+        "solution": "S",
+        "number": 3
+      },
+      null,
+      {
+        "solution": "G",
+        "number": 4
+      },
+      {
+        "solution": "R",
+        "number": 5
+      },
+      {
+        "solution": "O",
+        "number": 6
+      },
+      {
+        "solution": "W",
+        "number": 7
+      },
+      {
+        "solution": "O",
+        "number": 8
+      },
+      {
+        "solution": "P",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 10
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 11
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 12
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "M"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 14
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "W",
+        "number": 15
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 17
+      },
+      {
+        "solution": "E",
+        "number": 18
+      },
+      {
+        "solution": "P",
+        "number": 19
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "solution": "M",
+        "number": 20
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "V"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 21
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R",
+        "number": 22
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "F",
+        "number": 23
+      },
+      {
+        "solution": "R",
+        "number": 24
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "F",
+        "number": 25
+      },
+      {
+        "solution": "I",
+        "number": 26
+      },
+      {
+        "solution": "N",
+        "number": 27
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 28
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 29
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 30
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 31
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "BFFs' male romantic partners, for short",
+      "answer": "BFS",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Illicit indoor botanical setup",
+      "answer": "GROWOP",
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Sound made alongside \"aah\"",
+      "answer": "OOH",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Pop star Lionel with the hit \"All Night Long\"",
+      "answer": "RICHIE",
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "\"Keep ___'s the word!\"",
+      "answer": "MUM",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Do, re, mi, fa, sol, la, ti, do, e.g. (2 wds.)",
+      "answer": "ASCALE",
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Casual cold beer",
+      "answer": "BREWSKI",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Fills an inbox with junk mail",
+      "answer": "SPAMS",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "High energy or zip",
+      "answer": "PEP",
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Cable network that originally played music videos",
+      "answer": "MTV",
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Type of eclipse caused by the Earth's shadow",
+      "answer": "LUNAR",
+      "direction": "across",
+      "row": 5,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Stereotypical toga party attendee (2 wds.)",
+      "answer": "FRATBRO",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "___'s Rainbow (classic Broadway musical)",
+      "answer": "FINIAN",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "\"___ now or never!\"",
+      "answer": "ITS",
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Charming 2001 French film title heroine",
+      "answer": "AMELIE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Time just before a big occasion",
+      "answer": "EVE",
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Spiked wheels on a cowboy's boots",
+      "answer": "ROWELS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Family nickname for a sibling",
+      "answer": "SIS",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Flops terribly at an open mic",
+      "answer": "BOMBS",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Traditional time for British afternoon tea (2 wds.)",
+      "answer": "FOURPM",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Slang for lab-grown meat",
+      "answer": "SHMEAT",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "What lawnmowers trim",
+      "answer": "GRASS",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Board game where you try to conquer the world",
+      "answer": "RISK",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Anatomical term for the back of the head",
+      "answer": "OCCIPUT",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "\"Say... what?!\"",
+      "answer": "WHA",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Crisco or Castrol product",
+      "answer": "OIL",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Letter before cue, phonetically",
+      "answer": "PEE",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Windows media clip format (2 wds.)",
+      "answer": "WMVFILE",
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Nonbinary folks, informally",
+      "answer": "ENBIES",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Chapter after V in a book (2 wds.)",
+      "answer": "PARTVI",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Bowling alleys have plenty of them",
+      "answer": "LANES",
+      "direction": "down",
+      "row": 5,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Blooms with stems that have a point",
+      "answer": "ROSES",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Complain bitterly, with \"against\"",
+      "answer": "RAIL",
+      "direction": "down",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Not anywhere close by",
+      "answer": "FAR",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Texter's \"Here's what I think\"",
+      "answer": "IMO",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Hot off the press",
+      "answer": "NEW",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
