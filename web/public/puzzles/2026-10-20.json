@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-20",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "O",
+        "number": 1
+      },
+      {
+        "solution": "H",
+        "number": 2
+      },
+      {
+        "solution": "N",
+        "number": 3
+      },
+      {
+        "solution": "O",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "solution": "B",
+        "number": 5
+      },
+      {
+        "solution": "A",
+        "number": 6
+      },
+      {
+        "solution": "R",
+        "number": 7
+      },
+      {
+        "solution": "F",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 9
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 10
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 11
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 12
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 13
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "U",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 15
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "I",
+        "number": 16
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "F"
+      },
+      {
+        "solution": "I",
+        "number": 17
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 18
+      },
+      {
+        "solution": "T",
+        "number": 19
+      },
+      {
+        "solution": "A",
+        "number": 20
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 21
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "X"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 22
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C",
+        "number": 23
+      },
+      {
+        "solution": "I",
+        "number": 24
+      },
+      {
+        "solution": "D",
+        "number": 25
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I",
+        "number": 27
+      },
+      {
+        "solution": "C"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 28
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 29
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "K"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 30
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 31
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      null,
+      {
+        "solution": "W",
+        "number": 32
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "\"This is bad...\"",
+      "answer": "OHNO",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Unfortunate reaction to seasickness",
+      "answer": "BARF",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Time when shadows are shortest",
+      "answer": "NOON",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Durable fiber used in scratch posts and rugs",
+      "answer": "SISAL",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Board game set in Tudor Mansion",
+      "answer": "CLUE",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Comedian Fields of classic TV",
+      "answer": "TOTIE",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Tropical fever spread by mosquitoes",
+      "answer": "DENGUE",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "The loneliest number, according to a 1969 hit",
+      "answer": "ONE",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Leading the standings",
+      "answer": "INFIRST",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Insist upon, as one's principles",
+      "answer": "STANDON",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Passes for a concert, informally",
+      "answer": "TIX",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Tripping, as in a 1960s counterculture phrase",
+      "answer": "ONACID",
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Top floor space that often holds old holiday decorations",
+      "answer": "ATTIC",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Dash for the cash, perhaps",
+      "answer": "RACE",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Cheap, unimpressive table wine",
+      "answer": "PLONK",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "It gets hot when you're baked",
+      "answer": "OVEN",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Writing tools that use ink",
+      "answer": "PENS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Direction Kanye took for his name",
+      "answer": "WEST",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "How 1990s music was often sold",
+      "answer": "ONCD",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Target for a golfer",
+      "answer": "HOLE",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Person, place, or thing",
+      "answer": "NOUN",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Pushkin's Eugene who rejects Tatyana",
+      "answer": "ONEGIN",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Instagram profile summary, for short",
+      "answer": "BIO",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Wealthy fur mogul John Jacob",
+      "answer": "ASTOR",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Pours down from above",
+      "answer": "RAINS",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Group of naval vessels",
+      "answer": "FLEET",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Bill Hader's eccentric Weekend Update city correspondent",
+      "answer": "STEFON",
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Disconnect a laptop from its base",
+      "answer": "UNDOCK",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Consecutively, without a break",
+      "answer": "INAROW",
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Creed frontman Scott",
+      "answer": "STAPP",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Championship or book name",
+      "answer": "TITLE",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Hoyt who wrote \"Joy to the World\" for Three Dog Night",
+      "answer": "AXTON",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Bat's bedroom",
+      "answer": "CAVE",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Chills with cubes, or decorates a cake",
+      "answer": "ICES",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Fender bender's souvenir",
+      "answer": "DENT",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Those holding office, opposite the outs",
+      "answer": "INS",
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
