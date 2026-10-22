@@ -1,0 +1,690 @@
+{
+  "date": "2026-10-22",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "P",
+        "number": 2
+      },
+      {
+        "solution": "O",
+        "number": 3
+      },
+      {
+        "solution": "T",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 5
+      },
+      {
+        "solution": "S",
+        "number": 6
+      },
+      {
+        "solution": "I",
+        "number": 7
+      },
+      {
+        "solution": "C",
+        "number": 8
+      },
+      {
+        "solution": "S",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 10
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 11
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 12
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "C"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 14
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "G",
+        "number": 15
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 16
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "D",
+        "number": 17
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "R",
+        "number": 18
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E",
+        "number": 19
+      },
+      {
+        "solution": "D",
+        "number": 20
+      },
+      {
+        "solution": "R",
+        "number": 21
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "T",
+        "number": 22
+      },
+      {
+        "solution": "R",
+        "number": 23
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 24
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 25
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "G",
+        "number": 26
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 27
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 28
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 29
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 30
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Fido's classic moniker",
+      "answer": "SPOT",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Japanese athletic brand whose name comes from a Latin phrase about a sound mind and body",
+      "answer": "ASICS",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "\"___ the one?\" (first-date question)",
+      "answer": "ISHE",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "\"What a pity!\"",
+      "answer": "SHAME",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Publicist's favorable twist on a story",
+      "answer": "SPIN",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Top floor used for storing old holiday decorations",
+      "answer": "ATTIC",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "In the past",
+      "answer": "AGO",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Like a novice, or golf course turf",
+      "answer": "GREEN",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Resounding final whistle in a ballpark?",
+      "answer": "LOUDOUT",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Trilled consonant sound in Spanish or Italian",
+      "answer": "ROLLEDR",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Swap one thing for another",
+      "answer": "TRADE",
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "\"___ you serious?\"",
+      "answer": "ARE",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "\"A wing and ___\"",
+      "answer": "AHOPE",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Color of a stormy sky",
+      "answer": "GRAY",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Designer's tag on a jacket",
+      "answer": "LABEL",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Actress Sommer of classic cinema",
+      "answer": "ELKE",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Oldest Von Trapp daughter who is \"sixteen going on seventeen\"",
+      "answer": "LIESL",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Potato spots",
+      "answer": "EYES",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Durable natural fiber used in cat scratching posts",
+      "answer": "SISAL",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Compact Sony handheld console released in 2009",
+      "answer": "PSPGO",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Bobcats' campus in Athens, briefly",
+      "answer": "OHIOU",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Perfect score in gymnastics",
+      "answer": "TEN",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Generally speaking",
+      "answer": "ASARULE",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Historic Eastern European Jewish village",
+      "answer": "SHTETL",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "\"No thanks, ___ already\"",
+      "answer": "IATE",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Pitch associated with three flats, briefly",
+      "answer": "CMIN",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Jiffy",
+      "answer": "SEC",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Roger who serves as the NFL Commissioner",
+      "answer": "GOODELL",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Window coverings that match the carpet, metaphorically",
+      "answer": "DRAPES",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Like birds that catch worms",
+      "answer": "EARLY",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Male duck",
+      "answer": "DRAKE",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Point ___ National Seashore, California",
+      "answer": "REYES",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Cuisine featuring pad see ew and tom yum",
+      "answer": "THAI",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Attire for a judge or a spa visitor",
+      "answer": "ROBE",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Whole shebang",
+      "answer": "ALL",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "\"Golly!\"",
+      "answer": "GEE",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
