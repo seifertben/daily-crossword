@@ -1,0 +1,697 @@
+{
+  "date": "2026-10-23",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "C",
+        "number": 1
+      },
+      {
+        "solution": "R",
+        "number": 2
+      },
+      {
+        "solution": "O",
+        "number": 3
+      },
+      {
+        "solution": "C",
+        "number": 4
+      },
+      {
+        "solution": "S",
+        "number": 5
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 6
+      },
+      {
+        "solution": "N",
+        "number": 7
+      },
+      {
+        "solution": "K",
+        "number": 8
+      },
+      {
+        "solution": "S",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 10
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 11
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 12
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "D",
+        "number": 13
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 14
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 15
+      },
+      {
+        "solution": "B",
+        "number": 16
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 17
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E",
+        "number": 18
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 19
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T",
+        "number": 20
+      },
+      {
+        "solution": "W",
+        "number": 21
+      },
+      {
+        "solution": "O",
+        "number": 22
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 23
+      },
+      {
+        "solution": "R",
+        "number": 24
+      },
+      {
+        "solution": "F",
+        "number": 25
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "M"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 26
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 27
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "W",
+        "number": 29
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "J",
+        "number": 30
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 31
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 33
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Foam clogs often paired with Jibbitz charms",
+      "answer": "CROCS",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Signs a contract, colloquially",
+      "answer": "INKS",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Sudden, jerky movement",
+      "answer": "LURCH",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Letters in a box",
+      "answer": "MAIL",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Prefix meaning \"male\"",
+      "answer": "ANDRO",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Dinner and a movie, traditionally",
+      "answer": "DATE",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Console that popularized motion controls in 2006",
+      "answer": "WII",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Broadsided in a traffic accident",
+      "answer": "TBONED",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Soak in hot water, like a tea bag",
+      "answer": "STEEPIN",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Where a long news story might continue",
+      "answer": "PAGETWO",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Agency that handles image control",
+      "answer": "PRFIRM",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Harry's red-haired best friend",
+      "answer": "RON",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Playful tap on a dog's nose",
+      "answer": "BOOP",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "In the loop",
+      "answer": "AWARE",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "___ de vivre (delight in living)",
+      "answer": "JOIE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Unwind after a long day",
+      "answer": "CHILL",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Obsessive super-fan, in modern slang",
+      "answer": "STAN",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Smooths down rough wood",
+      "answer": "SANDS",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Feline weapons that get sharpened on scratch posts",
+      "answer": "CLAWS",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "\"___ up the flagpole\" (test an idea)",
+      "answer": "RUNIT",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "\"Do ___!\" (ultimatum words)",
+      "answer": "ORDIE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "\"Bad Moon Rising\" band, for short",
+      "answer": "CCR",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Matched the golfer's benchmark",
+      "answer": "SHOTPAR",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "\"I give up!\" or \"I finished my meal!\"",
+      "answer": "IMDONE",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Pillowy bread served with chicken tikka masala",
+      "answer": "NAAN",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Tethered high-flyer",
+      "answer": "KITE",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Snowy hill cruiser",
+      "answer": "SLED",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Double-decker McDonald's orders",
+      "answer": "BIGMACS",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Emergency auto-injector for allergies",
+      "answer": "EPIPEN",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Prepare for a marathon",
+      "answer": "TRAIN",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Atlas subject",
+      "answer": "WORLD",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "First-year law students",
+      "answer": "ONELS",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Classic brown-bag lunches, for short",
+      "answer": "PBJS",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Cheer on the home team, with \"for\"",
+      "answer": "ROOT",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Transparency law for curious journalists, briefly",
+      "answer": "FOIA",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "\"Say... what?!\"",
+      "answer": "WHA",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
