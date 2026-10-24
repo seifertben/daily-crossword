@@ -1,0 +1,697 @@
+{
+  "date": "2026-10-24",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "A",
+        "number": 1
+      },
+      {
+        "solution": "L",
+        "number": 2
+      },
+      {
+        "solution": "A",
+        "number": 3
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 4
+      },
+      {
+        "solution": "I",
+        "number": 5
+      },
+      {
+        "solution": "S",
+        "number": 6
+      },
+      {
+        "solution": "S",
+        "number": 7
+      },
+      {
+        "solution": "M",
+        "number": 8
+      },
+      {
+        "solution": "E",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 10
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "W"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 11
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 12
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 13
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 14
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S",
+        "number": 15
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 16
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 17
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "U",
+        "number": 18
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "V",
+        "number": 19
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "Y",
+        "number": 20
+      },
+      {
+        "solution": "C",
+        "number": 21
+      },
+      {
+        "solution": "K",
+        "number": 22
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 23
+      },
+      {
+        "solution": "A",
+        "number": 24
+      },
+      {
+        "solution": "R",
+        "number": 25
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 26
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 27
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I",
+        "number": 28
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 29
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 30
+      },
+      {
+        "solution": "F"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "Z",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "P"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 33
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "F"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Pie ___ mode",
+      "answer": "ALA",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "\"Did you catch my absence?\"",
+      "answer": "MISSME",
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Work with a needle and thread",
+      "answer": "SEW",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Televangelist Joel",
+      "answer": "OSTEEN",
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Actress Toguri, famously known as \"Tokyo Rose\"",
+      "answer": "IVA",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Final two words of a classic fairy tale",
+      "answer": "THEEND",
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Soggy, grassy wetland area",
+      "answer": "MARSH",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Australian birds that can't fly but can sprint fast",
+      "answer": "EMUS",
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Diner cook's shout when food is ready",
+      "answer": "ORDERUP",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Painter of the Arnolfini Portrait",
+      "answer": "VANEYCK",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Female zebra or donkey",
+      "answer": "MARE",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Doctor who gave his name to an inflammatory bowel disease",
+      "answer": "CROHN",
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Female advisor or muse",
+      "answer": "EGERIA",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Court with flowers and chocolates",
+      "answer": "WOO",
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Official throwing a yellow flag, for short",
+      "answer": "NFLUMP",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Nothing at all, or a way to close a jacket",
+      "answer": "ZIP",
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Official permissions",
+      "answer": "SAYSOS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Terrier's sharp remark",
+      "answer": "ARF",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Honda's famous humanoid robot retired in 2018",
+      "answer": "ASIMO",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Burton who hosted \"Reading Rainbow\"",
+      "answer": "LEVAR",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Grammy or Oscar, for example",
+      "answer": "AWARD",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Giant kaiju monster that battles Godzilla",
+      "answer": "MOTHRA",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Suffix meaning \"approximately\"",
+      "answer": "ISH",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "More inclined, as a hiking trail",
+      "answer": "STEEPER",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Give the impression of being",
+      "answer": "SEEM",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Restaurant list that might feature daily specials",
+      "answer": "MENU",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Terminates, or football positions",
+      "answer": "ENDS",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Potions master Snape of Hogwarts",
+      "answer": "SEVERUS",
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Takes the top off a marker",
+      "answer": "UNCAPS",
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "\"Holy cow!\"",
+      "answer": "YOWZA",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Group hitting high notes in church",
+      "answer": "CHOIR",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Alfred A. who founded a famous publishing house",
+      "answer": "KNOPF",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Department store section for ties and suits",
+      "answer": "MENS",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "German film and photography brand",
+      "answer": "AGFA",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Count on, with \"on\"",
+      "answer": "RELY",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "\"If you ask me,\" in a text message",
+      "answer": "IMO",
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
