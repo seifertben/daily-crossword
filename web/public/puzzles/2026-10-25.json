@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-25",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "B",
+        "number": 1
+      },
+      {
+        "solution": "O",
+        "number": 2
+      },
+      {
+        "solution": "D",
+        "number": 3
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 4
+      },
+      {
+        "solution": "A",
+        "number": 5
+      },
+      {
+        "solution": "M",
+        "number": 6
+      },
+      {
+        "solution": "B",
+        "number": 7
+      },
+      {
+        "solution": "A",
+        "number": 8
+      },
+      {
+        "solution": "M",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 10
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 12
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 13
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "X"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 14
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E",
+        "number": 15
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 17
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C",
+        "number": 18
+      },
+      {
+        "solution": "K",
+        "number": 19
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "solution": "S",
+        "number": 20
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "M",
+        "number": 21
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 22
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "D",
+        "number": 23
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "C",
+        "number": 24
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "T",
+        "number": 25
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 26
+      },
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "N",
+        "number": 28
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 29
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 30
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 31
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 32
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "K"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 33
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "B"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Gym rat's pride, informally",
+      "answer": "BOD",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Flintstone kid with a tiny club",
+      "answer": "BAMBAM",
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Raw material for a blacksmith",
+      "answer": "ORE",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Climax location in a typical five-part play",
+      "answer": "ACTIII",
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Gents",
+      "answer": "MEN",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Generic competitor in TV commercials",
+      "answer": "BRANDX",
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Staring in complete astonishment",
+      "answer": "BOGEYED",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Motown music genre",
+      "answer": "SOUL",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Quarterback's worst nightmare",
+      "answer": "SACK",
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Give the impression of being",
+      "answer": "SEEM",
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Current state of mind",
+      "answer": "MOOD",
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Farts silently, in slang",
+      "answer": "CUTSONE",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Vent frustration toward someone",
+      "answer": "RANTTO",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "\"___ Wayne\" (rap moniker start)",
+      "answer": "LIL",
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Trapper catching game with a noose",
+      "answer": "SNARER",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Cooling cubes in a soda glass",
+      "answer": "ICE",
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Venetian basilica honoree",
+      "answer": "STMARK",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Keyboard key above Caps Lock",
+      "answer": "TAB",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Flops terribly on stage",
+      "answer": "BOMBS",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Crunchy, chocolatey breakfast cereal",
+      "answer": "OREOOS",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Mosquito-borne tropical fever",
+      "answer": "DENGUE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Nursery newcomer",
+      "answer": "BABY",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Farm plots",
+      "answer": "ACRES",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Cascade Range peak named for the second U.S. president",
+      "answer": "MTADAMS",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Recycling container",
+      "answer": "BIN",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Lend a helping hand",
+      "answer": "AID",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "DJ's created playlist",
+      "answer": "MIX",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Tragic Greek daughter of Agamemnon",
+      "answer": "ELECTRA",
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "\"Simmer down!\"",
+      "answer": "COOLIT",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Japanese camera brand that merged with Minolta",
+      "answer": "KONICA",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "More quiet and subdued",
+      "answer": "MUTER",
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Famous person who is no longer living, in tabloids",
+      "answer": "DELEB",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Peter of The Monkees",
+      "answer": "TORK",
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Web feed format for blog updates, briefly",
+      "answer": "RSS",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Picnic-crashing insect",
+      "answer": "ANT",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "'60s conflict location, informally",
+      "answer": "NAM",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
