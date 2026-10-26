@@ -1,0 +1,695 @@
+{
+  "date": "2026-10-26",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "B",
+        "number": 1
+      },
+      {
+        "solution": "Y",
+        "number": 2
+      },
+      {
+        "solution": "F",
+        "number": 3
+      },
+      {
+        "solution": "A",
+        "number": 4
+      },
+      {
+        "solution": "R",
+        "number": 5
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 6
+      },
+      {
+        "solution": "R",
+        "number": 7
+      },
+      {
+        "solution": "I",
+        "number": 8
+      },
+      {
+        "solution": "P",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "H",
+        "number": 10
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 11
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 12
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 14
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "G"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 15
+      },
+      {
+        "solution": "A",
+        "number": 16
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "R",
+        "number": 17
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 18
+      },
+      {
+        "solution": "A",
+        "number": 19
+      },
+      {
+        "solution": "S",
+        "number": 20
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 21
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 22
+      },
+      {
+        "solution": "T",
+        "number": 23
+      },
+      {
+        "solution": "F",
+        "number": 24
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 25
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 26
+      },
+      {
+        "solution": "D",
+        "number": 27
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 28
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 29
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "H",
+        "number": 30
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 31
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "K"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "To a great degree",
+      "answer": "BYFAR",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Stumble over a rug",
+      "answer": "TRIP",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Common greeting",
+      "answer": "HELLO",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "___ tight ship (manage efficiently)",
+      "answer": "RUNA",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "\"Not ___!\" (polite reply)",
+      "answer": "ATALL",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "His, to Henri",
+      "answer": "ALUI",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Musician's weekend booking",
+      "answer": "GIG",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Attack physically or verbally, with \"into\"",
+      "answer": "LACEIN",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Gives another exam to",
+      "answer": "RETESTS",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Time dedicated to doing laundry",
+      "answer": "WASHDAY",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Competitive video gaming",
+      "answer": "ESPORT",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Texted reaction to something completely baffling",
+      "answer": "WTF",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Lightbulb moment output",
+      "answer": "IDEA",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "State famous for its russet crop",
+      "answer": "IDAHO",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "First-place medal metal",
+      "answer": "GOLD",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Bring down, as a flag or a temperature",
+      "answer": "LOWER",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Chart toppers",
+      "answer": "HITS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Express gratitude to",
+      "answer": "THANK",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "\"Big Hairy Audacious Goal,\" in business slang",
+      "answer": "BHAG",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Abominable Snowman",
+      "answer": "YETI",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Lose energy or stamina",
+      "answer": "FLAG",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "The whole shebang",
+      "answer": "ALL",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Trilled sound in Spanish pronunciation",
+      "answer": "ROLLEDR",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Comedian Ullman of sketch comedy fame",
+      "answer": "TRACEY",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Board game insert that settles arguments",
+      "answer": "RULES",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Indigenous people of the Arctic",
+      "answer": "INUIT",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "\"No ___, no gains\"",
+      "answer": "PAINS",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Leaning to one side",
+      "answer": "ATATILT",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Guitarist Randy who played with Ozzy Osbourne",
+      "answer": "RHOADS",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Step onto the bathroom scale",
+      "answer": "WEIGH",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "\"Me too!\"",
+      "answer": "ASDOI",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Ancient grain used in flour",
+      "answer": "SPELT",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Convenience store chain named for a Pennsylvania town",
+      "answer": "WAWA",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "\"And ___ there were none\"",
+      "answer": "THEN",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Pronged utensil or a split in the road",
+      "answer": "FORK",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Slap-to-the-forehead syllable for Homer Simpson",
+      "answer": "DOH",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
