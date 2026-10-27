@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-27",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      null,
+      {
+        "solution": "M",
+        "number": 1
+      },
+      {
+        "solution": "Y",
+        "number": 2
+      },
+      {
+        "solution": "P",
+        "number": 3
+      },
+      {
+        "solution": "E",
+        "number": 4
+      },
+      {
+        "solution": "T",
+        "number": 5
+      },
+      null,
+      {
+        "solution": "K",
+        "number": 6
+      },
+      {
+        "solution": "W",
+        "number": 7
+      },
+      {
+        "solution": "S",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 9
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 10
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 11
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 12
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 14
+      },
+      {
+        "solution": "F",
+        "number": 15
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "V",
+        "number": 16
+      },
+      {
+        "solution": "A",
+        "number": 17
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 18
+      },
+      {
+        "solution": "M",
+        "number": 19
+      },
+      {
+        "solution": "A",
+        "number": 20
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 21
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 22
+      },
+      {
+        "solution": "R",
+        "number": 23
+      },
+      {
+        "solution": "N",
+        "number": 24
+      },
+      {
+        "solution": "O",
+        "number": 25
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 26
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 27
+      },
+      {
+        "solution": "E",
+        "number": 28
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 29
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 30
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 31
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 32
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      null
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Affectionate term for a beloved domestic animal",
+      "answer": "MYPET",
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Power measures abbreviated in energy bills",
+      "answer": "KWS",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Blood, in Barcelona",
+      "answer": "SANGRE",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "\"___ happened?\"",
+      "answer": "WHA",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Simple Simon's dessert vendor",
+      "answer": "PIEMAN",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Slippery, snakelike marine creature",
+      "answer": "EEL",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "\"In addition...\"",
+      "answer": "ALSO",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Key signature with four flats, musically",
+      "answer": "AFLAT",
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "State of total emptiness or lack of thought",
+      "answer": "VACUITY",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "One sending digital correspondence",
+      "answer": "EMAILER",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Positioned for a volley, in tennis",
+      "answer": "ATNET",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Czech Republic's second-largest city",
+      "answer": "BRNO",
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Greed or gluttony, e.g.",
+      "answer": "SIN",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Extract from Camellia seeds used in cooking and cosmetics",
+      "answer": "TEAOIL",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Quarterback Manning with two Super Bowl rings",
+      "answer": "ELI",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Dial range for talk radio and sports broadcasts",
+      "answer": "AMBAND",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Jeans brand or director Spike",
+      "answer": "LEE",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "\"I want that!\" shopper's plea",
+      "answer": "BUYME",
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Items delivered by a carrier",
+      "answer": "MAIL",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Pioneering botanist Mexican-American Mexía",
+      "answer": "YNES",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Flick that suggests parental guidance",
+      "answer": "PGMOVIE",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Major chunk of historical time",
+      "answer": "ERA",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Bridge combination such as Ace-Queen",
+      "answer": "TENACE",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Rapper Talib known for conscious hip-hop",
+      "answer": "KWELI",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Cereal grain ground to make bread flour",
+      "answer": "WHEAT",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Slang for being visibly annoyed or bitter",
+      "answer": "SALTY",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Resort with hot tubs and mud baths",
+      "answer": "SPA",
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Pampered four-legged family member",
+      "answer": "FURBABY",
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Keyboard shortcut to switch between open windows",
+      "answer": "ALTTAB",
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Stand used by a portrait painter",
+      "answer": "EASEL",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Scrabble piece worth 3 points",
+      "answer": "MTILE",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Broadway musical featuring the song \"Tomorrow\"",
+      "answer": "ANNIE",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Wander without a set destination",
+      "answer": "ROAM",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Number of innings in a standard baseball game",
+      "answer": "NINE",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Like fine wine or valuable antiques",
+      "answer": "OLD",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Large Aussie bird that can't fly, but can sprint up to 30 mph",
+      "answer": "EMU",
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
