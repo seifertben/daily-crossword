@@ -1,0 +1,691 @@
+{
+  "date": "2026-10-28",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "T",
+        "number": 1
+      },
+      {
+        "solution": "H",
+        "number": 2
+      },
+      {
+        "solution": "U",
+        "number": 3
+      },
+      {
+        "solution": "M",
+        "number": 4
+      },
+      {
+        "solution": "P",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "solution": "L",
+        "number": 6
+      },
+      {
+        "solution": "S",
+        "number": 7
+      },
+      {
+        "solution": "D",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 9
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "H",
+        "number": 10
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 12
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "H",
+        "number": 13
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 15
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "B",
+        "number": 16
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "A",
+        "number": 17
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 18
+      },
+      {
+        "solution": "E",
+        "number": 19
+      },
+      {
+        "solution": "S",
+        "number": 20
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 21
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "W",
+        "number": 22
+      },
+      {
+        "solution": "W",
+        "number": 23
+      },
+      {
+        "solution": "I",
+        "number": 24
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 25
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "U",
+        "number": 26
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 28
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "G"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 29
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "X"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 30
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Dull, heavy sound made by a fall",
+      "answer": "THUMP",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Mind-altering drug associated with Timothy Leary",
+      "answer": "LSD",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Scooby-Doo's expression of alarm",
+      "answer": "RUHROH",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "\"Take On Me\" synth-pop group",
+      "answer": "AHA",
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "\"__ Be Me\" (Sammy Davis Jr. hit)",
+      "answer": "IGOTTA",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "What's rolled into large round bales in a field",
+      "answer": "HAY",
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Shrug-worthy",
+      "answer": "MEH",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Damon who fronted Blur and co-created Gorillaz",
+      "answer": "ALBARN",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Ancient Phoenician goddess of fertility and war",
+      "answer": "ASTARTE",
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Matching office accessories, like a pen holder and blotter",
+      "answer": "DESKSET",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Bright star in the constellation Aquila",
+      "answer": "ALTAIR",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Conflict featuring the Battle of the Somme, briefly",
+      "answer": "WWI",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "League where players try to drop dimes and sink three-pointers",
+      "answer": "NBA",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Salt Lake City native",
+      "answer": "UTAHAN",
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Small part in a big machine",
+      "answer": "COG",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Tesla SUV with falcon-wing doors",
+      "answer": "MODELX",
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Barnyard mother who loves a good fleece",
+      "answer": "EWE",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Trees that keep their needles all year",
+      "answer": "PINES",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Snip just a little off the ends of hair",
+      "answer": "TRIM",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Gigantic in scale",
+      "answer": "HUGE",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "\"That doesn't look good...\"",
+      "answer": "UHOH",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Actor famous for saying \"I pity the fool!\"",
+      "answer": "MRT",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Element #19 that bananas are famous for supplying",
+      "answer": "POTASSIUM",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Volcanic mudflow",
+      "answer": "LAHAR",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Unfortunate gamble when expecting just a bit of gas",
+      "answer": "SHART",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Taylor who sang \"Tell It to My Heart\"",
+      "answer": "DAYNE",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Sleeveless summer garment tied behind the neck",
+      "answer": "HALTERTOP",
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Nocturnal mammal that uses echolocation",
+      "answer": "BAT",
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Letters preceding an alias",
+      "answer": "AKA",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Break or tango, for example",
+      "answer": "DANCE",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Joint nudged to get someone's attention",
+      "answer": "ELBOW",
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Spot for a monologue",
+      "answer": "STAGE",
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "\"Say ___\" (host's prompt while pouring)",
+      "answer": "WHEN",
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Textile ridge on corduroy trousers",
+      "answer": "WALE",
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "'Need You Tonight' rock band",
+      "answer": "INXS",
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Dassler who co-founded Adidas",
+      "answer": "ADI",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
