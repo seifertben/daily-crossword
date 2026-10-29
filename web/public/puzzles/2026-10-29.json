@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-29",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "H",
+        "number": 1
+      },
+      {
+        "solution": "A",
+        "number": 2
+      },
+      {
+        "solution": "H",
+        "number": 3
+      },
+      {
+        "solution": "A",
+        "number": 4
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 5
+      },
+      {
+        "solution": "I",
+        "number": 6
+      },
+      {
+        "solution": "E",
+        "number": 7
+      },
+      {
+        "solution": "L",
+        "number": 8
+      },
+      null
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 9
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 10
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S",
+        "number": 11
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 12
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "G",
+        "number": 13
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "P"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "O",
+        "number": 14
+      },
+      {
+        "solution": "N",
+        "number": 15
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 16
+      },
+      {
+        "solution": "A",
+        "number": 17
+      },
+      {
+        "solution": "B",
+        "number": 18
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 19
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 20
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 21
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "B",
+        "number": 22
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 23
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E",
+        "number": 24
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 25
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "G",
+        "number": 27
+      },
+      {
+        "solution": "F",
+        "number": 28
+      },
+      {
+        "solution": "A",
+        "number": 29
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 30
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "K",
+        "number": 31
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "Y"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "D",
+        "number": 32
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 33
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "P"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "\"That's so funny!\"",
+      "answer": "HAHA",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Currency spent in Phnom Penh",
+      "answer": "RIEL",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Spends years in an oak barrel, perhaps",
+      "answer": "AGES",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Book full of global views",
+      "answer": "ATLAS",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Fix up with a needle and thread",
+      "answer": "MEND",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Outlandish outfit",
+      "answer": "GETUP",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Encore seeker's cry",
+      "answer": "ONEMORE",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Treated with extra special care",
+      "answer": "BABIED",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Letter between O and Q",
+      "answer": "PEE",
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "High card in a poker hand",
+      "answer": "ACE",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "High-grade investment rating",
+      "answer": "AABOND",
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "\"No, No, ___\" (classic musical)",
+      "answer": "NANETTE",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Parkway alternative",
+      "answer": "DRIVE",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Classic German film brand",
+      "answer": "AGFA",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Takes the bait",
+      "answer": "BITES",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Items on a ring or a piano",
+      "answer": "KEYS",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Warning left unsaid: \"___ go there!\"",
+      "answer": "DONT",
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Lose one's footing",
+      "answer": "SLIP",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Overactor who loves the spotlight",
+      "answer": "HAM",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Number on a birthday card",
+      "answer": "AGE",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Coop resident that lays eggs",
+      "answer": "HEN",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "\"Me too,\" formally",
+      "answer": "ASDOI",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Yelled furiously toward",
+      "answer": "RAGEDAT",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Couple featured in tabloid gossip",
+      "answer": "ITEM",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "1970 cult avant-garde western by Jodorowsky",
+      "answer": "ELTOPO",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Fashion's Ralph",
+      "answer": "LAUREN",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Dashboard meter reading",
+      "answer": "SPEED",
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Most orderly",
+      "answer": "NEATEST",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Cozy lodging that serves morning toast and eggs, for short",
+      "answer": "BANDB",
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Tiny tick or mite relative",
+      "answer": "ACARID",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Dictator Mussolini",
+      "answer": "BENITO",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Toucans' proudest features",
+      "answer": "BEAKS",
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Tied up, as a score",
+      "answer": "EVEN",
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Hair stylist's gooey goo",
+      "answer": "GEL",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Heads-up in a memo",
+      "answer": "FYI",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Nile creature legendary for its fatal bite",
+      "answer": "ASP",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
