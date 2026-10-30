@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-30",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "T",
+        "number": 2
+      },
+      {
+        "solution": "A",
+        "number": 3
+      },
+      {
+        "solution": "F",
+        "number": 4
+      },
+      {
+        "solution": "F",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "solution": "N",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      },
+      {
+        "solution": "M",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 9
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 10
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 11
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 12
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 14
+      },
+      {
+        "solution": "B",
+        "number": 15
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 16
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "H",
+        "number": 17
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "A",
+        "number": 18
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "A",
+        "number": 19
+      },
+      {
+        "solution": "D",
+        "number": 20
+      },
+      {
+        "solution": "S",
+        "number": 21
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 22
+      },
+      {
+        "solution": "M",
+        "number": 23
+      },
+      {
+        "solution": "F",
+        "number": 24
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 25
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 26
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 27
+      },
+      {
+        "solution": "T",
+        "number": 28
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 29
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 30
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 31
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      {
+        "solution": "K",
+        "number": 32
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "The group running the office",
+      "answer": "STAFF",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "1960s conflict zone, informally",
+      "answer": "NAM",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Magic number in a classic Schoolhouse Rock song",
+      "answer": "THREE",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Runner's tempo",
+      "answer": "PACE",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Tears to pieces",
+      "answer": "RENDS",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Paddles used on a collegiate crew team",
+      "answer": "OARS",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Dassler who founded Adidas",
+      "answer": "ADI",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Hearty cuts for the grill",
+      "answer": "TBONES",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Slangy yap or trap",
+      "answer": "PIEHOLE",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Wild North African sheep with impressive curved horns",
+      "answer": "AOUDADS",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "\"No need to worry about me!\"",
+      "answer": "IMFINE",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "\"I ___ what you did there!\"",
+      "answer": "SEE",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Knock-knock joke participant",
+      "answer": "DOOR",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "\"___, therefore I am\" (joke for a Scrabble enthusiast)",
+      "answer": "ITILE",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Corn field features that can't actually listen",
+      "answer": "EARS",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Dubbed or designated",
+      "answer": "NAMED",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Picnic crasher with a serious heavy-lifting habit",
+      "answer": "ANT",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Stereo controls you turn",
+      "answer": "KNOBS",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Keep a backpack secure",
+      "answer": "STRAP",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Princess who was once married to King Charles III, informally",
+      "answer": "THEDI",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Golfer Palmer to his affectionate fan army",
+      "answer": "ARNIE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Gave a meal to",
+      "answer": "FED",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Drape with garlands for a party",
+      "answer": "FESTOON",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Flatbread baked on the wall of a tandoor",
+      "answer": "NAAN",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Plot of land that's 43,560 square feet",
+      "answer": "ACRE",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Kid's bedroom right before cleanup time",
+      "answer": "MESS",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Answered nature's call, as a puppy",
+      "answer": "POOED",
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Classic choice for signing official documents",
+      "answer": "BLUEINK",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Things a precise person might split",
+      "answer": "HAIRS",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Famous Honda humanoid robot",
+      "answer": "ASIMO",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Famous person who has passed away, in modern slang",
+      "answer": "DELEB",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Rankings for a tennis tournament",
+      "answer": "SEEDS",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Light bulb's cartoon companion",
+      "answer": "IDEA",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Reaction to a particularly awful dad joke",
+      "answer": "MOAN",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Living room structure made of couch cushions and blankets",
+      "answer": "FORT",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Beach souvenir skin tone",
+      "answer": "TAN",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
