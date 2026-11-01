@@ -1,0 +1,704 @@
+{
+  "date": "2026-11-01",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      null,
+      {
+        "solution": "A",
+        "number": 1
+      },
+      {
+        "solution": "S",
+        "number": 2
+      },
+      {
+        "solution": "S",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "solution": "A",
+        "number": 4
+      },
+      {
+        "solution": "B",
+        "number": 5
+      },
+      {
+        "solution": "B",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 8
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "C",
+        "number": 9
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 10
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 11
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "G"
+      },
+      null,
+      {
+        "solution": "T",
+        "number": 12
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 13
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 14
+      },
+      {
+        "solution": "G",
+        "number": 15
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "Y"
+      }
+    ],
+    [
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      {
+        "solution": "J",
+        "number": 17
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "L",
+        "number": 18
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 19
+      },
+      {
+        "solution": "B",
+        "number": 20
+      },
+      {
+        "solution": "S",
+        "number": 21
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 22
+      },
+      {
+        "solution": "O",
+        "number": 23
+      },
+      {
+        "solution": "D",
+        "number": 24
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 25
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 26
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 27
+      },
+      {
+        "solution": "D",
+        "number": 28
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 29
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 30
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 31
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null,
+      {
+        "solution": "G",
+        "number": 32
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "G"
+      },
+      null
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Stubborn beast of burden",
+      "answer": "ASS",
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Pop group famous for \"Dancing Queen\"",
+      "answer": "ABBA",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Space right under the roof",
+      "answer": "ATTIC",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Illegal play in sports",
+      "answer": "FOUL",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Ohm who defined the law of electrical resistance",
+      "answer": "GEORG",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Standing high above average height",
+      "answer": "TALL",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Organ with a drum and a lobe",
+      "answer": "EAR",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "\"___ with a Little Help from My Friends\"",
+      "answer": "IGETBY",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Messy room that might make a parent squeal",
+      "answer": "STY",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Glass container for jam",
+      "answer": "JAR",
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Texted reaction to a funny joke",
+      "answer": "LOL",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Core muscles targeted by crunches",
+      "answer": "ABS",
+      "direction": "across",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Throw a long pass down the field",
+      "answer": "GODEEP",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Mass of salty water",
+      "answer": "SEA",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Large flightless bird of South America",
+      "answer": "RHEA",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Mix extra ingredients into the bowl",
+      "answer": "ADDIN",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Cozy spots for weary road trippers",
+      "answer": "INNS",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Mythological Chinese dragon often seen in New Year parades",
+      "answer": "LOONG",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Applesauce brand named for its founder",
+      "answer": "MOTT",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Live set for a band",
+      "answer": "GIG",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Bothered relentlessly, as a nagging worry",
+      "answer": "ATEAT",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Bedtime narrative",
+      "answer": "STORY",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Formal knight-time greeting",
+      "answer": "SIR",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Following in time",
+      "answer": "AFTER",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Vessel that floats on water",
+      "answer": "BOAT",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Glass light source or garlic clove unit",
+      "answer": "BULB",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Country on your side in wartime",
+      "answer": "ALLY",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "What fine wine and cheddar do over time",
+      "answer": "AGES",
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Computer-animated action figure film of 2009, informally",
+      "answer": "CGIJOE",
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Close female friend",
+      "answer": "GALPAL",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "At ___ (minimum requirement)",
+      "answer": "LEAST",
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "\"Me too,\" formally",
+      "answer": "ASDOI",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Human ___ (living creature)",
+      "answer": "BEING",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Belting out a melody",
+      "answer": "SANG",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Bleak and unforgiving, like some fairy tales",
+      "answer": "GRIM",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "\"That's terrible news!\"",
+      "answer": "OHNO",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Souvenir from a bad parallel parking job",
+      "answer": "DENT",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Barking pet",
+      "answer": "DOG",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 38
+}
