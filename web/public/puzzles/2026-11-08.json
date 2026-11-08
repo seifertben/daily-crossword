@@ -1,0 +1,683 @@
+{
+  "date": "2026-11-08",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      null,
+      null,
+      {
+        "solution": "B",
+        "number": 1
+      },
+      {
+        "solution": "U",
+        "number": 2
+      },
+      {
+        "solution": "N",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "solution": "W",
+        "number": 4
+      },
+      {
+        "solution": "W",
+        "number": 5
+      },
+      {
+        "solution": "W",
+        "number": 6
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 7
+      },
+      {
+        "solution": "R",
+        "number": 8
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "Z"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 9
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 10
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 11
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 12
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "D"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 13
+      },
+      {
+        "solution": "M",
+        "number": 14
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 15
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S",
+        "number": 16
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "M",
+        "number": 17
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "S",
+        "number": 18
+      },
+      {
+        "solution": "T",
+        "number": 19
+      },
+      {
+        "solution": "A",
+        "number": 20
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 21
+      },
+      {
+        "solution": "U",
+        "number": 22
+      },
+      {
+        "solution": "F",
+        "number": 23
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 24
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 25
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 26
+      },
+      {
+        "solution": "Y",
+        "number": 27
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "P"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 28
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 29
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 30
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "L"
+      },
+      null,
+      null,
+      {
+        "solution": "A",
+        "number": 31
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      null
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Top or bottom half of a burger casing",
+      "answer": "BUN",
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Letters before many a URL",
+      "answer": "WWW",
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Wildly eccentric or irrational",
+      "answer": "CRAZY",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Sound bouncing back",
+      "answer": "ECHO",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "\"___ by me first\" (ask for approval)",
+      "answer": "RUNIT",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Celestial body on a night sky map",
+      "answer": "STAR",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Conjunction that connects two thoughts",
+      "answer": "AND",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Attribute, as fault",
+      "answer": "IMPUTE",
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Cricket players at the wicket",
+      "answer": "BATSMEN",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "\"I like it,\" in Madrid",
+      "answer": "MEGUSTA",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Simba's tragic father",
+      "answer": "MUFASA",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Title before a maiden name change, often",
+      "answer": "MRS",
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Overly meticulous, informally",
+      "answer": "ANAL",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Check out from across the room",
+      "answer": "EYEUP",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Chuck who coached the Steelers to four Super Bowl wins",
+      "answer": "NOLL",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "What players must abide by",
+      "answer": "RULES",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Signing system used in North America, for short",
+      "answer": "ASL",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Fitting for the occasion",
+      "answer": "APT",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Hotel offering with morning toast, for short",
+      "answer": "BANDT",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Compact Israeli submachine gun",
+      "answer": "UZI",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Major American newspaper founded in 1851, informally",
+      "answer": "NYTIMES",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Historic anti-alcohol group, for short",
+      "answer": "WCTU",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "\"Pardon me?\"",
+      "answer": "WHAT",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Had on, as clothes",
+      "answer": "WORE",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Sidestepping crustacean on the beach",
+      "answer": "CRAB",
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "\"___ tight ship\" (manage strictly)",
+      "answer": "RUNA",
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Cable network focused on college sports",
+      "answer": "ESPNU",
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "One of the mythic Furies",
+      "answer": "MEGAERA",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Little in size",
+      "answer": "SMALL",
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Extract metal from ore",
+      "answer": "SMELT",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Not false",
+      "answer": "TRUE",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Nile serpents",
+      "answer": "ASPS",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Magical energy reserve in many role-playing games",
+      "answer": "MANA",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Pizzeria chain known for deep dish, Chicago-style",
+      "answer": "UNOS",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Autumn season when leaves drop",
+      "answer": "FALL",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "\"You betcha!\"",
+      "answer": "YUP",
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
