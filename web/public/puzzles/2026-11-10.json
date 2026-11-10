@@ -1,0 +1,697 @@
+{
+  "date": "2026-11-10",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "R",
+        "number": 1
+      },
+      {
+        "solution": "A",
+        "number": 2
+      },
+      {
+        "solution": "T",
+        "number": 3
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 4
+      },
+      {
+        "solution": "V",
+        "number": 5
+      },
+      {
+        "solution": "A",
+        "number": 6
+      },
+      {
+        "solution": "T",
+        "number": 7
+      },
+      {
+        "solution": "A",
+        "number": 8
+      },
+      {
+        "solution": "R",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 10
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      {
+        "solution": "F",
+        "number": 11
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 12
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 13
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "I",
+        "number": 15
+      },
+      {
+        "solution": "C"
+      },
+      null,
+      {
+        "solution": "H",
+        "number": 16
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "O",
+        "number": 17
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "M",
+        "number": 18
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "B",
+        "number": 19
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N",
+        "number": 20
+      },
+      {
+        "solution": "G",
+        "number": 21
+      },
+      {
+        "solution": "S",
+        "number": 22
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 23
+      },
+      {
+        "solution": "E",
+        "number": 24
+      },
+      {
+        "solution": "P",
+        "number": 25
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 26
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 27
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "T",
+        "number": 28
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 29
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "A"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 30
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 31
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "T",
+        "number": 32
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 33
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "D"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Lab maze runner",
+      "answer": "RAT",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Digital representation of a forum user",
+      "answer": "AVATAR",
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Manning with two Super Bowl MVP trophies",
+      "answer": "ELI",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "\"All done!\"",
+      "answer": "FINITO",
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Peach center or orchestra spot",
+      "answer": "PIT",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Pounce upon quickly",
+      "answer": "LEAPON",
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Surviving object from a bygone era",
+      "answer": "RELIC",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Sings with a closed mouth",
+      "answer": "HUMS",
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "FDR's coin value",
+      "answer": "ONEDIME",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "747s and 777s",
+      "answer": "BOEINGS",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Salt's hip-hop partner",
+      "answer": "PEPA",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Like a bright student or a sharp phone",
+      "answer": "SMART",
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "\"I really didn't have a choice!\"",
+      "answer": "IHADTO",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Hamm of U.S. soccer fame",
+      "answer": "MIA",
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Informal word for your head",
+      "answer": "NOGGIN",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Cable news pioneer launched by Ted Turner",
+      "answer": "CNN",
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Posts on X, formerly",
+      "answer": "TWEETS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Not divisible by two",
+      "answer": "ODD",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Copy made in a print shop, for short",
+      "answer": "REPRO",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Cosmic visitor in science fiction",
+      "answer": "ALIEN",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Spine line on a hardcover",
+      "answer": "TITLE",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Major American labor federation",
+      "answer": "AFLCIO",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Jockey for position",
+      "answer": "VIE",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Home city of Disneyland",
+      "answer": "ANAHEIM",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "18th-century Sultan of Mysore",
+      "answer": "TIPU",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Tiny unit with a nucleus",
+      "answer": "ATOM",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Swanson and Weasley, for two",
+      "answer": "RONS",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Plastic pass clipped to a lanyard",
+      "answer": "IDBADGE",
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Subatomic particles composed of a quark and antiquark",
+      "answer": "MESONS",
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Arcade pioneer behind Pac-Man and Tekken",
+      "answer": "NAMCO",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Daily routine, so to speak",
+      "answer": "GRIND",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Lemonade vendor's setup",
+      "answer": "STAND",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Standard pub order of ale",
+      "answer": "PINT",
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Website offering DIY instructions",
+      "answer": "EHOW",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "One side of a leaf in a novel",
+      "answer": "PAGE",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Small songbird, like a chickadee relative",
+      "answer": "TIT",
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
