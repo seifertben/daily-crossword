@@ -1,0 +1,710 @@
+{
+  "date": "2026-11-14",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "A",
+        "number": 2
+      },
+      {
+        "solution": "T",
+        "number": 3
+      },
+      {
+        "solution": "O",
+        "number": 4
+      },
+      {
+        "solution": "N",
+        "number": 5
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 6
+      },
+      {
+        "solution": "G",
+        "number": 7
+      },
+      {
+        "solution": "E",
+        "number": 8
+      },
+      {
+        "solution": "S",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "P",
+        "number": 10
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 11
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 12
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 13
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 14
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C",
+        "number": 15
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 16
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "C",
+        "number": 17
+      },
+      {
+        "solution": "O",
+        "number": 18
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "A"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 19
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 20
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "H"
+      },
+      null,
+      {
+        "solution": "E",
+        "number": 21
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "P",
+        "number": 22
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "U"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 23
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 24
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "Y"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 25
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "M",
+        "number": 26
+      },
+      null,
+      {
+        "solution": "C",
+        "number": 27
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "C",
+        "number": 28
+      },
+      {
+        "solution": "O",
+        "number": 29
+      },
+      {
+        "solution": "A",
+        "number": 30
+      }
+    ],
+    [
+      {
+        "solution": "W",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 32
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      }
+    ],
+    [
+      {
+        "solution": "N",
+        "number": 33
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 34
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "K"
+      },
+      {
+        "solution": "E"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Suppressed, as a breaking news story",
+      "answer": "SATON",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Grows older, or feels like a lifetime",
+      "answer": "AGES",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Instrument with 88 black and white keys",
+      "answer": "PIANO",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Bowling alley track or highway division",
+      "answer": "LANE",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Forest of Shakespearean romance",
+      "answer": "ARDEN",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "\"Ah, makes sense now\"",
+      "answer": "ISEE",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Super ___ (political fundraising group)",
+      "answer": "PAC",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Long-running TV franchise set in Las Vegas or Miami",
+      "answer": "CSI",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Punctuation mark that causes a brief pause",
+      "answer": "COMMA",
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Play a part on stage",
+      "answer": "ACT",
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Homer Simpson's famous forehead-slap cry",
+      "answer": "DOH",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Cable network for college sports fans",
+      "answer": "ESPNU",
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Harry and Hermione's best friend",
+      "answer": "RON",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Hesitant to take center stage",
+      "answer": "SHY",
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Tiny bit of matter with a nucleus",
+      "answer": "ATOM",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Warm winter mugful",
+      "answer": "COCOA",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Drink ordered by its vintage",
+      "answer": "WINE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "Bothered continuously, as a nagging worry",
+      "answer": "ATEAT",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Gas that turns Times Square bright",
+      "answer": "NEON",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 34,
+      "clue": "Flat out of funds",
+      "answer": "BROKE",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Place for a soothing facial and massage",
+      "answer": "SPA",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Broadcast on the radio",
+      "answer": "AIR",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Just a smidge",
+      "answer": "TAD",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Standard time for a late lunch",
+      "answer": "ONEPM",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Uncredited extras or obscure performers",
+      "answer": "NONAMES",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Boxing legend who could \"float like a butterfly\"",
+      "answer": "ALI",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Emergency container for roadside fuel",
+      "answer": "GASCAN",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Famed Romanian violinist and composer George",
+      "answer": "ENESCU",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "\"I'll believe it when I ___\"",
+      "answer": "SEEIT",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Game show set in a moving taxi",
+      "answer": "CASHCAB",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Imaginary playground bug",
+      "answer": "COOTIE",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "\"Please, anything but that!\"",
+      "answer": "OHNONO",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Like a sketch or a tied game",
+      "answer": "DRAWN",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Composer Tchaikovsky's first name",
+      "answer": "PYOTR",
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Gents",
+      "answer": "MEN",
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Corner office boss, for short",
+      "answer": "CEO",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Tree that starts as a tiny acorn",
+      "answer": "OAK",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Polished off a meal",
+      "answer": "ATE",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 38
+}
