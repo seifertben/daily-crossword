@@ -1,0 +1,710 @@
+{
+  "date": "2026-11-15",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "G",
+        "number": 1
+      },
+      {
+        "solution": "L",
+        "number": 2
+      },
+      {
+        "solution": "O",
+        "number": 3
+      },
+      {
+        "solution": "R",
+        "number": 4
+      },
+      {
+        "solution": "Y",
+        "number": 5
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      },
+      {
+        "solution": "L",
+        "number": 8
+      },
+      {
+        "solution": "T",
+        "number": 9
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 10
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 11
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "I"
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 12
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "G"
+      },
+      null,
+      {
+        "solution": "A",
+        "number": 13
+      },
+      {
+        "solution": "M"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "M"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "D",
+        "number": 14
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "Y",
+        "number": 15
+      },
+      null,
+      {
+        "solution": "P",
+        "number": 16
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "R",
+        "number": 17
+      },
+      {
+        "solution": "A",
+        "number": 18
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 19
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "S"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 20
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "W"
+      },
+      null,
+      {
+        "solution": "S",
+        "number": 21
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "I",
+        "number": 22
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 23
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "R"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 24
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "D",
+        "number": 25
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "G",
+        "number": 26
+      },
+      null,
+      {
+        "solution": "N",
+        "number": 27
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "T",
+        "number": 29
+      },
+      {
+        "solution": "H",
+        "number": 30
+      }
+    ],
+    [
+      {
+        "solution": "I",
+        "number": 31
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "D",
+        "number": 32
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "W"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 33
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 34
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Magnificent fame and renown",
+      "answer": "GLORY",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Pretzel topping that makes you thirsty",
+      "answer": "SALT",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Correo ___ (airmail, on a Spanish envelope)",
+      "answer": "AEREO",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Multiple hybrid Toyotas",
+      "answer": "PRII",
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Packed kit ready for sudden emergencies",
+      "answer": "GOBAG",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Convenience store chain named for round-the-clock hours",
+      "answer": "AMPM",
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Home improvement motto, briefly",
+      "answer": "DIY",
+      "direction": "across",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "3.14159... day treat",
+      "answer": "PIE",
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Dashboard fixture with a volume knob",
+      "answer": "RADIO",
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Bouncers check them",
+      "answer": "IDS",
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Gaping gullet",
+      "answer": "MAW",
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Spades, hearts, diamonds, and clubs",
+      "answer": "SUITS",
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Airport code for Newark Liberty",
+      "answer": "EWR",
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Apple computer favored by designers",
+      "answer": "MAC",
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Obnoxious jerk, in modern slang",
+      "answer": "DBAG",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Below, to a poet",
+      "answer": "NEATH",
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "\"___ a huge breakfast, so I'm skipping lunch\"",
+      "answer": "IATE",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 32,
+      "clue": "\"___ miss the start of the movie?\"",
+      "answer": "DIDWE",
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 33,
+      "clue": "Backside, across the Atlantic",
+      "answer": "ARSE",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 34,
+      "clue": "\"The challenge has been accepted!\"",
+      "answer": "ITSON",
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Prankster's classic joke",
+      "answer": "GAG",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Zodiac sign symbolized by a lion",
+      "answer": "LEO",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Poetic word for a glowing planet",
+      "answer": "ORB",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Tally up the column a second time",
+      "answer": "READD",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "\"It ain't over till it's over,\" for one",
+      "answer": "YOGIISM",
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Place for a mud bath and massage",
+      "answer": "SPA",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Deodorant target",
+      "answer": "ARMPIT",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Fats and oils, scientifically",
+      "answer": "LIPIDS",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "New York newspaper or arithmetic operation",
+      "answer": "TIMES",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Pair mentioned in many a romantic duet",
+      "answer": "YOUANDI",
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Restaurant spot serving fresh oysters and clams",
+      "answer": "RAWBAR",
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "\"Darn it!\", old-school style",
+      "answer": "AWRATS",
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Pressing concerns?",
+      "answer": "MEDIA",
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Seal the victory, informally",
+      "answer": "ICEIT",
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "\"Well, whaddya know!\"",
+      "answer": "GEE",
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Commercial interruptions",
+      "answer": "ADS",
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Number of sides to every story",
+      "answer": "TWO",
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Coop resident that clucks",
+      "answer": "HEN",
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 38
+}
