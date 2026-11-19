@@ -1,0 +1,687 @@
+{
+  "date": "2026-11-19",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      {
+        "solution": "D",
+        "number": 1
+      },
+      {
+        "solution": "J",
+        "number": 2
+      },
+      {
+        "solution": "S",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "solution": "T",
+        "number": 4
+      },
+      {
+        "solution": "I",
+        "number": 5
+      },
+      {
+        "solution": "M",
+        "number": 6
+      },
+      {
+        "solution": "I",
+        "number": 7
+      },
+      {
+        "solution": "D",
+        "number": 8
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 9
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 10
+      },
+      {
+        "solution": "H"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 11
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "M"
+      },
+      null,
+      {
+        "solution": "B",
+        "number": 12
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "C"
+      },
+      {
+        "solution": "H"
+      }
+    ],
+    [
+      {
+        "solution": "M",
+        "number": 13
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "D",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 15
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "H"
+      },
+      null
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 16
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "K",
+        "number": 17
+      },
+      {
+        "solution": "O"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "M",
+        "number": 18
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "B",
+        "number": 19
+      },
+      {
+        "solution": "A",
+        "number": 20
+      },
+      {
+        "solution": "R",
+        "number": 21
+      }
+    ],
+    [
+      null,
+      {
+        "solution": "F",
+        "number": 22
+      },
+      {
+        "solution": "B",
+        "number": 23
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 24
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "B",
+        "number": 25
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "A",
+        "number": 26
+      },
+      {
+        "solution": "B"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 27
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "A",
+        "number": 28
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "R"
+      },
+      {
+        "solution": "B"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "L",
+        "number": 29
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "G",
+        "number": 30
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "C"
+      },
+      null,
+      null,
+      {
+        "solution": "S",
+        "number": 31
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      }
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Party hosts who spin tracks",
+      "answer": "DJS",
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Lacking confidence",
+      "answer": "TIMID",
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Aussie hopper, informally",
+      "answer": "ROO",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "\"That's a terrible idea!\"",
+      "answer": "OHNONO",
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Pitcher's asset",
+      "answer": "ARM",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Slangy, sassy insult",
+      "answer": "BEOTCH",
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Union general who won at Gettysburg",
+      "answer": "MEADE",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Cheerleader's shout",
+      "answer": "RAH",
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Eating lunch right at your computer",
+      "answer": "ALDESKO",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Top strip on a computer screen with File and Edit options",
+      "answer": "MENUBAR",
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Quantico-based law enforcement group",
+      "answer": "FBI",
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "\"___ 50\" (classic song by Paul Simon)",
+      "answer": "OTILE",
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "African tree with a famously thick trunk",
+      "answer": "BAOBAB",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Jeans brand or shelter from the wind",
+      "answer": "LEE",
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Super cute, in modern slang",
+      "answer": "ADORBS",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "Substance linked to 1960s counterculture trips",
+      "answer": "LSD",
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "Suffer a grade below B, say",
+      "answer": "GETAC",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "Family nickname for a sibling",
+      "answer": "SIS",
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "High school theater class topic",
+      "answer": "DRAMA",
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "Superman's Kryptonian father",
+      "answer": "JOREL",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Fuming, in modern slang",
+      "answer": "SOMAD",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Most common word in the English language",
+      "answer": "THE",
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "\"Are you joining us or not?\"",
+      "answer": "INOROUT",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "Slang for marijuana",
+      "answer": "MOTA",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Give an ___ (be slightly generous)",
+      "answer": "INCH",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Forehead-slapping outcry from Homer Simpson",
+      "answer": "DOH",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Carrying a high BMI",
+      "answer": "OBESE",
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "Undergarment with low-cut cups",
+      "answer": "DEMIBRA",
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Stereo dials",
+      "answer": "KNOBS",
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "Paper money or monthly mail",
+      "answer": "BILLS",
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Jean who won the 1995 Canadian Grand Prix",
+      "answer": "ALESI",
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Vibrating parts of a clarinet and oboe",
+      "answer": "REEDS",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Gradually lose brightness or color",
+      "answer": "FADE",
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Footwear option for a snowy day",
+      "answer": "BOOT",
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "Grocery carrier",
+      "answer": "BAG",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Network that airs \"Modern Family\" re-runs",
+      "answer": "ABC",
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
