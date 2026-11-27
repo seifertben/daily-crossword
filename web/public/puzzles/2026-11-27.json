@@ -1,0 +1,683 @@
+{
+  "date": "2026-11-27",
+  "width": 10,
+  "height": 10,
+  "grid": [
+    [
+      null,
+      {
+        "solution": "S",
+        "number": 1
+      },
+      {
+        "solution": "I",
+        "number": 2
+      },
+      {
+        "solution": "R",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "solution": "I",
+        "number": 4
+      },
+      {
+        "solution": "D",
+        "number": 5
+      },
+      {
+        "solution": "E",
+        "number": 6
+      },
+      {
+        "solution": "A",
+        "number": 7
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 8
+      },
+      {
+        "solution": "U"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      null,
+      {
+        "solution": "I",
+        "number": 9
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "O"
+      }
+    ],
+    [
+      {
+        "solution": "E",
+        "number": 10
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "T"
+      },
+      null,
+      {
+        "solution": "K",
+        "number": 11
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "K"
+      }
+    ],
+    [
+      {
+        "solution": "L",
+        "number": 12
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "D"
+      },
+      {
+        "solution": "T"
+      },
+      {
+        "solution": "R",
+        "number": 13
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "P"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "solution": "Y",
+        "number": 14
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "U",
+        "number": 15
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "P"
+      },
+      {
+        "solution": "I",
+        "number": 16
+      },
+      {
+        "solution": "N",
+        "number": 17
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "solution": "D",
+        "number": 18
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "I",
+        "number": 19
+      },
+      {
+        "solution": "N"
+      },
+      {
+        "solution": "G"
+      },
+      null,
+      {
+        "solution": "M",
+        "number": 20
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "B",
+        "number": 21
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "solution": "P",
+        "number": 22
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "T",
+        "number": 23
+      },
+      {
+        "solution": "O"
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "E"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 24
+      },
+      {
+        "solution": "A",
+        "number": 25
+      },
+      {
+        "solution": "T",
+        "number": 26
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "N"
+      },
+      null,
+      {
+        "solution": "O",
+        "number": 27
+      },
+      {
+        "solution": "V"
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "N"
+      }
+    ],
+    [
+      {
+        "solution": "C",
+        "number": 28
+      },
+      {
+        "solution": "L"
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      {
+        "solution": "R",
+        "number": 29
+      },
+      {
+        "solution": "I"
+      },
+      {
+        "solution": "S"
+      },
+      {
+        "solution": "D"
+      }
+    ],
+    [
+      {
+        "solution": "R",
+        "number": 30
+      },
+      {
+        "solution": "A"
+      },
+      {
+        "solution": "G"
+      },
+      {
+        "solution": "S"
+      },
+      null,
+      null,
+      {
+        "solution": "N",
+        "number": 31
+      },
+      {
+        "solution": "E"
+      },
+      {
+        "solution": "S"
+      },
+      null
+    ]
+  ],
+  "across": [
+    {
+      "number": 1,
+      "clue": "Title for Paul McCartney or Elton John",
+      "answer": "SIR",
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Light bulb over the head, figuratively",
+      "answer": "IDEA",
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Designer Gernreich who created the monokini",
+      "answer": "RUDI",
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Montoya who sought revenge in \"The Princess Bride\"",
+      "answer": "INIGO",
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 10,
+      "clue": "Trim down a draft, perhaps",
+      "answer": "EDIT",
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 11,
+      "clue": "Silky fiber used to stuff life preservers",
+      "answer": "KAPOK",
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 12,
+      "clue": "Mind-bending journey of the 1960s counterculture",
+      "answer": "LSDTRIP",
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 14,
+      "clue": "\"Affirmative!\"",
+      "answer": "YES",
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 15,
+      "clue": "Detach from a bulletin board",
+      "answer": "UNPIN",
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 18,
+      "clue": "Currently engaged in",
+      "answer": "DOING",
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 20,
+      "clue": "Flash ___ (spontaneous public performance)",
+      "answer": "MOB",
+      "direction": "across",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 22,
+      "clue": "Old European gold coin",
+      "answer": "PISTOLE",
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 7,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Board game where players trade sheep for brick",
+      "answer": "CATAN",
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 27,
+      "clue": "Kitchen appliance that gets fired up for pizza",
+      "answer": "OVEN",
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 28,
+      "clue": "Syllabus venue",
+      "answer": "CLASS",
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 29,
+      "clue": "New England design school based in Providence",
+      "answer": "RISD",
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 30,
+      "clue": "T-shirt scraps used for polishing",
+      "answer": "RAGS",
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 31,
+      "clue": "8-bit console that launched Super Mario Bros.",
+      "answer": "NES",
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Covered in bubbly lather",
+      "answer": "SUDSED",
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 2,
+      "clue": "\"Cross my heart, that was me!\"",
+      "answer": "IDIDSO",
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 3,
+      "clue": "Martin who directed \"Norma Rae\"",
+      "answer": "RITT",
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 4,
+      "clue": "Type of smartphone purchase",
+      "answer": "INAPP",
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 5,
+      "clue": "Salsa or guacamole, at a party",
+      "answer": "DIP",
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 6,
+      "clue": "It might get bruised during a tough loss",
+      "answer": "EGO",
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 7,
+      "clue": "Flying without a hitch, to NASA",
+      "answer": "AOK",
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 8,
+      "clue": "Count on with total trust",
+      "answer": "RELY",
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 9,
+      "clue": "Old Testament book following 1 Samuel, briefly",
+      "answer": "IKINGS",
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 13,
+      "clue": "Minor scuffles with the law",
+      "answer": "RUNINS",
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 16,
+      "clue": "Apple's classic video editing application",
+      "answer": "IMOVIE",
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 17,
+      "clue": "Surprisingly enough",
+      "answer": "NOLESS",
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 6,
+      "themed": false
+    },
+    {
+      "number": 19,
+      "clue": "\"Nothing for me this round\"",
+      "answer": "IPASS",
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "themed": false
+    },
+    {
+      "number": 21,
+      "clue": "Road curvature",
+      "answer": "BEND",
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 23,
+      "clue": "Split right down the middle, emotionally or physically",
+      "answer": "TORN",
+      "direction": "down",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "themed": false
+    },
+    {
+      "number": 24,
+      "clue": "Band that sang about a bad moon rising, for short",
+      "answer": "CCR",
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 25,
+      "clue": "In the style of, on a menu",
+      "answer": "ALA",
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 3,
+      "themed": false
+    },
+    {
+      "number": 26,
+      "clue": "Playground game of high-stakes touching",
+      "answer": "TAG",
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 3,
+      "themed": false
+    }
+  ],
+  "wordCount": 36
+}
